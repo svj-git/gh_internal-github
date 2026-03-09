@@ -123,7 +123,7 @@ THEN
         SetGlobalTimer("rqTobCheckOnMen","GLOBAL",12)
         SetGlobal("rqTobCheckonMenCTRL1","LOCALS",1)
         SetGlobal("rqTobEscapeArea","GLOBAL",1)
-        DisplayStringHead(Myself,~Men! We *shall* bite off delicious revenge out our former comrades and i am hungry!!~) //Men! We *shall* bite off delicious revenge out our former comrades and i am hungry!!
+        DisplayStringHead(Myself,~Men! We *shall* bite off delicious revenge out our former comrades and I am hungry!!~) // Men! We *shall* bite off delicious revenge out our former comrades and I am hungry!!
 END
 
 IF
@@ -136,5 +136,5 @@ THEN
     RESPONSE #100
         SetGlobal("rqTobEscapeArea","GLOBAL",1)
         SetGlobal("rqTobCheckonMenCTRL2","LOCALS",1)
-        DisplayStringHead(Myself,~I will have to return to gather our dead. Move out!~) //I will have to return to gather our dead or perhaps i shall send some our servants
+        DisplayStringHead(Myself,~I will have to return to gather our dead. Move out!~) // I will have to return to gather our dead. Move out!
 END

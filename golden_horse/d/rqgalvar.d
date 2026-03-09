@@ -76,7 +76,7 @@ IF ~~ THEN BEGIN GalvareyBrief
     =
     ~Jaheira and I devised this Harper Court so that you might be judged fairly and without our... en... wh... whatever! Surrender! And you shall be transported via a temporarily incapacitating spell before the Harper Court!~
     IF ~~ THEN REPLY ~What?! I will never agree to anything foolish like that!~ GOTO GalvareyFight
-    IF ~~ THEN REPLY ~Alright cast the spell i wish to defend myself before your court.~ GOTO GalvareyInprisonment
+    IF ~~ THEN REPLY ~Alright cast the spell I wish to defend myself before your court.~ GOTO GalvareyInprisonment
     IF ~~ THEN REPLY ~Why would you want to do such thing just for me to talk to this *Harper Court*?~ GOTO GalvareyObjections
 END
 

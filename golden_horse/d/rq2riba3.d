@@ -15,7 +15,7 @@ APPEND RIBALD
 
     IF ~~ THEN BEGIN RevanAfterRibaldProof1
         SAY ~*Suddenly he pales* This was supposed to be a harmless joke; nobody was supposed to be killed!~
-        IF ~~ THEN REPLY ~So you admit it you even know that i was supposed to be murdered!~ GOTO RevanAfterRibaldProof2
+        IF ~~ THEN REPLY ~So you admit it you even know that I was supposed to be murdered!~ GOTO RevanAfterRibaldProof2
     END
 
     IF ~~ THEN BEGIN RevanAfterRibaldProof2
@@ -46,14 +46,14 @@ APPEND RIBALD
     END
 
      IF ~~ THEN BEGIN RevanAfterRibaldProof6
-        SAY ~Alright alright 3141 gold that's all i have on me.~
+        SAY ~Alright alright 3141 gold that's all I have on me.~
         IF ~~ THEN REPLY ~I still want more gold Ribald.~ GOTO RevanAfterRibaldProofDiscount
         IF ~~ THEN REPLY ~Okay but if you harm me in future you will suffer greatly.~ GOTO RevanAfterRibaldDiscount1
     END
 
     IF ~~ THEN BEGIN RevanAfterRibaldProofDiscount
-        SAY ~I cannot give more of my assets as it would interfere with my merchant activity. Here have my gold that is all i can do for you.~
-        IF ~~ THEN REPLY ~That is enough for me then but if you will cross me in future i will kill you.~ GOTO RevanAfterRibaldDiscount1
+        SAY ~I cannot give more of my assets as it would interfere with my merchant activity. Here have my gold that is all I can do for you.~
+        IF ~~ THEN REPLY ~That is enough for me then but if you will cross me in future I will kill you.~ GOTO RevanAfterRibaldDiscount1
     END
 
     IF ~~ THEN BEGIN RevanAfterRibaldDiscount1
@@ -66,16 +66,16 @@ APPEND RIBALD
     END
 
     IF ~~ THEN BEGIN RevanAfterRibaldTalk4
-        SAY ~Alright i will tell you whole story an elf from Tethyr came to my shop and gave me the ring. In exchange i was to play bit of theatre about Pentarch i... i.. thought it was harmless prank.~
+        SAY ~Alright I will tell you whole story an elf from Tethyr came to my shop and gave me the ring. In exchange I was to play bit of theatre about Pentarch I... I.. thought it was harmless prank.~
         IF ~~ THEN GOTO RevanAfterRibaldTalk5
     END
 
     IF ~~ THEN BEGIN RevanAfterRibaldTalk5
-        SAY ~I... i... never thought there would be an ambush please...~
-        IF ~~ THEN REPLY ~Okay okay lets just say i believe you. But from now on you will be notifying me anytime if there is anything that might concern me Ribald. Am i understood?~ GOTO RibaldRelieved
+        SAY ~I... I... never thought there would be an ambush please...~
+        IF ~~ THEN REPLY ~Okay okay lets just say I believe you. But from now on you will be notifying me anytime if there is anything that might concern me Ribald. Am I understood?~ GOTO RibaldRelieved
         IF ~~ THEN REPLY ~I don't think so Ribald you sound like liar.~ GOTO RibaldBegging
         IF ~~ THEN REPLY ~Setting up ambush on me. Tsk. Tsk.~ GOTO RibaldBegging
-        IF ~~ THEN REPLY ~Hmm.. very very very implausible but i do believe you.~ GOTO RibaldRelieved
+        IF ~~ THEN REPLY ~Hmm.. very very very implausible but I do believe you.~ GOTO RibaldRelieved
     END
 
     IF ~~ THEN BEGIN RibaldRelieved
@@ -87,7 +87,7 @@ APPEND RIBALD
     END
 
     IF ~~ THEN BEGIN RibaldBegging
-        SAY ~Please i had nothing to do with this! You must believe me!~
+        SAY ~Please I had nothing to do with this! You must believe me!~
         IF ~~ THEN REPLY ~I want gold Ribald.~ GOTO RibaldProtests
         IF ~~ THEN REPLY ~Prove it by giving me a discount.~ GOTO RibaldProtests
         IF ~~ THEN REPLY ~You are dead man.~
@@ -96,14 +96,14 @@ APPEND RIBALD
     END
 
     IF ~~ THEN BEGIN RibaldProtests
-        SAY ~I cannot give you any gold compensation i don't have any money to spare. And i besides that i did no harm to you.~
+        SAY ~I cannot give you any gold compensation I don't have any money to spare. And I besides that I did no harm to you.~
         IF ~~ THEN REPLY ~You are telling me you the one of the largest and well known merchant in Athkatla is poor?~ GOTO RibaldEscalation
-        IF ~~ THEN REPLY ~Maybe i should take this matter to someone in Council of Six Building.~ GOTO RibaldEscalation
+        IF ~~ THEN REPLY ~Maybe I should take this matter to someone in Council of Six Building.~ GOTO RibaldEscalation
         IF ~~ THEN REPLY ~Make sure this won't happen again.~ GOTO RibaldRelieved
     END
 
     IF ~~ THEN BEGIN RibaldEscalation
-        SAY ~My friend i did nothing to harm you. So you are not entitled any compensation from me.~
+        SAY ~My friend I did nothing to harm you. So you are not entitled any compensation from me.~
         IF ~~ THEN REPLY ~Is that so? Perhaps opportunity will arise later.~ GOTO RibaldRelieved
         IF ~~ THEN REPLY ~Better watch your back from now on dear merchant.~ GOTO RibaldRelieved
         IF ~~ THEN REPLY ~Alright perhaps you are correct.~ GOTO RibaldRelieved

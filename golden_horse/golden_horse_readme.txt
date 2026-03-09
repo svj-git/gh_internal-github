@@ -5,7 +5,7 @@ Golden Horse mercenary company mod for Baldur's Gate 2 Throne of Bhaal
 Creator Name: Juraj Svitnič
 Creator E-mail: oaq@gmx.com
 Creator Web URL: none
-Version: 1.9
+Version: 1.10
 
 ====================================================================================================================
 MOD CONTENT:
@@ -122,7 +122,7 @@ Interplay Entertainment Corp. All Rights Reserved. Exclusively licensed and dist
 Interplay Entertainment Corp. All other trademarks and copyrights are property of their respective owners.
 
 Golden Horse mercenary company mod for Baldur's Gate II
-© 2018-24 Juraj Svitnic. The Golden Horse mercenary company
+© 2018-26 Juraj Svitnic. The Golden Horse mercenary company
 is not developed, supported, or endorsed by BioWare, Black Isle Studios, Interplay Entertainment Corp
 or the Wizards of the Coast. All other trademarks and copyrights are property of their respective owners.
 
@@ -134,12 +134,38 @@ VERSION HISTORY:
 ----------------
 
 Version 0.90:
-   First internal release
-Version 1.0i:
-   Gold release
-Version 1.1i:
-   Added new mercenaries
-   Bug fixes
-   Textual improvements
+   First internal release.
+Version 1.0e
+   First release submitted to skellytz.
+Version 1.1e
+   Traifyied with Bigg traify tool & replaced some old functions with newer ones.
+Version 1.2e
+   Updated readme.
+Version 1.3e
+   Allowing readme to be translated.
+Version 1.4e
+   Proofreading.
+Version 1.5e
+   Fixed typo in class choosing component. Updated readme.
+Version 1.6e
+   Updated readme.
+   Project Infinity labels.
+   Added one new letter to explain certain future developments.
+   From this version Golden Horse development in terms of adding new features has ended.
+   Added missing file. Do not know how it was it got deleted.
+Version 1.7e
+   Removed VERSION number tra reference
+Version 1.8e
+   Version bump and updated readme
+Version 1.9e
+   Rod of Charisma had faulty use permissions
+   Fixed bug related to Itwantos DV
+   Robe of Cures Ilhunien had faulty description
+Version 1.10e
+   Returned to hardcoded dialog in .D files due to insufficiency of traify.sh tool
+   Added Reman, a new enchanter of artifacts
+   Major proofreading effort, though there are still some areas which could be improved
+   Added one plot item explaining motivations of certain NPC
+   New NPCs from Rahm the mercenary manager were added, and most of the old NPCs were removed
 
 ====================================================================================================================
