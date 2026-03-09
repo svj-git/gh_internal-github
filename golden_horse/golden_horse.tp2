@@ -1,0 +1,4025 @@
+BACKUP ~golden_horse/backup~
+AUTHOR ~oaq@gmx.com~
+
+VERSION ~v1.10i~
+
+README ~golden_horse/golden_horse-readme.txt~
+
+BEGIN ~Golden Horse mercenary company Mod (Requires Throne of Bhaal)~
+REQUIRE_PREDICATE (GAME_IS ~bgt tob~) ~This mod requires Throne of Bhaal to be installed.~
+
+
+// Make items "talk"
+COPY_EXISTING ~itemdial.2da~ ~override~
+
+APPEND ~itemdial.2da~
+~rqpotn1    19392  rqpotn1~
+UNLESS ~rqpotn1~
+
+APPEND ~itemdial.2da~
+~rqpotn4    19392  rqpotn4~
+UNLESS ~rqpotn4~
+
+APPEND ~itemdial.2da~
+~rqpotn5    19392  rqpotn5~
+UNLESS ~rqpotn5~
+
+APPEND ~itemdial.2da~
+~rqpotn6    19392  rqpotn6~
+UNLESS ~rqpotn6~
+
+APPEND ~itemdial.2da~
+~rqpotn7    19392  rqpotn7~
+UNLESS ~rqpotn7~
+
+APPEND ~itemdial.2da~
+~rqpotn8    19392  rqpotn8~
+UNLESS ~rqpotn8~
+
+APPEND ~itemdial.2da~
+~rqpotn9    19392  rqpotn9~
+UNLESS ~rqpotn9~
+
+APPEND ~itemdial.2da~
+~rqpotn10    19392  rqpotn10~
+UNLESS ~rqpotn10~
+
+APPEND ~itemdial.2da~
+~rqpotn11    19392  rqpotn11~
+UNLESS ~rqpotn11~
+
+APPEND ~itemdial.2da~
+~rqpotn12    19392  rqpotn12~
+UNLESS ~rqpotn12~
+
+APPEND ~itemdial.2da~
+~rqpotn13    19392  rqpotn13~
+UNLESS ~rqpotn13~
+
+APPEND ~itemdial.2da~
+~rqpotn14    19392  rqpotn14~
+UNLESS ~rqpotn14~
+
+APPEND ~itemdial.2da~
+~rqpotn15    19392  rqpotn15~
+UNLESS ~rqpotn15~
+
+APPEND ~itemdial.2da~
+~rqpotn16    19392  rqpotn16~
+UNLESS ~rqpotn16~
+
+APPEND ~itemdial.2da~
+~rqpotn17    19392  rqpotn17~
+UNLESS ~rqpotn17~
+
+APPEND ~itemdial.2da~
+~rqpotn18    19392  rqpotn18~
+UNLESS ~rqpotn18~
+
+APPEND ~itemdial.2da~
+~rqpotn19    19392  rqpotn19~
+UNLESS ~rqpotn19~
+
+APPEND ~itemdial.2da~
+~rqpotn20    19392  rqpotn20~
+UNLESS ~rqpotn20~
+
+APPEND ~itemdial.2da~
+~rqpotn21    19392  rqpotn21~
+UNLESS ~rqpotn21~
+
+APPEND ~itemdial.2da~
+~rqpotn22    19392  rqpotn22~
+UNLESS ~rqpotn22~
+
+APPEND ~itemdial.2da~
+~rqpotn23    19392  rqpotn23~
+UNLESS ~rqpotn23~
+
+APPEND ~itemdial.2da~
+~rqpotn24    19392  rqpotn24~
+UNLESS ~rqpotn24~
+
+APPEND ~itemdial.2da~
+~rqpotn25    19392  rqpotn25~
+UNLESS ~rqpotn25~
+
+APPEND ~itemdial.2da~
+~rqpotn26    19392  rqpotn26~
+UNLESS ~rqpotn26~
+
+APPEND ~itemdial.2da~
+~rqpotn27    19392  rqpotn27~
+UNLESS ~rqpotn27~
+
+APPEND ~itemdial.2da~
+~rqpotn28    19392  rqpotn28~
+UNLESS ~rqpotn28~
+
+APPEND ~itemdial.2da~
+~rqpotn29    19392  rqpotn29~
+UNLESS ~rqpotn29~
+
+APPEND ~itemdial.2da~
+~rqpotn30    19392  rqpotn30~
+UNLESS ~rqpotn30~
+
+APPEND ~itemdial.2da~
+~rqpotn31    19392  rqpotn31~
+UNLESS ~rqpotn31~
+
+APPEND ~itemdial.2da~
+~rqpotn32    19392  rqpotn32~
+UNLESS ~rqpotn32~
+
+APPEND ~itemdial.2da~
+~rqpotn33    19392  rqpotn33~
+UNLESS ~rqpotn33~
+
+APPEND ~itemdial.2da~
+~rqpotn34    19392  rqpotn34~
+UNLESS ~rqpotn34~
+
+APPEND ~itemdial.2da~
+~rqpotn35    19392  rqpotn35~
+UNLESS ~rqpotn35~
+
+APPEND ~itemdial.2da~
+~rqpotn36    19392  rqpotn36~
+UNLESS ~rqpotn36~
+
+APPEND ~itemdial.2da~
+~rqpotn37    19392  rqpotn37~
+UNLESS ~rqpotn37~
+
+APPEND ~itemdial.2da~
+~rqpotn38    19392  rqpotn38~
+UNLESS ~rqpotn38~
+
+APPEND ~itemdial.2da~
+~rqpotn39    19392  rqpotn39~
+UNLESS ~rqpotn39~
+
+APPEND ~itemdial.2da~
+~rqpotn40    19392  rqpotn40~
+UNLESS ~rqpotn40~
+
+// crates
+APPEND ~itemdial.2da~
+~rqpotc01    4978  rqpotc01~
+UNLESS ~rqpotc01~
+
+APPEND ~itemdial.2da~
+~rqpotc02    4978  rqpotc02~
+UNLESS ~rqpotc02~
+
+APPEND ~itemdial.2da~
+~rqpotc03    4978  rqpotc03~
+UNLESS ~rqpotc03~
+
+APPEND ~itemdial.2da~
+~rqpotc04    4978  rqpotc04~
+UNLESS ~rqpotc04~
+
+APPEND ~itemdial.2da~
+~rqpotc05    4978  rqpotc05~
+UNLESS ~rqpotc05~
+
+APPEND ~itemdial.2da~
+~rqpotc06    4978  rqpotc06~
+UNLESS ~rqpotc06~
+
+APPEND ~itemdial.2da~
+~rqpotc07    4978  rqpotc07~
+UNLESS ~rqpotc07~
+
+/* copy bams */
+COPY ~golden_horse/bam~ ~override~
+
+// Epilogue stuff
+COPY ~golden_horse/2da/rqrev.2da~ ~override/rqrev.2da~
+  REPLACE ~99999~ ~Revan Artecratos went back to Amn and rejoined his Golden Horse mercenary company. In time the mercenary company grew into such size and importance that even Council of Five started to regard Revan as threat. This prompted Revan to split up of his company to several smaller units. Afterwards he left Amn and went back to Moonsea but his "friends" of old "Those who Harp" tried to settle some old scores. Returning back to Amn but not really content there he moved to Rasheman to found fortified monastery as his retirement home.~ // @99999
+EXTEND_TOP ~ar6200.bcs~ ~golden_horse/baf/rqar6200.baf~
+
+// copying spells
+COPY ~golden_horse/spl/rqmaze.spl~ ~override/rqmaze.spl~ // Maze Esslin
+COPY ~golden_horse/spl/rqlunge.spl~ ~override/rqlunge.spl~ // Lunge Physical damage Esslin
+COPY ~golden_horse/spl/rqpoiso.spl~ ~override/rqpoiso.spl~ // Poison Esslin
+COPY ~golden_horse/spl/rqmararf.spl~ ~override/rqmararf.spl~ // Marcian Argent fireball
+COPY ~golden_horse/spl/rqgwehr.spl~ ~override/rqgwehr.spl~ // Shapeshift Greater Werewolf
+// horn of wilderness summons
+COPY ~golden_horse/spl/rqwodbei.spl~ ~override/rqwodbei.spl~ // Summon Woodland Beings
+COPY ~golden_horse/spl/rqconani.spl~ ~override/rqconani.spl~ // Conjure Animals
+COPY ~golden_horse/spl/rqanisu3.spl~ ~override/rqanisu3.spl~ // Animal Summoning 3
+// conduit spells
+COPY ~golden_horse/spl/rqsumins.spl~ ~override/rqsumins.spl~ // Summon Insects
+COPY ~golden_horse/spl/rqearele.spl~ ~override/rqearele.spl~ // Summon Earth Elemental
+COPY ~golden_horse/spl/rqfirele.spl~ ~override/rqfirele.spl~ // Summon Fire Elemental
+COPY ~golden_horse/spl/rqregen.spl~ ~override/rqregen.spl~ // Regeneration
+COPY ~golden_horse/spl/rqthorns.spl~ ~override/rqthorns.spl~ // Thorns returning acid damage
+// Spell Hymn of Murderous Fury
+COPY ~golden_horse/spl/rqhymfur.spl~ ~override/rqhymfur.spl~
+// Last Encounter Spells
+COPY ~golden_horse/spl/rqcrdoom.spl~ ~override/rqcrdoom.spl~ // Creeping Doom
+COPY ~golden_horse/spl/rqheal.spl~ ~override/rqheal.spl~ // Heal
+// Illasera rakshasha
+COPY ~golden_horse/spl/rqraksha.spl~ ~override/rqraksha.spl~ // Reveal yourself as rakshasha
+// Revan Field trap
+COPY ~golden_horse/spl/rqfitrap.spl~ ~override/rqfitrap.spl~ // Revan field trap
+
+// potns --- 1-40 ---
+COPY ~golden_horse/spl/rqpotn1.spl~ ~override/rqpotn1.spl~ //1 reset morale,panic,sleep,stun,feeblemindedness,fatigue bonus,intoxication bonus,morale break, power word: stun, power word sleep wing buffet, drop item
+COPY ~golden_horse/spl/rqpotnb4.spl~ ~override/rqpotnb4.spl~ // Weave stability with maluses
+COPY ~golden_horse/spl/rqpotn4.spl~ ~override/rqpotn4.spl~ //4 Weave stability
+COPY ~golden_horse/spl/rqpotn5.spl~ ~override/rqpotn5.spl~ //5 Blindness,Magic Sight,Sight radius
+COPY ~golden_horse/spl/rqpotn6.spl~ ~override/rqpotn6.spl~ // UNAFFECTED by acid,lightning,cold,fire,mg_dmg,poison resistance modifiers
+COPY ~golden_horse/spl/rqpotn7.spl~ ~override/rqpotn7.spl~ //7 hold,paralyze,slow,web
+COPY ~golden_horse/spl/rqpotn8.spl~ ~override/rqpotn8.spl~ // negative chant luck from wish
+COPY ~golden_horse/spl/rqpotn9.spl~ ~override/rqpotn9.spl~ // poison, acid, magic damage, disease
+COPY ~golden_horse/spl/rqpotn10.spl~ ~override/rqpotn10.spl~ //10 berserking,confusion
+COPY ~golden_horse/spl/rqpotn11.spl~ ~override/rqpotn11.spl~ //11 level drain,backstab,timestop
+COPY ~golden_horse/spl/rqpotn12.spl~ ~override/rqpotn12.spl~ //12 193 code invis detect by script
+COPY ~golden_horse/spl/rqpotn13.spl~ ~override/rqpotn13.spl~ //13 killtarget,slay,petrification,imprisonment,disintegrate, power word, kill
+COPY ~golden_horse/spl/rqpotn14.spl~ ~override/rqpotn14.spl~ // Conjuration
+COPY ~golden_horse/spl/rqpotn15.spl~ ~override/rqpotn15.spl~ // Necromancy
+COPY ~golden_horse/spl/rqpotn16.spl~ ~override/rqpotn16.spl~ // Illusion
+COPY ~golden_horse/spl/rqpotn17.spl~ ~override/rqpotn17.spl~ // Evocation
+COPY ~golden_horse/spl/rqpotn18.spl~ ~override/rqpotn18.spl~ // Enchantment
+COPY ~golden_horse/spl/rqpotn19.spl~ ~override/rqpotn19.spl~ // imm power levels 0<2
+COPY ~golden_horse/spl/rqpotn20.spl~ ~override/rqpotn20.spl~ // spell duration mod
+COPY ~golden_horse/spl/rqpotn21.spl~ ~override/rqpotn21.spl~ // crits+
+COPY ~golden_horse/spl/rqpotn22.spl~ ~override/rqpotn22.spl~ // aura_cleansing
+COPY ~golden_horse/spl/rqpotn23.spl~ ~override/rqpotn23.spl~ // casting time
+COPY ~golden_horse/spl/rqpotn24.spl~ ~override/rqpotn24.spl~ // charm
+COPY ~golden_horse/spl/rqpotn25.spl~ ~override/rqpotn25.spl~ // drain wizard spell
+COPY ~golden_horse/spl/rqpotn26.spl~ ~override/rqpotn26.spl~ // atk per round
+COPY ~golden_horse/spl/rqpotn27.spl~ ~override/rqpotn27.spl~ // dmg,thac0,attack_speed
+COPY ~golden_horse/spl/rqpotn28.spl~ ~override/rqpotn28.spl~ // wizard spell slot
+COPY ~golden_horse/spl/rqpotn29.spl~ ~override/rqpotn29.spl~ // priest spell slot
+COPY ~golden_horse/spl/rqpotn30.spl~ ~override/rqpotn30.spl~ // 25+, acid,cold,lightning,fire,magic_dmg,magic_fire,magic_cold,poison_resist,+5magic_resistance,
+COPY ~golden_horse/spl/rqpotn31.spl~ ~override/rqpotn31.spl~ //31 polymorph
+COPY ~golden_horse/spl/rqpotn32.spl~ ~override/rqpotn32.spl~ // saving throw +2
+COPY ~golden_horse/spl/rqpotn33.spl~ ~override/rqpotn33.spl~ // immunity saving_throw_modifiers
+COPY ~golden_horse/spl/rqpotn34.spl~ ~override/rqpotn34.spl~ // immunity to AC modifications
+COPY ~golden_horse/spl/rqpotn35.spl~ ~override/rqpotn35.spl~ // mag res increase
+COPY ~golden_horse/spl/rqpotn36.spl~ ~override/rqpotn36.spl~ // hp+ modifier
+COPY ~golden_horse/spl/rqpotn37.spl~ ~override/rqpotn37.spl~ // wild surge stabilizer
+COPY ~golden_horse/spl/rqpotn38.spl~ ~override/rqpotn38.spl~ // luck bonus
+COPY ~golden_horse/spl/rqpotn39.spl~ ~override/rqpotn39.spl~ // spell casting
+COPY ~golden_horse/spl/rqpotn40.spl~ ~override/rqpotn40.spl~ // Alteration
+// COPY ~golden_horse/spl/rqpotn40.spl~ ~override/rqpotn40.spl~ // drain item charges
+COPY ~golden_horse/spl/rqpotnb.spl~ ~override/rqpotnb.spl~ // bad effects spell
+COPY ~golden_horse/spl/rqpotncu.spl~ ~override/rqpotncu.spl~ // curses spell intoxication
+
+// horn of wilderness spell sound
+COPY ~golden_horse/sounds/rqhorn.wav~ ~override/rqhorn.wav~
+COPY ~golden_horse/sounds/rqcast01.wav~ ~override/rqcast01.wav~
+COPY ~golden_horse/sounds/rqescap.wav~ ~override/rqescap.wav~
+COPY ~golden_horse/sounds/rqspawn.wav~ ~override/rqspawn.wav~
+
+// copy store files
+COPY ~golden_horse/sto/rqlyngre.sto~ ~override/rqlyngre.sto~
+COPY ~golden_horse/sto/rqpotc01.sto~ ~override/rqpotc01.sto~
+
+// Copying Revans .CRE files
+COPY ~golden_horse/cre/rqrev9.cre~  ~override/rqrev9.cre~
+  SAY NAME1 ~Revan Artecratos~
+  SAY NAME2 ~Revan Artecratos~
+  SAY BIO ~When asked about his past says he was born in Moonsea he did not knew who his parents were but his adoptive father was human as he grew he joined mercenary company and moving through ranks he would ascent to the rank of captain which means in case of company means leader. He further elaborates that he expanded from leading men into battle to more subtle jobs requiring highly trained small teams. But trouble have forced him to leave Moonsea and since then he has tried to establish his new Mercenary company in Amn.~
+SAY TIRED ~Resting would be appropriate from now on.~
+SAY HURT ~ Heal me, my cohorts!~
+SAY TARGET_IMMUNE ~Useless! Perhaps a spell would serve better here.~
+SAY INVENTORY_FULL ~Get a mule for this stuff.~
+SAY SPELL_DISRUPTED ~My spell has failed!~
+SAY SET_A_TRAP ~Trap set and ready. He he he.~
+
+COPY ~golden_horse/cre/rqrev25.cre~  ~override/rqrev25.cre~
+  SAY NAME1 ~Revan Artecratos~
+  SAY NAME2 ~Revan Artecratos~
+  SAY BIO ~When asked about his past says he was born in Moonsea he did not knew who his parents were but his adoptive father was human as he grew he joined mercenary company and moving through ranks he would ascent to the rank of captain which means in case of company means leader. He further elaborates that he expanded from leading men into battle to more subtle jobs requiring highly trained small teams. But trouble have forced him to leave Moonsea and since then he has tried to establish his new Mercenary company in Amn.~ // @34
+SAY TIRED ~Resting would be appropriate from now on.~
+SAY HURT ~ Heal me, my cohorts!~
+SAY TARGET_IMMUNE ~Useless! Perhaps a spell would serve better here.~
+SAY INVENTORY_FULL ~Get a mule for this stuff.~
+SAY SPELL_DISRUPTED ~My spell has failed!~
+SAY SET_A_TRAP ~Trap set and ready. He he he.~
+
+// Wedding ring for Pentarch bought from Ribald
+COPY ~golden_horse/itm/rq2wedrn.itm~ ~override/rq2wedrn.itm~
+/* Unidentified name */
+SAY NAME1 ~Wedding Ring~
+/* Identified name */
+SAY NAME2 ~Wedding Ring~
+
+SAY UNIDENTIFIED_DESC
+~This golden ring with Lazurite gem inlay is quite ordinary and otherwise unremarkable. This the ring I was supposed to get for Pentarch d'Arquile from Ribald.~
+
+// Rahms mercenary rooster parchment
+COPY ~golden_horse/itm/rqrooste.itm~ ~override/rqrooste.itm~
+/* Unidentified name */
+SAY NAME1 ~Rahm's Mercenary Rooster~
+/* Identified name */
+SAY NAME2 ~Mercenary Rooster~
+
+SAY UNIDENTIFIED_DESC
+~We have following mercenaries available for hire.
+Dwarven Battlerager
+Elven Sorcerer
+Gnomish Illusionist
+Human Transmuter
+Human Abjurer
+Human Diviner
+//Human Invoker
+//Dwarwen Fighting Thief
+//Elven Enchanter
+//Human Fighter with not yet utilized magical talent for necromancy
+Human Skald~
+
+// Proof of deed for contract - 1 -
+COPY ~golden_horse/itm/rqproof1.itm~ ~override/rqproof1.itm~
+/* Unidentified name */
+SAY NAME1 ~Marcian's Head~
+/* Identified name */
+SAY NAME2 ~Marcian's Head~
+SAY UNIDENTIFIED_DESC ~This is head of Marcian Argent target of your assassination contract.~
+
+// Proof of deed for contract - 2 -
+COPY ~golden_horse/itm/rqproof2.itm~ ~override/rqproof2.itm~
+/* Unidentified name */
+SAY NAME1 ~Kamraarn's Amulet~
+/* Identified name */
+SAY NAME2 ~Kamraarn's Amulet~
+SAY UNIDENTIFIED_DESC ~This amulet is proof deed Rugos requires.~
+
+// Proof of deed for contract - 3 -
+COPY ~golden_horse/itm/rqproof3.itm~ ~override/rqproof3.itm~
+/* Unidentified name */
+SAY NAME1 ~Anakarhysse's Head~
+/* Identified name */
+SAY NAME2 ~Anakarhysse's Head~
+SAY UNIDENTIFIED_DESC ~This is head of Anakarhysse.~
+
+// Proof of deed for contract - 4 -
+COPY ~golden_horse/itm/rqproof4.itm~ ~override/rqproof4.itm~
+/* Unidentified name */
+SAY NAME1 ~Hevguris's Ring~
+/* Identified name */
+SAY NAME2 ~Hevguris's Ring~
+SAY UNIDENTIFIED_DESC ~Personal possession of Paladin Hevguris it is proof of deed Rugos requires.~
+
+// Mintiper journal rqmintip.cre
+COPY ~golden_horse/itm/rqminjo.itm~ ~override/rqminjo.itm~
+/* Unidentified name */
+SAY NAME1 ~Journal~
+/* Identified name */
+SAY NAME2 ~Mintiper's Journal~
+SAY UNIDENTIFIED_DESC ~Mintiper's Journal
+
+Last entry seems very interesting
+"I am worried that our mission might fail. I have sent letter to Athkatla chapter so even if I am undone someone will continue my work."
+
+Rest of entries detail Mintiper's life, his struggle with Revan and other Harper activities.~
+
+// Harper Journal rq tob2 fighter
+COPY ~golden_horse/itm/rqlett1.itm~ ~override/rqlett1.itm~
+/* Unidentified name */
+SAY NAME1 ~Journal~
+/* Identified name */
+SAY NAME2 ~Journal~
+SAY UNIDENTIFIED_DESC
+~This is journal of Harper he mostly writes about himself and his actions. For example last entry.
+"We shall be facing Bhaalspawn soon but I am worried. I heard he killed like three dozens of our men. I wish I could talk to someone about my concers but anyone I talk to is dismissive of anything I say."~
+
+// Jaheira letter tob1 encounter
+COPY ~golden_horse/itm/rqlettj2.itm~ ~override/rqlettj2.itm~
+/* Unidentified name */
+SAY NAME1 ~Letter~
+/* Identified name */
+SAY NAME2 ~Letter~
+SAY UNIDENTIFIED_DESC
+~This small letter apparently for delivery by courier pigeon states:
+"I am under pressure from Elminster to cease my support for you do not worry my cell will continue to support you."~
+
+
+// Jaheira letter tob1 encounter
+COPY ~golden_horse/itm/rqlettj3.itm~ ~override/rqlettj3.itm~
+/* Unidentified name */
+SAY NAME1 ~Letter~
+/* Identified name */
+SAY NAME2 ~Letter~
+SAY UNIDENTIFIED_DESC
+~Jaheira for your task of slaying Bhaalspawn I am sending you the best men that I could find. They are quite evil folk but they fight well and you did not request morally sound warriors.
+Try not to die this time.
+
+K.~
+
+// Jaheira letter tob1 encounter
+COPY ~golden_horse/itm/rqlettj.itm~ ~override/rqlettj.itm~
+/* Unidentified name */
+SAY NAME1 ~Scroll~
+/* Identified name */
+SAY NAME2 ~Scroll~
+SAY UNIDENTIFIED_DESC
+~What is happening to you Jaheira? I used to remember you as someone very reasonable and now you lie to your own! This pretending that you lost your wits to gain sympathy with Harpers?! What has gotten into you?! How much of our assets will be destroyed meaninglessly if you will continue in this?! Have you thought of that?
+You may have many supporters right now but that does not make you above Harper code.
+
+I implore you to stop this foolish revenge and seek me out.
+
+E.
+
+It seems that Jaheira has wrote her reply right below. Though there are many scratched out words as if Jaheira was unsure how to respond.
+You can make out few words like "tested" "Amel" "more" and "enemy"
+
+I don't do this because of petty revenge and you know this. Wish you would understand <CHARNAME> must be punished for his wanton murder of Those Who Harp.~
+
+// Jaheira letter tob3 encounter
+COPY ~golden_horse/itm/rqlettj4.itm~ ~override/rqlettj4.itm~
+/* Unidentified name */
+SAY NAME1 ~Letter~
+/* Identified name */
+SAY NAME2 ~Letter~
+SAY UNIDENTIFIED_DESC
+~This small letter apparently for delivery by courier pigeon states:
+End justifies means this not our way remember that Jaheira. You made fool out of me and that is not forgivable your ruse is finished. Elminster told me who your allies are. What has happened to you Jaheira? Did those resurrections damaged your sanity?.
+I have enchanted your allies so that no one will be suspicious but this is your last chance no one will resurrect you now remember that.
+To summon them hold this letter in your hand think of command word "Tzrhglosugligh"~
+
+// Thacher journal
+COPY ~golden_horse/itm/rqjoutha.itm~ ~override/rqjoutha.itm~
+/* Unidentified name */
+SAY NAME1 ~Thacher's Journal~
+/* Identified name */
+SAY NAME2 ~Thacher's Journal~
+SAY UNIDENTIFIED_DESC
+~Here is a corrected version of your journal entries with improved grammar and clarity, avoiding the use of em dashes:
+
+This journal writer mainly talks about himself and his mercantile exploits, but the later entries are much more interesting:
+
+Today my lower back hurt so much... Keeping my mind occupied is one of the more useful ways to keep my mind off the pain. I guess my old and aching body is not much for this world.
+
+I spoke to my old friend Ztrazle, who ordered magic potions from an alchemist in Moonsea. He made some really wild claims about reversing his aging and becoming more resistant to disease. I must say that my friend is in much better spirits than I have ever observed, and he looks younger compared to what I recall. I might make an order myself—what do I have to lose, anyway?
+
+The potion has arrived, but the alchemist's accompanying letter has some dire warnings against quaffing it if the recipient's soul is weak. Whatever that means, only Demogorgon knows.
+
+That damnable priest cost me 500 gold pieces and could not deliver anything meaningful. I strongly suspect that I overpaid him and he strung me along to make me return for further consultations. However, speaking to some acolytes proved to be more fruitful, though their words were not encouraging, to say the least.
+
+Minus another 200 gold, and I am told that my soul is really weak. Perhaps I was trying to tackle it the wrong way. Rereading the alchemist's note, I noticed that before this potion is consumed, one has to put a tiny amount of blood onto the crate to trigger its soul merging. I assume it means unlocking its power. Which means I should just get someone who is really powerful and get him to bleed onto the crate.
+
+I have arrived at Amkethran, as I have heard a rumor that someone with Bhaal's blood is in town. Could it be that Balthazar is a Child of Bhaal? Speaking to the monks revealed it is highly likely, but I cannot just visit the fortress and demand his blood. Perhaps he would be amenable to trade. I have purchased a powerful shield. Perhaps in exchange for my artifact, he would be willing to part with a tiny portion of his soul.
+
+Curses! The meeting with the monks did not go well, but when I returned, I was accosted by someone named Illasera, claiming to be a Child of Bhaal. She refused outright my proposal but had a valid counter-proposal. I sure hope this will work.
+
+What sort of sorcery she will be using to "return with the face of Gorion's Ward"? I do not want to know, but as long as she will let me gather enough blood, I don't care.
+~
+
+// Letter to Prangl
+COPY ~golden_horse/itm/rqletpra.itm~ ~override/rqletpra.itm~
+/* Unidentified name */
+SAY NAME1 ~Letter~
+/* Identified name */
+SAY NAME2 ~Letter~
+SAY UNIDENTIFIED_DESC
+~You know Revan so I am sending you as negotiator. You are to convince Revan to become our informant. If he turns hostile to our proposals you know what to do.~
+
+// Letter to Pentarch
+COPY ~golden_horse/itm/rqletpen.itm~ ~override/rqletpen.itm~
+/* Unidentified name */
+SAY NAME1 ~Letter~
+/* Identified name */
+SAY NAME2 ~Letter~
+SAY UNIDENTIFIED_DESC
+~This small letter apparently for delivery by courier pigeon states:
+"Alright I am authorizing you to utilize our contact in Promenade. Just make him dead!"~
+
+// Gervin delivery notes
+COPY ~golden_horse/itm/rqdeliv.itm~ ~override/rqdeliv.itm~
+/* Unidentified name */
+SAY NAME1 ~Journal~
+/* Identified name */
+SAY NAME2 ~Journal~
+SAY UNIDENTIFIED_DESC ~Apparently this is delivery journal with names, dates, and cargo lists.
+
+Last entry says...
+I am only get paid for deliveries why does Groshnakh asks me for my help? I don't know what he wants but I better complain to Moonsea chapter about this.~
+
+// Gervin letter of search
+COPY ~golden_horse/itm/rqletsea.itm~ ~override/rqletsea.itm~
+/* Unidentified name */
+SAY NAME1 ~Letter~
+/* Identified name */
+SAY NAME2 ~Letter~
+SAY UNIDENTIFIED_DESC ~Gervin after you have delivered your package search for my stolen potions. Make haste who knows what they could do in wrong hands! If you find potions just inform our friends they will take care of the matter from there.~
+
+// Letter to Prangl
+COPY ~golden_horse/itm/rqletder.itm~ ~override/rqletder.itm~
+/* Unidentified name */
+SAY NAME1 ~Letter~
+/* Identified name */
+SAY NAME2 ~Letter~
+SAY UNIDENTIFIED_DESC
+~Dermin I would like you remind you specific line of Harper Code
+"No extreme is good. For freedom to flourish, all must be in balance: the powers of realms, the reaches of the cities and the wilderlands into each other, and the influence of one being over another."
+So I High Harper implore of you do not assault <CHARNAME>'s group. <PRO_HESHE> is <PRO_MANWOMAN> who was prophecized by Aluando to fight against other of his kind thus it would be far wiser for you to just observe.
+Fight if you must but know that fighting against destinies is the hardest thing in Multiverse.
+
+E.~
+
+// Mintiper bard
+COPY ~golden_horse/itm/rqmibard.itm~ ~override/rqmibard.itm~
+/* Unidentified name */
+SAY NAME1 ~Scroll~
+/* Identified name */
+SAY NAME2 ~Scroll~
+SAY UNIDENTIFIED_DESC ~This scroll looks like writings of an dead Harper bard.
+
+"Don't even tell me.
+
+Do you know how many of our men <PRO_HESHE> killed now?
+
+Why should I waste my beautiful mind on something like that?
+
+Doesn't it piss you off a little?
+
+Getting angry can induce state of mind in which sound thinking cannot be maintained.
+
+That's something I can't afford to do right now.
+
+How do you know all that?
+
+I used to be a wandering bard scholar.
+
+This is brilliant villain dialog! I swear sometimes best inspiration comes just from living and just reinterpreting your experiences."~
+
+// Letter to Blutdurst
+COPY ~golden_horse/itm/rqlettb.itm~ ~override/rqlettb.itm~
+/* Unidentified name */
+SAY NAME1 ~Scroll~
+/* Identified name */
+SAY NAME2 ~Scroll~
+SAY UNIDENTIFIED_DESC ~Blutdurst
+
+I know this is not task suited for you but right now you are only asset that is in city.
+Defend Jaheira at all costs if you fail I will send you back!
+Her hatred has grown too strong. See if she could be uplifted perhaps with enough experience she will.
+She almost blew her cover in past so make sure she will not fail again.
+Why did the blasted <CHARNAME> just would have traveled with her.It would have prevented everything. Ask her or find out some other way? Perhaps she was somehow inappropriate in his Lair? I want some answers!
+
+Signed
+K.~
+
+// Letter from Thief Krolyn
+COPY ~golden_horse/itm/rqkrolet.itm~ ~override/rqkrolet.itm~
+/* Unidentified name */
+SAY NAME1 ~Scroll~
+/* Identified name */
+SAY NAME2 ~Scroll~
+SAY UNIDENTIFIED_DESC ~This small letter apparently for delivery by courier pigeon states:
+
+Krolyn
+
+Why Graveyard District you sure want to make our encounter as unpalatable as possible. I will be there but you better not waste my time with silly offers! We should meet somewhere underground to no attract attention.
+
+Thief.~
+
+// Relfin delivery notes
+COPY ~golden_horse/itm/rqdeliv2.itm~ ~override/rqdeliv2.itm~
+/* Unidentified name */
+SAY NAME1 ~Scroll~
+/* Identified name */
+SAY NAME2 ~Scroll~
+SAY UNIDENTIFIED_DESC ~This is your very first delivery Relfin bring your potions to Klelr el Maarslaam in Almraiven.
+I know you think of yourself as too inexperienced for this delivery but trust me you will make it. Travel with Blutdurst until your paths diverge then either hire mercenaries to protect you or ask Blutdurst to send someone with you.~
+
+// Letter to Groshnakh Mintiper rqgrosh
+COPY ~golden_horse/itm/rqminlet.itm~ ~override/rqminlet.itm~
+/* Unidentified name */
+SAY NAME1 ~Scroll~
+/* Identified name */
+SAY NAME2 ~Mintiper's Scroll~
+SAY UNIDENTIFIED_DESC
+~Hspumjqdni zpwt irdo jt uq gnlplobug Tgydq boe EJCUQDNF iqrgixomz j fq prw qffe vq thploe zqw jrz pvdi vjgb duf ebpigurxt. Uiku kv qru b ukog wr vipx aqwu whnqftcohqw. Uifa jcyh dmsfcfa nlomfe ugxhudm bhgpvv lqdmvfkpj rxs ofiqvldwjpo gpxrb. L bn tgpflqj Fttnkp wr dttjuv cqg rwfsugg. Kh zjmm dg kq fkbshg qh rshsbukqp wr hmjnkpcwh Ufwbp cpg FKBSOCOG. Qr rvucwtuw, frpqftcvh frnqmgvgob zjui Guuolq jo ujku.
+
+Plqujqgt
+
+Destroy this letter afterwards!
+
+*On first look this looks like gibberish but when you look closely it appears this is actually shift letter cypher. With instructions to destroy it at bottom.*
+This looks like important clue for Revan.~
+
+SAY DESC
+~Groskhnakh your goal is to eliminate Revan and <CHARNAME> hopefully I do not need to remind you how much they are dangerous. This is not a time to show your temperament. They have already killed several agents including our negotiation envoy. I am sending Esslin to assist and oversee. He will be in charge of operation to eliminate Revan and <CHARNAME>. No outburst, cooperate completely with Esslin in this.
+
+Mintiper
+
+Destroy this letter afterwards!
+This looks like important clue for Revan.~
+
+// rqhorn Horn of Wilderness
+COPY ~golden_horse/itm/rqhorn.itm~ ~override/rqhorn.itm~
+/* Unidentified name */
+SAY NAME1 ~Horn of Wilderness~
+/* Identified name */
+SAY NAME2 ~Horn of Wilderness~
+SAY DESC
+~Looks like horns magic have all but left the artifact. Turning it back stone from which it was made thus rendering it unusable.~
+SAY UNIDENTIFIED_DESC
+~Looks like horns magic have all but left the artifact. Turning it back stone from which it was made thus rendering it unusable.~
+
+// Letter from Itwantos
+COPY ~golden_horse/itm/rqletitw.itm~ ~override/rqletitw.itm~
+/* Unidentified name */
+SAY NAME1 ~Letter~
+/* Identified name */
+SAY NAME2 ~Letter~
+SAY UNIDENTIFIED_DESC
+~<CHARNAME> you will apologize my acting through intermediary. Since you have let us go you will probably want to know that Setherus, our former leader was working for Amelyssan the Blackhearted Deathstalker of Bhaal. In my excitement I have failed to extract knowledge where she could be found. I sincerely hope we shall never meet again.
+
+Itwantos~
+
+// Letter from Sixtarch temple assault
+COPY ~golden_horse/itm/rqletsi1.itm~ ~override/rqletsi1.itm~
+/* Unidentified name */
+SAY NAME1 ~Letter~
+/* Identified name */
+SAY NAME2 ~Letter~
+SAY UNIDENTIFIED_DESC
+~<PROLADYLORD> <CHARNAME> it was her doing all along! Sabotaged summoning beacons *expeditions* to Five strongholds everything! And Setherus the fool was working with her! Delusional fool was claiming she would make him into demigod! Well she will have to do it without his body haha! Amelissan have betrayed us, her faith and her dead god. Please let us prove our loyalty in moments of your ascendance! For this we have given instructions to our creature it will give you summoning stone which we were supposed use if wounded to escape. Magic works as beacon if you are in possession of the stone we can teleport to your aid.
+
+Amelissan must be murdered! Sixtarch~
+
+// Letter from Sixtarch balthazar aid
+COPY ~golden_horse/itm/rqletsi2.itm~ ~override/rqletsi2.itm~
+/* Unidentified name */
+SAY NAME1 ~Letter~
+/* Identified name */
+SAY NAME2 ~Letter~
+SAY UNIDENTIFIED_DESC
+~<PROLADYLORD> <CHARNAME> we had to leave quickly because interference by Setherus. He has somehow discovered our treachery and attacked us here. Imp will give you summoning stone which we were supposed use if wounded to escape. The magic works as beacon if you possess Summoning Stone wherever you are we can teleport to your aid. I do anticipate it will be soon.
+
+Sixtarch~
+
+// Summoning Stone
+COPY ~golden_horse/itm/rqsixsto.itm~ ~override/rqsixsto.itm~
+/* Unidentified name */
+SAY NAME1 ~Beacon Stone~
+/* Identified name */
+SAY NAME2 ~Beacon Stone~
+SAY UNIDENTIFIED_DESC
+~This stone appears to be a some sort of magical beacon how does it work or you could make it work is mystery to you. It was provided to you by Sixtarch it would be wise to hold on to it.~
+
+// rqhorn Bone Golem building book
+COPY ~golden_horse/itm/rqbook1.itm~ ~override/rqbook1.itm~
+/* Unidentified name */
+SAY NAME1 ~Bone Golem building book~
+/* Identified name */
+SAY NAME2 ~Bone Golem building book~
+SAY DESC
+~This looks like Bone Golem building tome. It is very expansive tome dealing with just one type of Golems constructed using skeletal remains.~
+SAY UNIDENTIFIED_DESC
+~This looks like Bone Golem building tome. It is very expansive tome dealing with just one type of Golems constructed using skeletal remains.~
+
+// Hymn of Murderous Fury Claw
+COPY ~golden_horse/itm/rqhymfur.itm~ ~override/rqhymfur.itm~
+/* Unidentified name */
+SAY NAME1 ~Relic of Bhaal~
+/* Identified name */
+SAY NAME2 ~Claw of Bhaal~
+SAY DESC
+~This claw is from some kind of demon or other beastly creature.~
+SAY UNIDENTIFIED_DESC
+~This relic is appears to be mummified claw of either creature favored by Bhaal or perhaps even avatar Bhaal. This artifact pretty much no history how did the cultists came to create this artifacts without scholars noticing is not known. One entry though comes from sect of Cyricists who mention Bhaalist remnant sect using claw to improve fighting abilities of its guardians.
+~
+
+// Unknown potion blutdurst rqbar30a --- 1 ---
+COPY ~golden_horse/itm/rqpotn1.itm~ ~override/rqpotn1.itm~
+/* Unidentified name */
+SAY NAME1 ~Magic Potion~
+/* Identified name */
+SAY NAME2 ~Magic Potion~
+SAY DESC
+~This flask has been carefully wrapped in cloth for transportation. Parchment inside states "Yhral - Anchoring and Unfailing Endurance of Mind". Repulsive odor suggests poison or some other nefarious purpose although any mage can identify very strong enchanting, evocation and alteration magic inside the potion.~
+SAY UNIDENTIFIED_DESC
+~This flask has been carefully wrapped in cloth for transportation. Parchment inside states "Yhral - Anchoring and Unfailing Endurance of Mind". Repulsive odor suggests poison or some other nefarious purpose although any mage can identify very strong enchanting, evocation and alteration magic inside the potion.~
+
+// Unknown potion rqgerv --- 2 ---
+COPY ~golden_horse/itm/rqpotn2.itm~ ~override/rqpotn2.itm~
+/* Unidentified name */
+SAY NAME1 ~Magic Potion~
+/* Identified name */
+SAY NAME2 ~Magic Potion~
+SAY DESC
+~This flask has been carefully wrapped in cloth for transportation. Parchment inside states "Yhral - Maze Spell Immunity". Repulsive odor suggests poison or some other nefarious purpose although any mage can identify very strong enchanting magic inside the potion.~
+SAY UNIDENTIFIED_DESC
+~This flask has been carefully wrapped in cloth for transportation. Parchment inside states "Yhral - Maze Spell Immunity". Repulsive odor suggests poison or some other nefarious purpose although any mage can identify very strong enchanting magic inside the potion.~
+
+// Unknown potion rqbar30a --- 3 ---
+COPY ~golden_horse/itm/rqpotn3.itm~ ~override/rqpotn3.itm~
+/* Unidentified name */
+SAY NAME1 ~Magic Potion~
+/* Identified name */
+SAY NAME2 ~Magic Potion~
+SAY DESC
+~This flask has been carefully wrapped in cloth for transportation. Parchment inside states "Antonicus - Attribute Stability both Negative and Positive!". Repulsive odor suggests poison or some other nefarious purpose although any mage can identify very strong invocation, enchanting, and alteration magic inside the potion.~
+SAY UNIDENTIFIED_DESC
+~This flask has been carefully wrapped in cloth for transportation. Parchment inside states "Antonicus - Attribute Stability both Negative and Positive!". Repulsive odor suggests poison or some other nefarious purpose although any mage can identify very strong alteration and enchanting magic inside the potion.~
+
+// Magic Potion  --- 4 ---
+COPY ~golden_horse/itm/rqpotn4.itm~ ~override/rqpotn4.itm~
+/* Unidentified name */
+SAY NAME1 ~Magic Potion~
+/* Identified name */
+SAY NAME2 ~Magic Potion~
+SAY DESC
+~This potion you ripped out container which was camouflaged as potion case. Parchment inside states "Mosgoroth - Weave Stability". Repulsive odor suggests poison or some other nefarious purpose although any mage can identify very powerful invocation, enchantment and alteration magic contained in potion.~
+SAY UNIDENTIFIED_DESC
+~This potion you ripped out container which was camouflaged as potion case. Parchment inside states "Mosgoroth - Weave Stability". Repulsive odor suggests poison or some other nefarious purpose although any mage can identify very powerful invocation, enchantment and alteration magic contained in potion.~
+
+// Magic Potion  --- 5 ---
+COPY ~golden_horse/itm/rqpotn5.itm~ ~override/rqpotn5.itm~
+/* Unidentified name */
+SAY NAME1 ~Magic Potion~
+/* Identified name */
+SAY NAME2 ~Magic Potion~
+SAY DESC
+~This potion you ripped out container which was camouflaged as potion case. Parchment inside states "Ostgund - Magical Sight". Repulsive odor suggests poison or some other nefarious purpose although any mage can identify very powerful enchanting, and alteration magic inside the potion.~
+SAY UNIDENTIFIED_DESC
+~This potion you ripped out container which was camouflaged as potion case. Parchment inside states "Ostgund - Magical Sight". Repulsive odor suggests poison or some other nefarious purpose although any mage can identify very powerful enchantment and alteration magic inside the potion.~
+
+// Magic Potion  --- 6 ---
+COPY ~golden_horse/itm/rqpotn6.itm~ ~override/rqpotn6.itm~
+/* Unidentified name */
+SAY NAME1 ~Magic Potion~
+/* Identified name */
+SAY NAME2 ~Magic Potion~
+SAY DESC
+~This potion you ripped out container which was camouflaged as potion case. Parchment inside states "Kergulor - Resistance Stability both Negative and Positive!". Repulsive odor suggests poison or some other nefarious purpose although any mage can identify very powerful enchanting, and alteration magic inside the potion.~
+SAY UNIDENTIFIED_DESC
+~This potion you ripped out container which was camouflaged as potion case. Parchment inside states "Kergulor - Resistance Stability both Negative and Positive!". Repulsive odor suggests poison or some other nefarious purpose although any mage can identify very powerful abjuration and alteration magic inside the potion.~
+
+// Magic Potion  --- 7 ---
+COPY ~golden_horse/itm/rqpotn7.itm~ ~override/rqpotn7.itm~
+/* Unidentified name */
+SAY NAME1 ~Magic Potion~
+/* Identified name */
+SAY NAME2 ~Magic Potion~
+SAY DESC
+~This potion you ripped out container which was camouflaged as potion case. Parchment inside states "Etalon Kurdor - Immunity to Slow and Hold and Paralysis". Repulsive odor suggests poison or some other nefarious purpose although any mage can identify very powerful abjuration magic inside the potion.~
+SAY UNIDENTIFIED_DESC
+~This potion you ripped out container which was camouflaged as potion case. Parchment inside states "Etalon Kurdor - Immunity to Slow and Hold and Paralysis". Repulsive odor suggests poison or some other nefarious purpose although any mage can identify very powerful abjuration magic inside the potion.~
+
+// Magic Potion  --- 8 ---
+COPY ~golden_horse/itm/rqpotn8.itm~ ~override/rqpotn8.itm~
+/* Unidentified name */
+SAY NAME1 ~Magic Potion~
+/* Identified name */
+SAY NAME2 ~Magic Potion~
+SAY DESC
+~This potion you ripped out container which was camouflaged as potion case. Parchment inside states "Julmen - Immunity to clerical Negative Chant and Bad luck flawed!". Repulsive odor suggests poison or some other nefarious purpose although any mage can identify very powerful abjuration magic inside the potion.~
+SAY UNIDENTIFIED_DESC
+~This potion you ripped out container which was camouflaged as potion case. Parchment inside states "Julmen - Immunity to clerical Negative Chant and Bad luck flawed!". Repulsive odor suggests poison or some other nefarious purpose although any mage can identify very powerful abjuration magic inside the potion.~
+
+// Magic Potion  --- 9 ---
+COPY ~golden_horse/itm/rqpotn9.itm~ ~override/rqpotn9.itm~
+/* Unidentified name */
+SAY NAME1 ~Magic Potion~
+/* Identified name */
+SAY NAME2 ~Magic Potion~
+SAY DESC
+~This potion you ripped out container which was camouflaged as potion case. Parchment inside stated "Uvgaryl - Resistance to Poison, Disease, Acid, Magic damage". Repulsive odor suggests poison or some other nefarious purpose although any mage can identify very powerful abjuration and alteration magic inside the potion.~
+SAY UNIDENTIFIED_DESC
+~This potion you ripped out container which was camouflaged as potion case. Parchment inside stated "Uvgaryl - Resistance to Poison, Disease, Acid, Magic damage". Repulsive odor suggests poison or some other nefarious purpose although any mage can identify very powerful abjuration and alteration magic inside the potion.~
+
+// Magic Potion --- 10 ---
+COPY ~golden_horse/itm/rqpotn10.itm~ ~override/rqpotn10.itm~
+/* Unidentified name */
+SAY NAME1 ~Magic Potion~
+/* Identified name */
+SAY NAME2 ~Magic Potion~
+SAY DESC
+~This potion you ripped out container which was camouflaged as potion case. Parchment inside stated "Esmrilil Avegiel - Immunity to Berserking and Confusion". Repulsive odor suggests poison or some other nefarious purpose although any mage can identify very powerful alteration magic inside the potion.~
+SAY UNIDENTIFIED_DESC
+~This potion you ripped out container which was camouflaged as potion case. Parchment inside stated "Esmrilil Avegiel - Immunity to Berserking and Confusion". Repulsive odor suggests poison or some other nefarious purpose although any mage can identify very powerful alteration magic inside the potion.~
+
+// Magic Potion  --- 11 ---
+COPY ~golden_horse/itm/rqpotn11.itm~ ~override/rqpotn11.itm~
+/* Unidentified name */
+SAY NAME1 ~Magic Potion~
+/* Identified name */
+SAY NAME2 ~Magic Potion~
+SAY DESC
+~This potion you ripped out container which was camouflaged as potion case. Parchment inside stated "Ilsinen - Immunity to Timestop Level Drain and Backstab". Repulsive odor suggests poison or some other nefarious purpose although any mage can identify very powerful abjuration and alteration magic inside the potion.~
+SAY UNIDENTIFIED_DESC
+~This potion you ripped out container which was camouflaged as potion case. Parchment inside stated "Ilsinen - Immunity to Timestop Level Drain and Backstab". Repulsive odor suggests poison or some other nefarious purpose although any mage can identify very powerful abjuration and alteration magic inside the potion.~
+
+// Magic Potion  --- 12 ---
+COPY ~golden_horse/itm/rqpotn12.itm~ ~override/rqpotn12.itm~
+/* Unidentified name */
+SAY NAME1 ~Magic Potion~
+/* Identified name */
+SAY NAME2 ~Magic Potion~
+SAY DESC
+~This potion you ripped out container which was camouflaged as potion case. Parchment inside states "Feyviryl - True Seeing". Repulsive odor suggests poison or some other nefarious purpose although any mage can identify very powerful alteration and divination magic inside the potion.~
+SAY UNIDENTIFIED_DESC
+~This potion you ripped out container which was camouflaged as potion case. Parchment inside states "Feyviryl - True Seeing". Repulsive odor suggests poison or some other nefarious purpose although any mage can identify very powerful alteration and divination magic inside the potion.~
+
+// Magic Potion  --- 13 ---
+COPY ~golden_horse/itm/rqpotn13.itm~ ~override/rqpotn13.itm~
+/* Unidentified name */
+SAY NAME1 ~Magic Potion~
+/* Identified name */
+SAY NAME2 ~Magic Potion~
+SAY DESC
+~This potion you ripped out container which was camouflaged as potion case. Parchment inside states "Wevugarth - Instand Death Petrification Disintegrate and Imprisonment". Repulsive odor suggests poison or some other nefarious purpose although any mage can identify very powerful enchantment and abjuration magic inside the potion.~
+SAY UNIDENTIFIED_DESC
+~This potion you ripped out container which was camouflaged as potion case. Parchment inside states "Wevugarth - Instand Death Petrification Disintegrate and Imprisonment". Repulsive odor suggests poison or some other nefarious purpose although any mage can identify very powerful enchantment and abjuration magic inside the potion.~
+
+// Magic Potion  --- 14 ---
+COPY ~golden_horse/itm/rqpotn14.itm~ ~override/rqpotn14.itm~
+/* Unidentified name */
+SAY NAME1 ~Magic Potion~
+/* Identified name */
+SAY NAME2 ~Magic Potion~
+SAY DESC
+~This potion you ripped out container which was camouflaged as potion case. Parchment inside states "Kysloth - Immunity to Spell School: Conjuration". Repulsive odor suggests poison or some other nefarious purpose although any mage can identify very powerful enchantment and abjuration magic inside the potion.~
+SAY UNIDENTIFIED_DESC
+~This potion you ripped out container which was camouflaged as potion case. Parchment inside states "Kysloth - Immunity to Spell School: Conjuration". Repulsive odor suggests poison or some other nefarious purpose although any mage can identify very powerful enchantment and abjuration magic inside the potion.~
+
+// Magic Potion  --- 15 ---
+COPY ~golden_horse/itm/rqpotn15.itm~ ~override/rqpotn15.itm~
+/* Unidentified name */
+SAY NAME1 ~Magic Potion~
+/* Identified name */
+SAY NAME2 ~Magic Potion~
+SAY DESC
+~This potion you ripped out container which was camouflaged as potion case. Parchment inside states "Gruske - Immunity to Spell School: Necromancy". Repulsive odor suggests poison or some other nefarious purpose although any mage can identify very powerful enchantment and abjuration magic inside the potion.~
+SAY UNIDENTIFIED_DESC
+~This potion you ripped out container which was camouflaged as potion case. Parchment inside states "Gruske - Immunity to Spell School: Necromancy". Repulsive odor suggests poison or some other nefarious purpose although any mage can identify very powerful enchantment and abjuration magic inside the potion.~
+
+// Magic Potion  --- 16 ---
+COPY ~golden_horse/itm/rqpotn16.itm~ ~override/rqpotn16.itm~
+/* Unidentified name */
+SAY NAME1 ~Magic Potion~
+/* Identified name */
+SAY NAME2 ~Magic Potion~
+SAY DESC
+~This potion you ripped out container which was camouflaged as potion case. Parchment inside states "Bewick - Immunity to Spell School: Illusion". Repulsive odor suggests poison or some other nefarious purpose although any mage can identify very powerful enchantment and abjuration magic inside the potion.~
+SAY UNIDENTIFIED_DESC
+~This potion you ripped out container which was camouflaged as potion case. Parchment inside states "Bewick - Immunity to Spell School: Illusion". Repulsive odor suggests poison or some other nefarious purpose although any mage can identify very powerful enchantment and abjuration magic inside the potion.~
+
+// Magic Potion  --- 17 ---
+COPY ~golden_horse/itm/rqpotn17.itm~ ~override/rqpotn17.itm~
+/* Unidentified name */
+SAY NAME1 ~Magic Potion~
+/* Identified name */
+SAY NAME2 ~Magic Potion~
+SAY DESC
+~This potion you ripped out container which was camouflaged as potion case. Parchment inside states "Atword - Immunity to Spell School: Evocation". Repulsive odor suggests poison or some other nefarious purpose although any mage can identify very powerful enchantment and abjuration magic inside the potion.~
+SAY UNIDENTIFIED_DESC
+~This potion you ripped out container which was camouflaged as potion case. Parchment inside states "Atword - Immunity to Spell School: Evocation". Repulsive odor suggests poison or some other nefarious purpose although any mage can identify very powerful enchantment and abjuration magic inside the potion.~
+
+// Magic Potion  --- 18 ---
+COPY ~golden_horse/itm/rqpotn18.itm~ ~override/rqpotn18.itm~
+/* Unidentified name */
+SAY NAME1 ~Magic Potion~
+/* Identified name */
+SAY NAME2 ~Magic Potion~
+SAY DESC
+~This potion you ripped out container which was camouflaged as potion case. Parchment inside states "Logrian - Immunity to Spell School: Enchantment". Repulsive odor suggests poison or some other nefarious purpose although any mage can identify very powerful enchantment and abjuration magic inside the potion.~
+SAY UNIDENTIFIED_DESC
+~This potion you ripped out container which was camouflaged as potion case. Parchment inside states "Logrian - Immunity to Spell School: Enchantment". Repulsive odor suggests poison or some other nefarious purpose although any mage can identify very powerful enchantment and abjuration magic inside the potion.~
+
+// Magic Potion  --- 19 ---
+COPY ~golden_horse/itm/rqpotn19.itm~ ~override/rqpotn19.itm~
+/* Unidentified name */
+SAY NAME1 ~Magic Potion~
+/* Identified name */
+SAY NAME2 ~Magic Potion~
+SAY DESC
+~This potion you ripped out container which was camouflaged as potion case. Parchment inside states "Rognvald - Immunity to level two spells and below". Repulsive odor suggests poison or some other nefarious purpose although any mage can identify very powerful enchantment and abjuration magic inside the potion.~
+SAY UNIDENTIFIED_DESC
+~This potion you ripped out container which was camouflaged as potion case. Parchment inside states "Rognvald - Immunity to level two spells and below". Repulsive odor suggests poison or some other nefarious purpose although any mage can identify very powerful enchantment and abjuration magic inside the potion.~
+
+// Magic Potion  --- 20 ---
+COPY ~golden_horse/itm/rqpotn20.itm~ ~override/rqpotn20.itm~
+/* Unidentified name */
+SAY NAME1 ~Magic Potion~
+/* Identified name */
+SAY NAME2 ~Magic Potion~
+SAY DESC
+~This potion you ripped out container which was camouflaged as potion case. Parchment inside states "Bjorn - Double duration spells". Repulsive odor suggests poison or some other nefarious purpose although any mage can identify very powerful enchantment and abjuration magic inside the potion.~
+SAY UNIDENTIFIED_DESC
+~This potion you ripped out container which was camouflaged as potion case. Parchment inside states "Bjorn - Double duration spells". Repulsive odor suggests poison or some other nefarious purpose although any mage can identify very powerful enchantment and abjuration magic inside the potion.~
+
+// Magic Potion  --- 21 ---
+COPY ~golden_horse/itm/rqpotn21.itm~ ~override/rqpotn21.itm~
+/* Unidentified name */
+SAY NAME1 ~Magic Potion~
+/* Identified name */
+SAY NAME2 ~Magic Potion~
+SAY DESC
+~This potion you ripped out container which was camouflaged as potion case. Parchment inside states "Sir Woodworth - Critical hit improvement". Repulsive odor suggests poison or some other nefarious purpose although any mage can identify very powerful enchantment and abjuration magic inside the potion.~
+SAY UNIDENTIFIED_DESC
+~This potion you ripped out container which was camouflaged as potion case. Parchment inside states "Sir Woodworth - Critical hit improvement". Repulsive odor suggests poison or some other nefarious purpose although any mage can identify very powerful enchantment and abjuration magic inside the potion.~
+
+// Magic Potion  --- 22 ---
+COPY ~golden_horse/itm/rqpotn22.itm~ ~override/rqpotn22.itm~
+/* Unidentified name */
+SAY NAME1 ~Magic Potion~
+/* Identified name */
+SAY NAME2 ~Magic Potion~
+SAY DESC
+~This potion you ripped out container which was camouflaged as potion case. Parchment inside states "Khelben - Aura Cleansing". Repulsive odor suggests poison or some other nefarious purpose although any mage can identify very powerful enchantment and abjuration magic inside the potion.~
+SAY UNIDENTIFIED_DESC
+~This potion you ripped out container which was camouflaged as potion case. Parchment inside states "Khelben - Aura Cleansing". Repulsive odor suggests poison or some other nefarious purpose although any mage can identify very powerful enchantment and abjuration magic inside the potion.~
+
+// Magic Potion  --- 23 ---
+COPY ~golden_horse/itm/rqpotn23.itm~ ~override/rqpotn23.itm~
+/* Unidentified name */
+SAY NAME1 ~Magic Potion~
+/* Identified name */
+SAY NAME2 ~Magic Potion~
+SAY DESC
+~This potion you ripped out container which was camouflaged as potion case. Parchment inside states "Helwyg - Casting time improvement". Repulsive odor suggests poison or some other nefarious purpose although any mage can identify very powerful enchantment and abjuration magic inside the potion.~
+SAY UNIDENTIFIED_DESC
+~This potion you ripped out container which was camouflaged as potion case. Parchment inside states "Helwyg - Casting time improvement". Repulsive odor suggests poison or some other nefarious purpose although any mage can identify very powerful enchantment and abjuration magic inside the potion.~
+
+// Magic Potion  --- 24 ---
+COPY ~golden_horse/itm/rqpotn24.itm~ ~override/rqpotn24.itm~
+/* Unidentified name */
+SAY NAME1 ~Magic Potion~
+/* Identified name */
+SAY NAME2 ~Magic Potion~
+SAY DESC
+~This potion you ripped out container which was camouflaged as potion case. Parchment inside states "Lugreim - Immunity to Charm". Repulsive odor suggests poison or some other nefarious purpose although any mage can identify very powerful enchantment and abjuration magic inside the potion.~
+SAY UNIDENTIFIED_DESC
+~This potion you ripped out container which was camouflaged as potion case. Parchment inside states "Lugreim - Immunity to Charm". Repulsive odor suggests poison or some other nefarious purpose although any mage can identify very powerful enchantment and abjuration magic inside the potion.~
+
+// Magic Potion  --- 25 ---
+COPY ~golden_horse/itm/rqpotn25.itm~ ~override/rqpotn25.itm~
+/* Unidentified name */
+SAY NAME1 ~Magic Potion~
+/* Identified name */
+SAY NAME2 ~Magic Potion~
+SAY DESC
+~This potion you ripped out container which was camouflaged as potion case. Parchment inside states "Kress - Immunity to draining of mage spells". Repulsive odor suggests poison or some other nefarious purpose although any mage can identify very powerful enchantment and abjuration magic inside the potion.~
+SAY UNIDENTIFIED_DESC
+~This potion you ripped out container which was camouflaged as potion case. Parchment inside states "Kress - Immunity to draining of mage spells". Repulsive odor suggests poison or some other nefarious purpose although any mage can identify very powerful enchantment and abjuration magic inside the potion.~
+
+// Magic Potion  --- 26 ---
+COPY ~golden_horse/itm/rqpotn26.itm~ ~override/rqpotn26.itm~
+/* Unidentified name */
+SAY NAME1 ~Magic Potion~
+/* Identified name */
+SAY NAME2 ~Magic Potion~
+SAY DESC
+~This potion you ripped out container which was camouflaged as potion case. Parchment inside states "Atler - More physical attacks". Repulsive odor suggests poison or some other nefarious purpose although any mage can identify very powerful enchantment and abjuration magic inside the potion.~
+SAY UNIDENTIFIED_DESC
+~This potion you ripped out container which was camouflaged as potion case. Parchment inside states "Atler - More physical attacks". Repulsive odor suggests poison or some other nefarious purpose although any mage can identify very powerful enchantment and abjuration magic inside the potion.~
+
+// Magic Potion  --- 27 ---
+COPY ~golden_horse/itm/rqpotn27.itm~ ~override/rqpotn27.itm~
+/* Unidentified name */
+SAY NAME1 ~Magic Potion~
+/* Identified name */
+SAY NAME2 ~Magic Potion~
+SAY DESC
+~This potion you ripped out container which was camouflaged as potion case. Parchment inside states "Jhorguth - Extra melee power speed and accuracy". Repulsive odor suggests poison or some other nefarious purpose although any mage can identify very powerful enchantment and abjuration magic inside the potion.~
+SAY UNIDENTIFIED_DESC
+~This potion you ripped out container which was camouflaged as potion case. Parchment inside states "Jhorguth - Extra melee power speed and accuracy". Repulsive odor suggests poison or some other nefarious purpose although any mage can identify very powerful enchantment and abjuration magic inside the potion.~
+
+// Magic Potion  --- 28 ---
+COPY ~golden_horse/itm/rqpotn28.itm~ ~override/rqpotn28.itm~
+/* Unidentified name */
+SAY NAME1 ~Magic Potion~
+/* Identified name */
+SAY NAME2 ~Magic Potion~
+SAY DESC
+~This potion you ripped out container which was camouflaged as potion case. Parchment inside states "Pelguniir - Mage spell memorization bonus". Repulsive odor suggests poison or some other nefarious purpose although any mage can identify very powerful enchantment and abjuration magic inside the potion.~
+SAY UNIDENTIFIED_DESC
+~This potion you ripped out container which was camouflaged as potion case. Parchment inside states "Pelguniir - Mage spell memorization bonus". Repulsive odor suggests poison or some other nefarious purpose although any mage can identify very powerful enchantment and abjuration magic inside the potion.~
+
+// Magic Potion  --- 29 ---
+COPY ~golden_horse/itm/rqpotn29.itm~ ~override/rqpotn29.itm~
+/* Unidentified name */
+SAY NAME1 ~Magic Potion~
+/* Identified name */
+SAY NAME2 ~Magic Potion~
+SAY DESC
+~This potion you ripped out container which was camouflaged as potion case. Parchment inside states "Hoflug - Priest spell memorization bonus". Repulsive odor suggests poison or some other nefarious purpose although any mage can identify very powerful enchantment and abjuration magic inside the potion.~
+SAY UNIDENTIFIED_DESC
+~This potion you ripped out container which was camouflaged as potion case. Parchment inside states "Hoflug - Priest spell memorization bonus". Repulsive odor suggests poison or some other nefarious purpose although any mage can identify very powerful enchantment and abjuration magic inside the potion.~
+
+// Magic Potion  --- 30 ---
+COPY ~golden_horse/itm/rqpotn30.itm~ ~override/rqpotn30.itm~
+/* Unidentified name */
+SAY NAME1 ~Magic Potion~
+/* Identified name */
+SAY NAME2 ~Magic Potion~
+SAY DESC
+~This potion you ripped out container which was camouflaged as potion case. Parchment inside states "Aalynn - Elemental resistances". Repulsive odor suggests poison or some other nefarious purpose although any mage can identify very powerful enchantment and abjuration magic inside the potion.~
+SAY UNIDENTIFIED_DESC
+~This potion you ripped out container which was camouflaged as potion case. Parchment inside states "Aalynn - Elemental resistances". Repulsive odor suggests poison or some other nefarious purpose although any mage can identify very powerful enchantment and abjuration magic inside the potion.~
+
+// Magic Potion  --- 31 ---
+COPY ~golden_horse/itm/rqpotn31.itm~ ~override/rqpotn31.itm~
+/* Unidentified name */
+SAY NAME1 ~Magic Potion~
+/* Identified name */
+SAY NAME2 ~Magic Potion~
+SAY DESC
+~This potion you ripped out container which was camouflaged as potion case. Parchment inside states "Geier - Flawed polymorph protection could not make it work so I am sending you what I have.". Repulsive odor suggests poison or some other nefarious purpose although any mage can identify very powerful enchantment and abjuration magic inside the potion.~
+SAY UNIDENTIFIED_DESC
+~This potion you ripped out container which was camouflaged as potion case. Parchment inside states "Geier - Flawed polymorph protection could not make it work so I am sending you what I have..". Repulsive odor suggests poison or some other nefarious purpose although any mage can identify very powerful enchantment and abjuration magic inside the potion.~
+
+// Magic Potion  --- 32 ---
+COPY ~golden_horse/itm/rqpotn32.itm~ ~override/rqpotn32.itm~
+/* Unidentified name */
+SAY NAME1 ~Magic Potion~
+/* Identified name */
+SAY NAME2 ~Magic Potion~
+SAY DESC
+~This potion you ripped out container which was camouflaged as potion case. Parchment inside states "Torstein - Saving throw increase". Repulsive odor suggests poison or some other nefarious purpose although any mage can identify very powerful enchantment and abjuration magic inside the potion.~
+SAY UNIDENTIFIED_DESC
+~This potion you ripped out container which was camouflaged as potion case. Parchment inside states "Torstein - Saving throw increase". Repulsive odor suggests poison or some other nefarious purpose although any mage can identify very powerful enchantment and abjuration magic inside the potion.~
+
+// Magic Potion  --- 33 ---
+COPY ~golden_horse/itm/rqpotn33.itm~ ~override/rqpotn33.itm~
+/* Unidentified name */
+SAY NAME1 ~Magic Potion~
+/* Identified name */
+SAY NAME2 ~Magic Potion~
+SAY DESC
+~This potion you ripped out container which was camouflaged as potion case. Parchment inside states "Huon - Immunity to saving throw manipulation both Negative and Positive!". Repulsive odor suggests poison or some other nefarious purpose although any mage can identify very powerful enchantment and abjuration magic inside the potion.~
+SAY UNIDENTIFIED_DESC
+~This potion you ripped out container which was camouflaged as potion case. Parchment inside states "Huon - Immunity to saving throw manipulation both Negative and Positive!". Repulsive odor suggests poison or some other nefarious purpose although any mage can identify very powerful enchantment and abjuration magic inside the potion.~
+
+// Magic Potion  --- 34 ---
+COPY ~golden_horse/itm/rqpotn34.itm~ ~override/rqpotn34.itm~
+/* Unidentified name */
+SAY NAME1 ~Magic Potion~
+/* Identified name */
+SAY NAME2 ~Magic Potion~
+SAY DESC
+~This potion you ripped out container which was camouflaged as potion case. Parchment inside states "Forberg - Immunity to Armor protection manipulation both Negative and Positive!". Repulsive odor suggests poison or some other nefarious purpose although any mage can identify very powerful enchantment and abjuration magic inside the potion.~
+SAY UNIDENTIFIED_DESC
+~This potion you ripped out container which was camouflaged as potion case. Parchment inside states "Forberg - Immunity to Armor protection manipulation both Negative and Positive!". Repulsive odor suggests poison or some other nefarious purpose although any mage can identify very powerful enchantment and abjuration magic inside the potion.~
+
+// Magic Potion  --- 35 ---
+COPY ~golden_horse/itm/rqpotn35.itm~ ~override/rqpotn35.itm~
+/* Unidentified name */
+SAY NAME1 ~Magic Potion~
+/* Identified name */
+SAY NAME2 ~Magic Potion~
+SAY DESC
+~This potion you ripped out container which was camouflaged as potion case. Parchment inside states "Parcival - Magical resistance addition". Repulsive odor suggests poison or some other nefarious purpose although any mage can identify very powerful enchantment and abjuration magic inside the potion.~
+SAY UNIDENTIFIED_DESC
+~This potion you ripped out container which was camouflaged as potion case. Parchment inside states "Parcival - Magical resistance addition". Repulsive odor suggests poison or some other nefarious purpose although any mage can identify very powerful enchantment and abjuration magic inside the potion.~
+
+// Magic Potion  --- 36 ---
+COPY ~golden_horse/itm/rqpotn36.itm~ ~override/rqpotn36.itm~
+/* Unidentified name */
+SAY NAME1 ~Magic Potion~
+/* Identified name */
+SAY NAME2 ~Magic Potion~
+SAY DESC
+~This potion you ripped out container which was camouflaged as potion case. Parchment inside states "Amerghiis - Life Essence". Repulsive odor suggests poison or some other nefarious purpose although any mage can identify very powerful enchantment and abjuration magic inside the potion.~
+SAY UNIDENTIFIED_DESC
+~This potion you ripped out container which was camouflaged as potion case. Parchment inside states "Amerghiis - Life Essence". Repulsive odor suggests poison or some other nefarious purpose although any mage can identify very powerful enchantment and abjuration magic inside the potion.~
+
+// Magic Potion  --- 37 ---
+COPY ~golden_horse/itm/rqpotn37.itm~ ~override/rqpotn37.itm~
+/* Unidentified name */
+SAY NAME1 ~Magic Potion~
+/* Identified name */
+SAY NAME2 ~Magic Potion~
+SAY DESC
+~This potion you ripped out container which was camouflaged as potion case. Parchment inside states "Mogor-Nagal - Wild magic stabilization". Repulsive odor suggests poison or some other nefarious purpose although any mage can identify very powerful enchantment and abjuration magic inside the potion.~
+SAY UNIDENTIFIED_DESC
+~This potion you ripped out container which was camouflaged as potion case. Parchment inside states "Mogor-Nagal - Wild magic stabilization". Repulsive odor suggests poison or some other nefarious purpose although any mage can identify very powerful enchantment and abjuration magic inside the potion.~
+
+// Magic Potion  --- 38 ---
+COPY ~golden_horse/itm/rqpotn38.itm~ ~override/rqpotn38.itm~
+/* Unidentified name */
+SAY NAME1 ~Magic Potion~
+/* Identified name */
+SAY NAME2 ~Magic Potion~
+SAY DESC
+~This potion you ripped out container which was camouflaged as potion case. Parchment inside states "Lucky Merlidien - Luck increase". Repulsive odor suggests poison or some other nefarious purpose although any mage can identify very powerful enchantment and abjuration magic inside the potion.~
+SAY UNIDENTIFIED_DESC
+~This potion you ripped out container which was camouflaged as potion case. Parchment inside states "Lucky Merlidien - Luck increase". Repulsive odor suggests poison or some other nefarious purpose although any mage can identify very powerful enchantment and abjuration magic inside the potion.~
+
+// Magic Potion  --- 39 ---
+COPY ~golden_horse/itm/rqpotn39.itm~ ~override/rqpotn39.itm~
+/* Unidentified name */
+SAY NAME1 ~Magic Potion~
+/* Identified name */
+SAY NAME2 ~Magic Potion~
+SAY DESC
+~This potion you ripped out container which was camouflaged as potion case. Parchment inside states "Mosgoroth - Further Weave connection strengthening". Repulsive odor suggests poison or some other nefarious purpose although any mage can identify very powerful alteration, enchantment and abjuration magic inside the potion.~
+SAY UNIDENTIFIED_DESC
+~This potion you ripped out container which was camouflaged as potion case. Parchment inside states "Mosgoroth - Further Weave connection strengthening". Repulsive odor suggests poison or some other nefarious purpose although any mage can identify very powerful alteration, enchantment and abjuration magic inside the potion.~
+
+// Magic Potion  --- 40 ---
+COPY ~golden_horse/itm/rqpotn40.itm~ ~override/rqpotn40.itm~
+/* Unidentified name */
+SAY NAME1 ~Magic Potion~
+/* Identified name */
+SAY NAME2 ~Magic Potion~
+SAY DESC
+~This potion you ripped out container which was camouflaged as potion case. Parchment inside states "Menethle - Immunity to Spell School: Alteration". Repulsive odor suggests poison or some other nefarious purpose although any mage can identify very powerful enchantment and abjuration magic inside the potion.~
+SAY UNIDENTIFIED_DESC
+~This potion you ripped out container which was camouflaged as potion case. Parchment inside states "Menethle - Immunity to Spell School: Alteration". Repulsive odor suggests poison or some other nefarious purpose although any mage can identify very powerful enchantment and abjuration magic inside the potion.~
+
+// Sanctuary Potion
+COPY ~golden_horse/itm/rqpotn50.itm~ ~override/rqpotn50.itm~
+/* Unidentified name */
+SAY NAME1 ~Magical Potion~
+/* Identified name */
+SAY NAME2 ~Sanctuary Flask~
+SAY DESC
+~Sanctuary Potion was invention of priest Heftar who in his advanced age needed frequent rests so he had this flask created for himself.
+
+Special abilities:
+Can cast 'Sanctuary' 2 times/day on user.
+
+Not Usable By:
+~
+
+// Potion Case
+COPY ~golden_horse/itm/rqpotc01.itm~ ~override/rqpotc01.itm~
+/* Unidentified name */
+SAY NAME1 ~Potion Case~
+/* Identified name */
+SAY NAME2 ~Potion Case~
+SAY DESC
+~Typically carried by traveling healers, this leather case folds open and allows the user to strap delicate potion bottles to its cushioned side with numerous leather thongs for safe storage during travel.
+
+STATISTICS:
+
+Weight: 10~
+SAY UNIDENTIFIED_DESC
+~Typically carried by travelling healers, this leather case folds open and allows the user to strap delicate potion bottles to its cushioned side with numerous leather thongs for safe storage during travel.
+
+STATISTICS:
+
+Weight: 10~
+
+// Small Crate
+COPY ~golden_horse/itm/rqpotc02.itm~ ~override/rqpotc02.itm~
+/* Unidentified name */
+SAY NAME1 ~Small Crate~
+/* Identified name */
+SAY NAME2 ~Small Crate~
+SAY DESC
+~Small crate marked with numeral II which you removed from hidden compartment of potion case. Whatever is inside must be quite valuable.~
+SAY UNIDENTIFIED_DESC
+~Small crate marked with numeral II which you removed from hidden compartment of potion case. Whatever is inside must be quite valuable.~
+
+// Small Crate
+COPY ~golden_horse/itm/rqpotc03.itm~ ~override/rqpotc03.itm~
+/* Unidentified name */
+SAY NAME1 ~Small Crate~
+/* Identified name */
+SAY NAME2 ~Small Crate~
+SAY DESC
+~Small crate marked with numeral III which you removed from hidden compartment of potion case. Whatever is inside must be quite valuable.~
+SAY UNIDENTIFIED_DESC
+~Small crate marked with numeral III which you removed from hidden compartment of potion case. Whatever is inside must be quite valuable.~
+
+// Small Crate
+COPY ~golden_horse/itm/rqpotc04.itm~ ~override/rqpotc04.itm~
+/* Unidentified name */
+SAY NAME1 ~Small Crate~
+/* Identified name */
+SAY NAME2 ~Small Crate~
+SAY DESC
+~Small crate marked with numeral IV which you removed from hidden compartment of potion case. Whatever is inside must be quite valuable.~
+SAY UNIDENTIFIED_DESC
+~Small crate marked with numeral IV which you removed from hidden compartment of potion case. Whatever is inside must be quite valuable.~
+
+// Small Crate
+COPY ~golden_horse/itm/rqpotc05.itm~ ~override/rqpotc05.itm~
+/* Unidentified name */
+SAY NAME1 ~Small Crate~
+/* Identified name */
+SAY NAME2 ~Small Crate~
+SAY DESC
+~Small crate marked with numeral V which you removed from hidden compartment of potion case. Whatever is inside must be quite valuable.~
+SAY UNIDENTIFIED_DESC
+~Small crate marked with numeral V which you removed from hidden compartment of potion case. Whatever is inside must be quite valuable.~
+
+// Small Crate
+COPY ~golden_horse/itm/rqpotc06.itm~ ~override/rqpotc06.itm~
+/* Unidentified name */
+SAY NAME1 ~Small Crate~
+/* Identified name */
+SAY NAME2 ~Small Crate~
+SAY DESC
+~Small crate marked with numeral VI which you removed from hidden compartment of potion case. Whatever is inside must be quite valuable.~
+SAY UNIDENTIFIED_DESC
+~Small crate marked with numeral VI which you removed from hidden compartment of potion case. Whatever is inside must be quite valuable.~
+
+// Small Crate
+COPY ~golden_horse/itm/rqpotc07.itm~ ~override/rqpotc07.itm~
+/* Unidentified name */
+SAY NAME1 ~Small Crate~
+/* Identified name */
+SAY NAME2 ~Small Crate~
+SAY DESC
+~Small crate marked with numeral VII which you removed from hidden compartment of potion case. Whatever is inside must be quite valuable.~
+SAY UNIDENTIFIED_DESC
+~Small crate marked with numeral VII which you removed from hidden compartment of potion case. Whatever is inside must be quite valuable.~
+
+
+// insect rings
+COPY ~golden_horse/itm/rqinsect.itm~ ~override/rqinsect.itm~
+COPY ~golden_horse/itm/rqnatur.itm~ ~override/rqnatur.itm~
+
+// Holy symbol of Bhaal
+COPY ~golden_horse/itm/rqhosy1.itm~ ~override/rqhosy1.itm~
+/* Unidentified name */
+SAY NAME1 ~Holy symbol of Bhaal~
+/* Identified name */
+SAY NAME2 ~Holy symbol of Bhaal~
+SAY UNIDENTIFIED_DESC
+~Holy symbol of Bhaal
+While on first inspection this looks like Holy symbol of Cyric but looking from side you notice that shadows combined with small holes form holy symbol of Bhaal.~
+
+/* ----------------------------------------- Amulets -----------------------------------------*/
+
+// Arragath's amulet -------------------------------------------------------------------------------------------------
+COPY ~golden_horse/itm/rqamul01.itm~ ~override/rqamul01.itm~
+/* Unidentified name */
+SAY NAME1 ~Silver Amulet~
+/* Identified name */
+SAY NAME2 ~Arragath's Amulet~
+//SAY UNIDENTIFIED_DESC
+SAY DESC
+~Arragath's Amulet
+Chroniclers record enchanter Arragath as first mage who possessed of Conster Damon's Amulet of Power. Seeing its utility he set out to make copies of the amulet he eventually succeeded though first copies were flawed compared to the original and did not have all the properties of the original amulet. How these "flawed" amulets left Arragath possession is not yet known. Though it is likely he simply sold them as they do have useful protective abilities. Amulet appears in form as the original though keen eyed can notice simplifications compared to original.
+
+STATISTICS
+
+While Equipped:
+ Vocalize
+ Immunity to Level Drain
+
+Not Usable By:
+ Thief
+ Fighter
+~
+// Amulet of Chark Nagal   -------------------------------------------------------------------------------------------------
+COPY ~golden_horse/itm/rqamul02.itm~ ~override/rqamul02.itm~
+/* Unidentified name */
+SAY NAME1 ~Amulet~
+/* Identified name */
+SAY NAME2  ~Amulet of Chark Nagal~
+SAY UNIDENTIFIED_DESC
+~Simple looking amulet.~
+SAY DESC
+~Amulet of Chark Nagal
+Sages do not know who actually created amulet yet story of Chark Nagal its most famous user is well known. Chark was old retired soldier when this amulet came to annals of history. Sages agree that it was Fulvuril elven rogue who first found that Chark possessed a Moonblade a highly prized artifact for any elf. At first Fulvuril attempted to get the blade peacefully but Chark was unbending so Fulvuril attempted to steal but Chark was just too fast for Fulvuril. Next Fulvuril attempted to throw vial of magical sleeping dust at Chark but he caught the vial mid air. Desperate Fulvuril brought in some elves from Evereska to help him. Elves prepared ambush with traps and archers however again Charks dexterity foiled their plans as Chark jumped away from trap and deflected arrow mid air. Scholars do not write what happened next but its most likely that elves killed Chark since Moonblade appeared in Evereska possessed by Fulvuril's family. Some say that Chark escaped and moved where elven assassins could not reach him.
+
+
+STATISTICS:
+Weight: 1 lbs
+
+STATISTICS:
+Dexterity +2
+THAC0 +1
+
+Unusable By:
+Wizardslayer
+~
+
+/* ----------------------------------------- Belts -----------------------------------------*/
+
+// Revan's Belt --------------------------------------------------------------------------------------------------------
+COPY ~golden_horse/itm/rqbelt01.itm~ ~override/rqbelt01.itm~
+/* Unidentified name */
+SAY NAME1 ~Revan's Belt~
+/* Identified name */
+SAY NAME2 ~Revan's Belt~
+SAY UNIDENTIFIED_DESC
+~Revan's Belt
+Ulvariel of Rens have commissioned this belt for himself but being a compulsive gambler he decided to to put highly restrictive enchantments on his belt so nobody and especially not himself would be tempted to play for his belt. Even if he would use the belt as collateral and lost the gamble. He would be able to buy it back cheaply once winners discovered they were unable to wear it. Ulvariel would use his belt as collateral for the last time on result of an sword duel with Revan Artecratos. Ulvariel lost the bet but was expecting to buy it back cheaply. Revan since he was fulfilling all but one of restrictions would instead pay enchanter to alter one of enchantments from human to elf and would then proceed to wear belt prominently much to chagrin of Ulvariel.
+
+STATISTICS:
+Strength: +1
+Adds one extra 1 attack/round
+Weight: 1
+Usable by:
+Mage/Thief or Fighter/Mage/Thief only
+Elf only
+Evil alignment
+Minimal Wisdom 10
+Minimal Intelligence 16
+Minimal Charisma 15
+Minimal Strength 14
+~
+// Wizard battle girdle -------------------------------------------------------------------------------------------------
+COPY ~golden_horse/itm/rqbelt02.itm~ ~override/rqbelt02.itm~
+/* Unidentified name */
+SAY NAME1 ~Belt~
+/* Identified name */
+SAY NAME2  ~Wizard Battle Girdle~
+SAY UNIDENTIFIED_DESC
+~Belt with woven with enchanted threads and imbued with protective magic.~
+SAY DESC
+~Wizard Battle Girdle
+This belt was crafted for war wizards based of Mirabar. It is known that multiple of these were crafted. Though any War Wizard would look dimly on anyone who possesses this belt and is not member of the company.
+
+STATISTICS:
+Wight: 1 lbs
+
+Equipped abilities:
+Spells:  Gives two extra first level spells, one extra second level spell and one extra third level spell
+Saving Throws +1
+Magic Resistance +5
+
+Usable By:
+Mage
+Bard
+~
+
+/* ----------------------------------------- Blunt -----------------------------------------*/
+
+// War hammer of Ihragan -------------------------------------------------------------------------------------------------
+COPY ~golden_horse/itm/rqhamm01.itm~ ~override/rqhamm01.itm~
+/* Unidentified name */
+SAY NAME1 ~War hammer~
+/* Identified name */
+SAY NAME2 ~War Hammer of Ihragan +3~
+SAY UNIDENTIFIED_DESC
+~Mounted knights cannot effectively use long pole weapons while on horseback, and as a result, many weapons have been fitted with shorter shafts so they may be wielded with just one hand.  Maces and flails are two previous examples of this - the war hammer is another.  The horseman's war hammer is a descendant of the Lucerne hammer.  It is made entirely of steel, with rondels protecting and strengthening the grip.  Rondels are small disks of metal, often shaped into decorative designs.  The shaft is about 18 inches long.
+
+STATISTICS:
+
+Damage:  1D4 + 1
+Damage type:  crushing
+Weight: 6
+Speed Factor: 4
+Proficiency Type: War Hammer
+Type:  1-handed
+Requires: 9 Strength
+Not Usable By:
+ Druid
+ Mage
+ Thief~
+
+SAY DESC
+~War Hammer of Ihragan +3
+While it is natural to feel disoriented after receiving blows from hammer of an poleaxe or war hammer. Pvolmier of Ihragan has decided to create weapon which would enhance these weapon qualities with magic. Since Pvolmier was tough minded but not a great blacksmith or great enchanter he would spend next three years perfecting this concept creating many prototypes. Failure is not an option he would say to his enchanter. Nevertheless in DR1344 by that time due to expenses of his pet project Pvolmier was quite destitute he succeeded. Further history is murky. Why or how weapon acquired its restrictions on alignment is unknown.
+
+STATISTICS:
+
+Combat Ability:
+
+THAC0:  +3 bonus
+Damage:  1D4 + 4
+Damage type:  crushing or piercing
+Weight: 2
+Speed Factor: 4
+Proficiency Type: War Hammer
+Type:  1-handed
+Requires Strength: 10
+
+
+Special Abilities:
+Each hit lowers opponents' Magic Resistance by 10%
+Each hit applies a penalty of -1 to opponents' AC
+Each hit makes the target receive a cumulative 2 point penalty to their THAC0
+Duration: 15 rounds
+
+
+Not Usable By:
+  Cleric/Ranger
+  Fighter/Druid
+  Mage
+  Mage/Thief
+  Paladin
+  Ranger
+  Thief
+  Monk
+  Druid
+  Any Neutral or Good Character
+~
+
+// Ceremonial poleaxe of Ihragan -------------------------------------------------------------------------------------------------
+COPY ~golden_horse/itm/rqhamm02.itm~ ~override/rqhamm02.itm~
+/* Unidentified name */
+SAY NAME1 ~Poleaxe~
+/* Identified name */
+SAY NAME2 ~Ceremonial Poleaxe of Ihragan +5~
+SAY UNIDENTIFIED_DESC
+~Twohanded Poleaxe with blunted axehad on front, spike on back and long spike at top.
+
+STATISTICS:
+
+Damage:  2D4
+Damage type:  crushing or piercing
+Weight: 18
+Speed Factor: 9
+Proficiency Type: War Hammer
+Type:  2-handed
+Requires: 9 Strength
+Not Usable By:
+ Druid
+ Mage
+ Thief~
+
+SAY DESC
+~Ceremonial Poleaxe of Ihragan +5
+While it is natural to feel disoriented after receiving blows from poleaxe. Pvolmier of Ihragan has decided to create weapon which would enhance these weapon qualities with magic. Since Pvolmier was tough minded but not a great blacksmith or great enchanter he would spend next three years perfecting concept creating many prototypes. Failure is not an option he would say to his enchanter. Nevertheless in DR1344 by that time due to expenses of his pet project Pvolmier was quite destitute he succeeded. This poleaxe seems to be massively enlarged version of original war hammer. Given ornamentation, ridiculous size and weight this weapon was supposed to be used by the city of Ihragan for ceremonial purposes.
+
+STATISTICS:
+
+THAC0:  +5 bonus
+Damage:  2D12 + 6 + 2d6 cold and 25% chance of 2d10 cold burst
+Damage type:  crushing or piercing
+Weight: 18
+Speed Factor: 9
+Proficiency Type: War Hammer
+Type:  2-handed
+Requires Strength: 21
+
+Special Abilities:
+Each hit lowers opponents' Magic Resistance by 10%
+Each hit applies a penalty of -1 to opponents' AC
+Each hit makes the target receive a cumulative 2 point penalty to their THAC0
+Duration: 15 rounds
+
+Not Usable By:
+  Cleric/Ranger
+  Fighter/Druid
+  Mage
+  Mage/Thief
+  Paladin
+  Ranger
+  Thief
+  Monk
+  Druid
+  Any Neutral or Good Character
+~
+// Rod of Charisma -------------------------------------------------------------------------------------------------
+COPY ~golden_horse/itm/rqrod01.itm~ ~override/rqrod01.itm~
+/* Unidentified name */
+SAY NAME1 ~Rod~
+/* Identified name */
+SAY NAME2 ~Rod of Charisma +4~
+SAY UNIDENTIFIED_DESC
+~Rods are about three feet long and as thick as your thumb. They are normally found in cases or similar storage places. Rods can be fashioned from metal, wood, ivory, or bone. They can be plain or decorated and carved, tipped, or not.  Rods are powered by charges, unless noted otherwise in the description of a particular rod. Each time the rod is used, one or more charge may be expended.~
+SAY DESC
+~Rod of Charisma +4
+This deceptively named weapon was ordered by unknown priest of Red Knight who sought to enhance his charisma.
+The story goes that after leaving blacksmiths house. Priest would visit an inn in which thieving patrons attempted to steal rod from him. Fight ensued but when priest realized that the more he struck his opponent. The more horrid his opponent would look. Unsettled, priest would return the weapon very same day.
+Rod never found much usage despite being highly enchanted due to seemingly useless nature of draining charisma ability and its wisdom requirement.
+
+Weapon requires certain Wisdom which was required by priest who ordered weapon.
+Good aligned character might refuse to use weapon being disturbed by weapons horrifying effects.
+
+STATISTICS:
+
+THAC0:  +4 bonus
+Damage:  1D8 + 4
+Damage type:  crushing
+Weight: 3
+Speed Factor: 1
+Proficiency Type: Quarterstaff
+Type:  2-handed
+Requires: 13 Wisdom
+
+Special Abilities: Target loses 2 points of charisma each hit (duration: 60 seconds)
+
+Not Usable By:
+  Monk
+  Good characters
+~
+
+/* ----------------------------------------- Boots -----------------------------------------*/
+
+// Armored Boots +2 AC +1 CON -------------------------------------------------------------------------------------------------
+COPY ~golden_horse/itm/rqboot01.itm~ ~override/rqboot01.itm~
+/* Unidentified name */
+SAY NAME1 ~Armored Boots~
+/* Identified name */
+SAY NAME2 ~Erlanger's Dilemma~
+SAY UNIDENTIFIED_DESC
+~These boots from outside appear nothing out of ordinary but if you examine the closely you will notice steel inserts in front and steel splints surrounding lower leg.~
+SAY DESC
+~Erlanger's Dilemma
+Baron Erlanger was royal courtier in 767DR in court King whose name was forgotten by chroniclers. Being around king demanded he needed to show up at court suitably dressed and following latest trends. But Erlanger had problem he wanted to stay protected even in court thus he ordered armor which would wear under clothing and these armored boots was part of that harness. It is known that boots as part of his armor had protected him at least on one occasion. Erlanger would die of old age in his castle no doubt thankful to his foresight.
+
+STATISTICS:
+
+AC bonus +2
+Constitution Bonus +1
+Weight: 4
+
+Not Usable By:
+  Druid
+  Fighter/Druid~
+// Boots of Acid Sheath -------------------------------------------------------------------------------------------------
+COPY ~golden_horse/itm/rqboot02.itm~ ~override/rqboot02.itm~
+/* Unidentified name */
+SAY NAME1 ~Armored Boots~
+/* Identified name */
+SAY NAME2 ~Boots of Acid Sheath~
+SAY UNIDENTIFIED_DESC
+~These boots from outside appear nothing out of ordinary but if you examine the closely you will notice steel inserts in front and steel splints surrounding lower leg.~
+SAY DESC
+~Boots of Acid Sheath
+I want armor that that would punish any blow against me! Hjorth demanded but various blacksmiths thought it was impossible to do such armor as the thorns or protrusions would impede protective role of armor. Hjorth almost gave up until traveling enchanter offered to accomplish where others have failed. Enchanter instead of enchanting armor put protective magic on pair of boots which surrounded wearer with acidic barrier that strikes anyone attacking.
+Hjorth was very happy with progress of enchanting but unknown enchanter was not. Hjorth's frequent visits together with his erratic behavior convinced enchanter to leave in such haste that he would even forego his payment.
+
+STATISTICS:
+
+AC bonus +2
+Weight: 4
+Acid resistance +100% bonus
+
+Equipped Abilities:
+Thorn Damage - each successful hit on the wearer inflicts 1D3 points of acid damage to the attacker
+
+Not Usable By:
+  Druid
+  Fighter/Druid
+~
+// Boots of long life -------------------------------------------------------------------------------------------------
+COPY ~golden_horse/itm/rqboot03.itm~ ~override/rqboot03.itm~
+/* Unidentified name */
+SAY NAME1 ~Armored boots~
+/* Identified name */
+SAY NAME2 ~Boots of Long Life~
+SAY UNIDENTIFIED_DESC
+~These boots from outside appear nothing out of ordinary but if you examine the closely you will notice steel inserts in front and steel splints surrounding lower leg.~
+SAY DESC
+~Boots of Long Life
+Here traveler by magic of these boots you shall survive. Konthor of Adaerglast via his servant had gifted these boots to Eppliegen the robber knight. Konthor had hoped Eppliegen would survive and continue to raid villages owned by his opponents but it was already too late. Eppliegen would surrender and leave his castle to live rest of his life as monk.
+
+STATISTICS:
+
+AC bonus +1
+Weight: 4
++20 bonus to hit points
+
+Not Usable By:
+  Druid
+  Fighter/Druid
+~
+// Boots of fiery persuasion -------------------------------------------------------------------------------------------------
+COPY ~golden_horse/itm/rqboot04.itm~ ~override/rqboot04.itm~
+/* Unidentified name */
+SAY NAME1 ~Boots~
+/* Identified name */
+SAY NAME2  ~Boots of Fiery Persuasion~
+SAY UNIDENTIFIED_DESC
+~Boots are normally hand-made by cobblers.  Common boots are made by using a form, but good boots are designed for the foot of an individual.~
+SAY DESC
+~Boots of Fiery Persuasion
+Boots got name from apprentice who persuaded his mentor Ivalinen enchant these for the foolish apprentice who loved the experience of being struck by fire spells. Foolish apprentice met his end after persuading Great magi to cast fire spell. Magi cast Sunfire and apprentice burned to cinder. Ivalinen must have sold the boots out of grief.
+
+STATISTICS:
+Weight: 4 lbs
+
+Equipped Abilities:
+Immune to spells Burning hands, Agannazar's Scorcher, Flame Arrow, Fireball
++15% Fire Resistance
+
+Not usable by:
+Wizardslayer
+~
+
+/* ----------------------------------------- Bracers -----------------------------------------*/
+
+// Gauntlets of Time Manipulation   -------------------------------------------------------------------------------------------------
+COPY ~golden_horse/itm/rqbrac01.itm~ ~override/rqbrac01.itm~
+/* Unidentified name */
+SAY NAME1 ~Gauntlets~
+/* Identified name */
+SAY NAME2  ~Gauntlets of Time Manipulation~
+SAY UNIDENTIFIED_DESC
+~Gauntlets are armored gloves.  They can be made of leather, metal plates, or chain mail.  Every suit of armor is assumed to include gauntlets of an appropriate type.  Magical gauntlets tend to be finer, lighter, and more easily worn than normal varieties.~
+SAY DESC
+~Gauntlets of Time Manipulation
+Scholars due unusual abilities of the gauntlets to manipulate present time speculate it is ancient artifact dating back from time of Netheril nevertheless nothing was known about the artifact from those times. Other scholars speculate artifact could have been made by psionics. As psionics are known to manipulate present time.
+This lack of written down history of the artifacts have led some scholars to speculate that power of gauntlets over time causes gaps of knowledge about history of artifact.
+Gauntlets first appear in DR794 record is about unknown adventurer who lost them in gamble to Barbarian fighting cleric named Kersutim Namahan used his newly augmented fighting skills to become Chieftain and attempted to unite neighboring tribes. Though his campaign was cut short when he fell to trap laid by one of the opposing tribes.
+Second record is from DR1269 when they were found by Cleric named Esmer but he was unable to use them so he passed them to fighting Cleric Ehgel Enerviel who used them for good measure against Illithids in Underdark. How did the gauntlets appeared back to surface is not known since Ehgel perished there not by Illithids though.
+Third and last is from Durpar where unknown adventurers challenged lycanthrope Grush Silverback to one on one duel. Amused Grush accepted and brought two Clay Golems as backup but was slain by adventurer wearing the gauntlets.
+
+STATISTICS:
+Wight: 2 lbs
+
+Equipped Abilities:
+Armor Class:  +1 bonus
+Double Duration for all Mage & Clerical Spells
+Immunity to Slow
+Luck bonus +2
+Critical Hit Bonus +1
+
+Usable By:
+  Fighter/Mage
+  Fighter/Mage/Thief
+  Fighter/Mage/Cleric
+  Fighter/Cleric
+~
+// Bracers of Health -------------------------------------------------------------------------------------------------
+COPY ~golden_horse/itm/rqbrac02.itm~ ~override/rqbrac02.itm~
+/* Unidentified name */
+SAY NAME1 ~Bracers~
+/* Identified name */
+SAY NAME2  ~Bracers of Health~
+SAY UNIDENTIFIED_DESC
+~Mundane looking bracers nothing suggests that they are actually magical.~
+SAY DESC
+~Bracers of health
+These bracers are result of friendly competition between two mages. The pair sought to create artifact in shortest possible time. Naturally both mages chose simple enchantments but magi who created these bracers cheated a little and used bracers already enchanted with speed increase. When donned the bracers Jusuq proclaimed "Very good Alfreet very good you even put enchantment that useful for everyone... Wait a minute you cheater! I refuse to do anything with cheaters!" and stormed away. Alfreet barged to Jusuq study next day and duo buried their disagreement as quickly as it erupted. Alfreet later sold bracers and since utility of enchantment the bracers do see a lot of use.
+
+STATISTICS:
+Weight: 2 lbs
+
+STATISTICS:
+Maximum HP bonus +20
+Movement Rate Bonus +2
+
+Not usable By:
+Wizardslayer
+Kensai
+~
+// Graal's Strength   -------------------------------------------------------------------------------------------------
+COPY ~golden_horse/itm/rqbrac03.itm~ ~override/rqbrac03.itm~
+/* Unidentified name */
+SAY NAME1 ~Gauntlets~
+/* Identified name */
+SAY NAME2  ~Graal's Strength~
+SAY UNIDENTIFIED_DESC
+~Magical gauntlets of unclear power.~
+SAY DESC
+~Graal's strength
+Gauntlets first appeared in annals chroniclers in DR 1163. Graal then just recently usurped position of Baron Gundur Bronvensson. Graal while cunning warrior lacked the raw physical prowess for tournaments which nobles do enjoy so he ordered pair of these gauntlets to affirm his position among nobles and awe his subjects. However during very during first tournament unknown knight facing Graal managed to land hit on Graals hands forcing him to remove his gauntlets. Other knights noted the reduction Graal's skill and strength and sought to humiliate him for his attempt to cheat in the competition. Graal willpower had failed him and he descended into madness. This surprised men-at-arms for they were now superior both in skill and strength hacked the unfortunate Graal to pieces. From there on Gauntlets were mockingly known as Graal's Strength.
+
+STATISTICS:
+Wight: 2 lbs
+
+STATISTICS:
+Set strength to 19
+Dexterity +2
+Constitution +2
+
+Unusable By:
+Mage
+Bard
+Druid
+Mage/Thief
+Thief
+Wizard slayer
+Kensai
+~
+
+/* ----------------------------------------- Cloaks -----------------------------------------*/
+
+// Cloak of Magical Absorption -------------------------------------------------------------------------------------------------
+COPY ~golden_horse/itm/rqclck01.itm~ ~override/rqclck01.itm~
+/* Unidentified name */
+SAY NAME1 ~Cloak~
+/* Identified name */
+SAY NAME2  ~Cloak of Magical Absorption~
+SAY UNIDENTIFIED_DESC
+~Magical cloak of unidentified magical properties.~
+SAY DESC
+~Cloak of Magical Absorption
+Krulomo originally created this magic as part of a golem-making project, but later reworked it into a cloak. Why he parted with the cloak is not known. One scholar from Sembia has suggested that, while powerful, it is still a charged item, and so Krulomo sold it to recoup part of his costs.
+
+STATISTICS:
+Weight: 2 lbs
+
+Abilities: Trap Spell
+   Duration: 8 hours or until 30 spell levels have been trapped
+   Use: One charge per use
+
+Usable by:
+Mages (Single-class,Multi-class,Dual-class)
+Bards
+Sorcerers
+~
+
+/* ----------------------------------------- Helmets -----------------------------------------*/
+
+//Star of spell Sequencing   -------------------------------------------------------------------------------------------------
+COPY ~golden_horse/itm/rqisto01.itm~ ~override/rqisto01.itm~
+/* Unidentified name */
+SAY NAME1 ~Ioun Stone~
+/* Identified name */
+SAY NAME2  ~Star of Spell Sequencing~ //~Ioun Stone of protection~
+SAY UNIDENTIFIED_DESC
+~This is a small stone that floats in an orbit around the owner's head.  Simply equip the stone to set it in its orbit.  These obviously magical stones have different properties depending on their color.~
+SAY DESC
+~Star of Spell Sequencing
+You call this useful?! After I use up spells it doesn't do anything! Chroniclers record Bruno chastising his enchanter for Ring of spell sequencing. So Julich the enchanter created this ioun stone which additionally protects wearer from harm. Ring of spell sequencing the original precursor to this artifact does not survive but Ioun Stone "Star" does and it has changed ownership many times since then. However due to shortcuts taken by Julich the artifact requires certain amount of Intelligence.
+
+
+STATISTICS:
+Wight: 2 lbs
+
+Equipped Abilities:
+Armor Class:  +2 bonus
+Saving Throws:  +2 bonus
+
+Special Abilities:
+Spell Sequencer once per day
+Spell Trigger once per day
+Contigency once per day
+
+Usable By:
+  Mages (Single-class,Multi-class,Dual-class)
+  Intelligence at least 16
+~
+
+//Ioun stone of elemental protection   -------------------------------------------------------------------------------------------------
+COPY ~golden_horse/itm/rqisto02.itm~ ~override/rqisto02.itm~
+/* Unidentified name */
+SAY NAME1 ~Ioun Stone~
+/* Identified name */
+SAY NAME2  ~Ioun Stone of Elemental Protection~
+SAY UNIDENTIFIED_DESC
+~This is a small stone that floats in an orbit around the owner's head.  Simply equip the stone to set it in its orbit.  These obviously magical stones have different properties depending on their color.~
+SAY DESC
+~Ioun Stone of Elemental Protection
+Imarmann as part of the deposit had received services of enchanter and first thing he was ordered to create was series of ioun stones one of them was was this Ioun stone of elemental protection. Unlike other artifacts ioun stones made for Imarmann do not have much of a history. Imarmann himself had used them sparingly. Scholars only known records are above mentioned of contract and Imarmann accounting records. The stone then was auctioned off by successive merchant company.
+
+
+STATISTICS:
+Wight: 2 lbs
+
+Equipped Abilities:
+Armor Class:  +1 bonus
++15% Fire Resistance
++15% Acid Resistance
++15% Lighting Resistance
++15% Cold Resistance
+
+
+Not Usable By:
+  Wizardslayer
+  Intelligence at least 14
+~
+
+/* ----------------------------------------- Quick slot -----------------------------------------*/
+
+// Book of the Dead   -------------------------------------------------------------------------------------------------
+COPY ~golden_horse/itm/rqtome01.itm~ ~override/rqtome01.itm~
+/* Unidentified name */
+SAY NAME1 ~Tome~
+/* Identified name */
+SAY NAME2  ~Book of the Dead~
+SAY UNIDENTIFIED_DESC
+~An ornate, leather-bound tome. The tome is of very unusual design. Each side has two screws penetrating each corner of the book. Functioning as bookmark but forcing the book to be opened only on one page.~
+SAY DESC
+~Book of the Dead
+The famed book of the Dead. This apparently lesser copy is secured in such way so it can only open the page with Animate Dead spell. Why did the makers bothered to make this tome while limiting to display only pages on Animate Dead spell is unclear to you.
+
+STATISTICS:
+Weight: 2 lbs
+
+STATISTICS:
+   Can cast Animate Dead spell for 8 hours thrice/day
+
+Usable By:
+Mages
+Bards
+~
+// Gem of Seeing -------------------------------------------------------------------------------------------------
+COPY ~golden_horse/itm/rqgem01.itm~ ~override/rqgem01.itm~
+/* Unidentified name */
+SAY NAME1 ~Emerald~
+/* Identified name */
+SAY NAME2  ~Charged Gem of Seeing~
+SAY UNIDENTIFIED_DESC
+~An Emerald is a brilliant green beryl, cleaved along straight box like lines, with rectangular cutting in the finished gem.  Emeralds are often connected with health, and so are used ornamentally for such a purpose.~
+SAY DESC
+~Gem of Seeing
+When command word is invoked this gem dispell any illusions and reveal any hidden, illusionary, invisible, astral, ethereal, or out-of-phase within viewing range, as if user was affected by a True Seeing spell
+
+STATISTICS:
+True Seeing once per day
+
+Not Usable By:
+Wizardslayer
+~
+
+/* ----------------------------------------- Rings -----------------------------------------*/
+
+// Ring of Uwynn   -------------------------------------------------------------------------------------------------
+COPY ~golden_horse/itm/rqring01.itm~ ~override/rqring01.itm~
+/* Unidentified name */
+SAY NAME1 ~Ring~
+/* Identified name */
+SAY NAME2 ~Ring of Uwynn~
+SAY UNIDENTIFIED_DESC
+~A ring is a small band of precious metal that is used as jewelry.  Some rare rings have had enchantments placed upon them that confer various magical abilities.  These rings are highly sought after, especially by those of the adventuring profession.~
+SAY DESC
+~Ring of Uwynn
+Uwynn was small time thief roaming the streets of Waterdeep. But one his life changed completely by chance he was hired by Mage Algusynn the Elder to perform simple robbery. Uwynn succeeded though for Algusynn this was just test of abilities he sent Uwynn on more and more challenging tasks. One day Uwynn increasingly wary of risks asked for help so Algusynn gifted him this ring. Uwynn is dead now though his ring went on be accessory for many successful thieves.
+
+STATISTICS:
+
+Equipped Abilities:
++60% to set snares
++10% to hide in shadows
++10% to move silently
++60% to detect illusions
+
+Usable By:
+  Thieves (Single-class,Multi-class,Dual-class), Rangers, Monks
+~
+// Lesser Blessed ring   -------------------------------------------------------------------------------------------------
+COPY ~golden_horse/itm/rqring02.itm~ ~override/rqring02.itm~
+/* Unidentified name */
+SAY NAME1 ~Ring~
+/* Identified name */
+SAY NAME2 ~Lesser Blessed Ring~
+SAY UNIDENTIFIED_DESC
+~A ring is a small band of precious metal that is used as jewelry.  Some rare rings have had enchantments placed upon them that confer various magical abilities.  These rings are highly sought after, especially by those of the adventuring profession.~
+SAY DESC
+~Lesser Blessed Ring
+These rings are common equipment among priests. They are relatively simple to make and enchant so if any priest has to travel richer temple might provide traveling priest with one.
+This ring has holy symbol of Leira perhaps explaining ability to cast Armor of Faith.
+
+STATISTICS:
+
+Equipped Abilities:
+Wearer is under the effects of a Bless spell while equipped
+Can cast Armor of Faith once per day.
+
+
+Not Usable By:
+Wizardslayer
+~
+// Ring of Spell mastery   -------------------------------------------------------------------------------------------------
+COPY ~golden_horse/itm/rqring03.itm~ ~override/rqring03.itm~
+/* Unidentified name */
+SAY NAME1 ~Ring~
+/* Identified name */
+SAY NAME2 ~Ring of Spell Mastery~
+SAY UNIDENTIFIED_DESC
+~A ring is a small band of precious metal that is used as jewelry.  Some rare rings have had enchantments placed upon them that confer various magical abilities.  These rings are highly sought after, especially by those of the adventuring profession.~
+SAY DESC
+~Ring of Spell Mastery
+Oh yeah I will better mage then you could ever be! These were last words of Berneke the younger as he was storming out his former master. Berneke at that point was barely able to cast Burning Hands and barely had few coppers to his name. Scholars are divided whether Berneke had hired himself as mercenary or became adventurer nevertheless he became quite skilled practitioner of both divine and arcane. Chroniclers record of their meeting as such: "Master! it is I Berneke! Berneke thrown this ring at his master and uttered: Wear this perhaps this will help you in forthcoming spell battle!" Berneke handily beat his old master and left accompanied by his mercenary company.
+
+STATISTICS:
+
+Equipped Abilities:
+Casting level bonus: +4 Mage
+Casting level bonus: +4 Cleric
+
+Usable By:
+  Bards
+  Sorcerers
+  Mages(Single-class,Multi-class,Dual-class)
+  Clerics(Single-class,Multi-class,Dual-class)
+~
+// Thrice Blessed ring -------------------------------------------------------------------------------------------------
+COPY ~golden_horse/itm/rqring04.itm~ ~override/rqring04.itm~
+/* Unidentified name */
+SAY NAME1 ~Golden ring~
+/* Identified name */
+SAY NAME2  ~Thrice Blessed Ring~
+SAY UNIDENTIFIED_DESC
+~Golden ring without any gem inlay other interesting properties are scratched out symbols.~
+SAY DESC
+~Thrice Blessed Ring
+Pelhrim of Estagund had everything favor of nobles favor of city folk after his heroic deeds in defense of the city. But all that fame and attention weighted heavily upon him. During procession of handing over this ring he screamed at crowd "Enough! I just want to be left alone!" and ran away. Nobody bothered Pelhrim after but one noble who wished to use Pelhrim for his own purposes. One day the noble did not return and everyone started to suspect Pelhrim. Pelhrim came to city to exonerate himself but left in hurry shouting "It wasn't me! It wasn't me!"
+Ring was found in well soon after with holy symbols scratched out. How this happened is mystery as magic artifacts are supposed to be nearly indestructible...
+
+STATISTICS:
+Wearer is under the effects of a Bless, Aid and Chant spell while equipped
+Can cast Armor of Faith once per day.
+
+Not Usable By:
+Wizardslayer
+~
+
+/* ----------------------------------------- Robes -----------------------------------------*/
+
+// Iluvaskar's Robe of Defence   -------------------------------------------------------------------------------------------------
+COPY ~golden_horse/itm/rqrobe01.itm~ ~override/rqrobe01.itm~
+/* Unidentified name */
+SAY NAME1 ~Robe~
+/* Identified name */
+SAY NAME2  ~Iluvaskar's Robe of Defence~
+SAY UNIDENTIFIED_DESC
+~Very unusual robe as it has sown in small plates outside. Robe's inside quilted at least 30 layers of silk.~
+SAY DESC
+~Iluvaskar's Robe of Defence
+Iluvaskar created this robe with aim to of lessening impacts of blows on his traveling apprentices. Unfortunately for Iluvaskar one of his apprentices gambled away his robe to Frahlen the mercenary leader. Awed by protection ability Frahlen tried to extort Iluvaskar to create armor with similar qualities. What happened thereafter is not clear as no other records of incident remain. Later records are unreliable and fanciful.
+
+STATISTICS:
+Wight: 20 lbs
+
+Equipped abilities:
+  +15% resistance to blunt weapons
+  +15% resistance to slashing weapons
+  +15% resistance to piercing weapons
+  AC bonus +2
+
+Usable By:
+Mages
+Bards
+~
+
+//  Robe of Cures "Ilhunien"  -------------------------------------------------------------------------------------------------
+COPY ~golden_horse/itm/rqrobe02.itm~ ~override/rqrobe02.itm~
+/* Unidentified name */
+SAY NAME1 ~Robe~
+/* Identified name */
+SAY NAME2  ~Robe of Cures "Ilhunien"~
+SAY UNIDENTIFIED_DESC
+~Enchanted robe with multiple words "Ilhunien" embroidered inside.~
+SAY DESC
+~Robe of Cures "Ilhunien"
+Ilhunien was name of one part of assassin duo. Beautiful Bard would charm or distract would be victims and Ilhunen partner would strike soon after. It worked very well until it didn't.
+One target of of assassin duo wore enchanted item providing him immunity from backstab and nearly killed them. The duo then decided to make every one of their assassination contracts original
+Once the duo would disguise themselves as beggars starting fight. They would make the scuffle amusing as possible and struck when mark was laughing. This necessitated longer time per contract and contingencies if the plant had failed. As result of their need Robe of Cures came to existence. What happened of famed duo is not known most likely they are dead or their thread of destiny had led to some other demise. In either case even if they were alive they would be in their late fifties by now. Unless... unless they are something else than humans now and wish to disappear. This would have necessitated getting rid of their trademark equipment. Threaten chroniclers to write that they are old or dead and might explain why they do not need curative properties of this Robe...
+
+STATISTICS:
+Wight: 3 lbs
+AC bonus +2
+
+Special Abilities:
+Can cast following abilities once per day
+
+Remove Paralysis
+  Duration: Permanent
+  Area of Effect: 15-foot radius
+  Saving Throw: None
+
+By the use of this spell, the priest can free several creatures from the effects of any paralyzation or related magic (such as a ghoul touch, or a hold spell).
+
+Zone of Sweet Air
+  Range: 30 yards
+  Duration: Instant
+  Saving Throw: None
+
+Zone of Sweet Air repels all noxious elements from poisonous vapors (including magically created vapors such as Cloudkill).  This spell will dismiss all clouds in the entire area that the caster is currently in.  The spell offers no protection against poisonous vapors created by a dragon's breath weapon (such as the chlorine gas of a green dragon).
+
+Neutralize Poison
+  Range: Touch
+  Duration: Instant
+  Area of Effect: Creature touched
+  Saving Throw: None
+
+This spell removes all toxins from the body, both natural and magical in nature.  When this spell is cast upon a poisoned individual, it immediately neutralizes any poison and restores 10 lost hit points.   This spell will also cure any diseases that the target may be suffering from, as well as blindness and deafness.
+
+Usable By:
+Clerics(Single-class,Multi-class,Dual-class)
+Bards
+~
+
+/* ----------------------------------------- Shields -----------------------------------------*/
+
+// Shield of Augthor -------------------------------------------------------------------------------------------------
+COPY ~golden_horse/itm/rqshld01.itm~ ~override/rqshld01.itm~
+/* Unidentified name */
+SAY NAME1 ~Large Shield~
+/* Identified name */
+SAY NAME2 ~Shield of Augthor +4~
+SAY UNIDENTIFIED_DESC
+~Large and lightweight shield adorned with Holy symbol Deneir.
+
+STATISTICS:
+
+Armor Class Bonus: 1
+Special:  +1 vs. Missile Weapons
+Weight: 6
+Requires: 15 Strength
+Not Usable By:
+ Bard
+ Druid
+ Mage
+ Thief
+~
+SAY DESC
+~Shield of Augthor
+Gerd Augthor while traveling saw strange mage as his bag fell while on horseback. Gerd sped up to grab the bag so the could return it to stranger but when he reached curve in road the stranger was nowhere to be found. It was as if he disappeared into thin air. Gerd peered into bag which revealed components for shield construction Gerd who at the time was penniless joined mercenary group so he could gather enough gold to construct shield which after his death became known as Shield of Augthor. Gerd is now dead so his remaining family must have sold the shield.
+Scholars overwhelmingly agree on "strange mage" was Deneir.
+
+STATISTICS:
+
+AC bonus +5
+Special:  +1 vs. Missile Weapons
+Weight: 6
+Requires: 15 Strength
+Improves casting speed by 1
+
+Not Usable By:
+  Bard
+  Fighter/Druid
+  Mage
+  Mage/Thief
+  Thief
+  Monk
+  Druid
+  Wizardslayer
+  Kensai
+~
+
+/* ----------------------------------------- Wands -----------------------------------------*/
+
+//  Wand of Auxiliary Spells  -------------------------------------------------------------------------------------------------
+COPY ~golden_horse/itm/rqwand01.itm~ ~override/rqwand01.itm~
+/* Unidentified name */
+SAY NAME1 ~Wand~
+/* Identified name */
+SAY NAME2  ~Wand of Auxiliary Spells~
+//SAY UNIDENTIFIED_DESC
+
+SAY DESC
+~Wand of Auxiliary Spells
+First wands with multiple unrelated spells date even before Dalereckoning though creation of such wands is always expensive undertaking. This particular one seems to bear marking of church of Tymora.
+
+STATISTICS:
+Wight: 1 lbs
+
+Ability 1:
+  Effect: Zone of Sweet Air (Abjuration)
+  Sphere: Wards
+  Range: 30 yards
+  Area of Effect: Special
+
+Zone of Sweet Air repels all noxious elements from poisonous vapors (including magically created vapors such as Cloudkill).  This spell will dismiss all clouds in the entire area that the caster is currently in.  The spell offers no protection against poisonous vapors created by a dragon's breath weapon (such as the chlorine gas of a green dragon).
+
+Ability 2:
+  Effect: Knock
+  Range: Visual range of caster
+  Area of Effect: Locked door or chest
+
+  The knock spell opens locked, held or wizard-locked doors.  It opens secret doors, as well as locked boxes or chests.  It does not raise barred gates or similar impediments.
+
+Ability 3:
+  Effect: Remove Curse
+  Range: 15 feet
+
+  Upon casting this spell, the wizard is usually able to remove a curse on an object, on a person, or in the form of some undesired sending or evil presence. Note that the remove curse spell does not remove the curse from a cursed shield, weapon, or suit of armor, for example, although the spell typically enables the person afflicted with any such cursed item to get rid of it. Certain special curses may not be countered by this spell, or may be countered only by a caster of a certain level or more.
+
+Usable By:
+Mages(Single-class,Multi-class,Dual-class)
+Bards
+~
+//SAY UNIDENTIFIED_DESC @12
+//SAY DESC @12
+
+//REQUIRE_PREDICATE MOD_IS_INSTALLED "setup_golden_horse.tp2" "0" "You must have main component of Revan NPC installed"
+//BEGIN 100 DESIGNATED 100 LABEL "Revan alternative class Assasin/Mage multi-class"
+
+// copy sounds
+COPY ~golden_horse/sounds~ ~override~
+
+COPY ~golden_horse/portraits~ ~override~
+
+// Add NPC dialog references ----- Revan Artecratos -----
+
+APPEND ~pdialog.2da~ // SOA append
+~rqrev         rqrevP               rqrevJ              rqrevD~
+UNLESS ~rqrev~ // somehow we are already there, skip it
+UNLESS ~25POST~ // means TOB is installed, skip it
+
+APPEND ~pdialog.2da~ // TOB append
+~rqrev         rqrevP               rqrevJ             rqrev25D         rqrev25P           rqrev25J           rqrev25D             rqrev25~
+UNLESS ~rqrev~ // we are already there, skip it
+IF     ~25POST~ // requires TOB to be installed
+
+APPEND ~interdia.2da~ // SOA append
+~rqrev         Brqrev~
+UNLESS ~rqrev~ // somehow we are already there, skip it
+UNLESS ~25POST~ // means TOB is installed, skip it
+
+APPEND ~interdia.2da~ // TOB append
+~rqrev         Brqrev          Brqrev25~
+UNLESS ~rqrev~ // we are already there, skip it
+IF     ~25POST~ // requires TOB to be installed
+
+// Add NPC dialog references #Battlerager ----- Mercenary -----
+
+APPEND ~pdialog.2da~ // SOA append
+~rqfbe         rqfbeP               rqfbeJ              rqfbeD~
+UNLESS ~rqfbe~ // somehow we are already there, skip it
+UNLESS ~25POST~ // means TOB is installed, skip it
+
+APPEND ~pdialog.2da~ // TOB append
+~rqfbe         rqfbeP               rqfbeJ             rqfbe25D         rqfbe25P           rqfbe25J           rqfbe25D             rqfbe25~
+UNLESS ~rqfbe~ // we are already there, skip it
+IF     ~25POST~ // requires TOB to be installed
+
+APPEND ~interdia.2da~ // SOA append
+~rqfbe         Brqrev~
+UNLESS ~rqfbe~ // somehow we are already there, skip it
+UNLESS ~25POST~ // means TOB is installed, skip it
+
+APPEND ~interdia.2da~ // TOB append
+~rqfbe         Brqfbe          Brqfbe25~
+UNLESS ~rqfbe~ // we are already there, skip it
+IF     ~25POST~ // requires TOB to be installed
+
+// Add NPC dialog references #Battlerager #2 Breneke ----- Mercenary -----
+
+APPEND ~pdialog.2da~ // SOA append
+~rqfbet         rqfbetP               rqfbetJ              rqfbetD~
+UNLESS ~rqfbe~ // somehow we are already there, skip it
+UNLESS ~25POST~ // means TOB is installed, skip it
+
+APPEND ~pdialog.2da~ // TOB append
+~rqfbet         rqfbetP               rqfbetJ             rqfbet25D         rqfbet25P           rqfbet25J           rqfbet25D             rqfbet25~
+UNLESS ~rqfbet~ // we are already there, skip it
+IF     ~25POST~ // requires TOB to be installed
+
+APPEND ~interdia.2da~ // SOA append
+~rqfbet         Brqrev~
+UNLESS ~rqfbet~ // somehow we are already there, skip it
+UNLESS ~25POST~ // means TOB is installed, skip it
+
+APPEND ~interdia.2da~ // TOB append
+~rqfbet         Brqfbet          Brqfbet25~
+UNLESS ~rqfbet~ // we are already there, skip it
+IF     ~25POST~ // requires TOB to be installed
+
+// Add NPC dialog references #Fighter/Thief ----- Mercenary -----
+/*
+APPEND ~pdialog.2da~ // SOA append
+~rqfth         rqfthP               rqfthJ              rqfthD~
+UNLESS ~rqfth~ // somehow we are already there, skip it
+UNLESS ~25POST~ // means TOB is installed, skip it
+
+APPEND ~pdialog.2da~ // TOB append
+~rqfth         rqfthP               rqfthJ             rqfth25D         rqfth25P           rqfth25J           rqfth25D             rqfth25~
+UNLESS ~rqfth~ // we are already there, skip it
+IF     ~25POST~ // requires TOB to be installed
+
+APPEND ~interdia.2da~ // SOA append
+~rqfth         Brqfth~
+UNLESS ~rqfth~ // somehow we are already there, skip it
+UNLESS ~25POST~ // means TOB is installed, skip it
+
+APPEND ~interdia.2da~ // TOB append
+~rqfth         Brqfth          Brqfth25~
+UNLESS ~rqfth~ // we are already there, skip it
+IF     ~25POST~ // requires TOB to be installed
+*/
+// Add NPC dialog references #Sorcerer ----- Mercenary -----
+
+APPEND ~pdialog.2da~ // SOA append
+~rqsrc         rqsrcP               rqsrcJ              rqsrcD~
+UNLESS ~rqsrc~ // somehow we are already there, skip it
+UNLESS ~25POST~ // means TOB is installed, skip it
+
+APPEND ~pdialog.2da~ // TOB append
+~rqsrc         rqsrcP               rqsrcJ             rqsrc25D         rqsrc25P           rqsrc25J           rqsrc25D             rqsrc25~
+UNLESS ~rqsrc~ // we are already there, skip it
+IF     ~25POST~ // requires TOB to be installed
+
+APPEND ~interdia.2da~ // SOA append
+~rqsrc         Brqsrc~
+UNLESS ~rqsrc~ // somehow we are already there, skip it
+UNLESS ~25POST~ // means TOB is installed, skip it
+
+APPEND ~interdia.2da~ // TOB append
+~rqsrc        Brqsrc          Brqsrc25~
+UNLESS ~rqsrc~ // we are already there, skip it
+IF     ~25POST~ // requires TOB to be installed
+
+
+// Add NPC dialog references #Cleric/Illusionist ----- Mercenary -----
+
+APPEND ~pdialog.2da~ // SOA append
+~rqmil         rqmilP               rqmilJ              rqmilD~
+UNLESS ~rqmil~ // somehow we are already there, skip it
+UNLESS ~25POST~ // means TOB is installed, skip it
+
+APPEND ~pdialog.2da~ // TOB append
+~rqmil         rqmilP               rqmilJ             rqmil25D         rqmil25P           rqmil25J           rqmil25D             rqmil25~
+UNLESS ~rqmil~ // we are already there, skip it
+IF     ~25POST~ // requires TOB to be installed
+
+APPEND ~interdia.2da~ // SOA append
+~rqmil         Brqmil~
+UNLESS ~rqmil~ // somehow we are already there, skip it
+UNLESS ~25POST~ // means TOB is installed, skip it
+
+APPEND ~interdia.2da~ // TOB append
+~rqmil        Brqmil          Brqmil25~
+UNLESS ~rqmil~ // we are already there, skip it
+IF     ~25POST~ // requires TOB to be installed
+
+// Add NPC dialog references #Fighter/*Necromancer* ----- Mercenary -----
+
+APPEND ~pdialog.2da~ // SOA append
+~rqfmn         rqfmnP               rqfmnJ              rqfmnD~
+UNLESS ~rqfmn~ // somehow we are already there, skip it
+UNLESS ~25POST~ // means TOB is installed, skip it
+
+APPEND ~pdialog.2da~ // TOB append
+~rqfmn         rqfmnP               rqfmnJ             rqfmn25D         rqfmn25P           rqfmn25J           rqfmn25D             rqfmn25~
+UNLESS ~rqfmn~ // we are already there, skip it
+IF     ~25POST~ // requires TOB to be installed
+
+APPEND ~interdia.2da~ // SOA append
+~rqfmn         Brqfmn~
+UNLESS ~rqfmn~ // somehow we are already there, skip it
+UNLESS ~25POST~ // means TOB is installed, skip it
+
+APPEND ~interdia.2da~ // TOB append
+~rqfmn        Brqfmn          Brqfmn25~
+UNLESS ~rqfmn~ // we are already there, skip it
+IF     ~25POST~ // requires TOB to be installed
+
+// Add NPC dialog references #Enchanter ----- Mercenary -----
+
+APPEND ~pdialog.2da~ // SOA append
+~rqmen         rqmenP               rqmenJ              rqmenD~
+UNLESS ~rqmen~ // somehow we are already there, skip it
+UNLESS ~25POST~ // means TOB is installed, skip it
+
+APPEND ~pdialog.2da~ // TOB append
+~rqmen         rqmenP               rqmenJ             rqmen25D         rqmen25P           rqmen25J           rqmen25D             rqmen25~
+UNLESS ~rqmen~ // we are already there, skip it
+IF     ~25POST~ // requires TOB to be installed
+
+APPEND ~interdia.2da~ // SOA append
+~rqmen         Brqmen~
+UNLESS ~rqmen~ // somehow we are already there, skip it
+UNLESS ~25POST~ // means TOB is installed, skip it
+
+APPEND ~interdia.2da~ // TOB append
+~rqmen        Brqmen          Brqmen25~
+UNLESS ~rqmen~ // we are already there, skip it
+IF     ~25POST~ // requires TOB to be installed
+
+// Add NPC dialog references #Invoker ----- Mercenary -----
+
+APPEND ~pdialog.2da~ // SOA append
+~rqmin         rqminP               rqminJ              rqminD~
+UNLESS ~rqmin~ // somehow we are already there, skip it
+UNLESS ~25POST~ // means TOB is installed, skip it
+
+APPEND ~pdialog.2da~ // TOB append
+~rqmin         rqminP               rqminJ             rqmin25D         rqmin25P           rqmin25J           rqmin25D             rqmin25~
+UNLESS ~rqmin~ // we are already there, skip it
+IF     ~25POST~ // requires TOB to be installed
+
+APPEND ~interdia.2da~ // SOA append
+~rqmin         Brqmin~
+UNLESS ~rqmin~ // somehow we are already there, skip it
+UNLESS ~25POST~ // means TOB is installed, skip it
+
+APPEND ~interdia.2da~ // TOB append
+~rqmin        Brqmin          Brqmin25~
+UNLESS ~rqmin~ // we are already there, skip it
+IF     ~25POST~ // requires TOB to be installed
+
+// Add NPC dialog references #Transmuter ----- Mercenary -----
+
+APPEND ~pdialog.2da~ // SOA append
+~rqmtr         rqmtrP               rqmtrJ              rqmtrD~
+UNLESS ~rqmtr~ // somehow we are already there, skip it
+UNLESS ~25POST~ // means TOB is installed, skip it
+
+APPEND ~pdialog.2da~ // TOB append
+~rqmtr         rqmtrP               rqmtrJ             rqmtr25D         rqmtr25P           rqmtr25J           rqmtr25D             rqmtr25~
+UNLESS ~rqmtr~ // we are already there, skip it
+IF     ~25POST~ // requires TOB to be installed
+
+APPEND ~interdia.2da~ // SOA append
+~rqmtr         Brqmtr~
+UNLESS ~rqmtr~ // somehow we are already there, skip it
+UNLESS ~25POST~ // means TOB is installed, skip it
+
+APPEND ~interdia.2da~ // TOB append
+~rqmtr        Brqmtr          Brqmtr25~
+UNLESS ~rqmtr~ // we are already there, skip it
+IF     ~25POST~ // requires TOB to be installed
+
+// Add NPC dialog references #Skald ----- Mercenary -----
+
+APPEND ~pdialog.2da~ // SOA append
+~rqbsk         rqbskP               rqbskJ              rqbskD~
+UNLESS ~rqbsk~ // somehow we are already there, skip it
+UNLESS ~25POST~ // means TOB is installed, skip it
+
+APPEND ~pdialog.2da~ // TOB append
+~rqbsk         rqbskP               rqbskJ             rqbsk25D         rqbsk25P           rqbsk25J           rqbsk25D             rqbsk25~
+UNLESS ~rqbsk~ // we are already there, skip it
+IF     ~25POST~ // requires TOB to be installed
+
+APPEND ~interdia.2da~ // SOA append
+~rqbsk         Brqbsk~
+UNLESS ~rqbsk~ // somehow we are already there, skip it
+UNLESS ~25POST~ // means TOB is installed, skip it
+
+APPEND ~interdia.2da~ // TOB append
+~rqbsk        Brqbsk          Brqbsk25~
+UNLESS ~rqbsk~ // we are already there, skip it
+IF     ~25POST~ // requires TOB to be installed
+
+// Add NPC dialog references #Diviner ----- Mercenary -----
+
+APPEND ~pdialog.2da~ // SOA append
+~rqmdi         rqmdiP               rqmdiJ              rqmdiD~
+UNLESS ~rqmdi~ // somehow we are already there, skip it
+UNLESS ~25POST~ // means TOB is installed, skip it
+
+APPEND ~pdialog.2da~ // TOB append
+~rqmdi         rqmdiP               rqmdiJ             rqmdi25D         rqmdi25P           rqmdi25J           rqmdi25D             rqmdi25~
+UNLESS ~rqmdi~ // we are already there, skip it
+IF     ~25POST~ // requires TOB to be installed
+
+APPEND ~interdia.2da~ // SOA append
+~rqmdi         Brqmdi~
+UNLESS ~rqmdi~ // somehow we are already there, skip it
+UNLESS ~25POST~ // means TOB is installed, skip it
+
+APPEND ~interdia.2da~ // TOB append
+~rqmdi        Brqmdi          Brqmdi25~
+UNLESS ~rqmdi~ // we are already there, skip it
+IF     ~25POST~ // requires TOB to be installed
+
+// Add NPC dialog references $Abjurer----- Mercenary -----
+
+APPEND ~pdialog.2da~ // SOA append
+~rqmab         rqmabP               rqmabJ              rqmabD~
+UNLESS ~rqmab~ // somehow we are already there, skip it
+UNLESS ~25POST~ // means TOB is installed, skip it
+
+APPEND ~pdialog.2da~ // TOB append
+~rqmab         rqmabP               rqmabJ             rqmab25D         rqmab25P           rqmab25J           rqmab25D             rqmab25~
+UNLESS ~rqmab~ // we are already there, skip it
+IF     ~25POST~ // requires TOB to be installed
+
+APPEND ~interdia.2da~ // SOA append
+~rqmab         Brqmab~
+UNLESS ~rqmab~ // somehow we are already there, skip it
+UNLESS ~25POST~ // means TOB is installed, skip it
+
+APPEND ~interdia.2da~ // TOB append
+~rqmab        Brqmab          Brqmab25~
+UNLESS ~rqmab~ // we are already there, skip it
+IF     ~25POST~ // requires TOB to be installed
+
+// Compile everything in D directory to DLG in override
+
+COMPILE ~golden_horse/d~
+
+/* Extend area script */
+COPY_EXISTING ~ar0300.bcs~ ~override/ar0300.bcs~
+EXTEND_TOP ~ar0300.bcs~ ~golden_horse/baf/rqar0300.baf~
+COPY_EXISTING ~ar0400.bcs~ ~override/ar0400.bcs~
+EXTEND_TOP ~ar0400.bcs~ ~golden_horse/baf/rqar0400.baf~
+COPY_EXISTING ~ar0500.bcs~ ~override/ar0500.bcs~
+EXTEND_TOP ~ar0500.bcs~ ~golden_horse/baf/rqar0500.baf~
+COPY_EXISTING ~ar0704.bcs~ ~override/ar0704.bcs~
+EXTEND_TOP ~ar0704.bcs~ ~golden_horse/baf/rqar0704.baf~
+COPY_EXISTING ~ar0706.bcs~ ~override/ar0706.bcs~
+EXTEND_TOP ~ar0706.bcs~ ~golden_horse/baf/rqar0706.baf~
+COPY_EXISTING ~ar0800.bcs~ ~override/ar0800.bcs~
+EXTEND_TOP ~ar0800.bcs~ ~golden_horse/baf/rqar0800.baf~
+COPY_EXISTING ~ar0801.bcs~ ~override/ar0801.bcs~
+EXTEND_TOP ~ar0801.bcs~ ~golden_horse/baf/rqar0801.baf~
+COPY_EXISTING ~ar0900.bcs~ ~override/ar0900.bcs~
+EXTEND_TOP ~ar0900.bcs~ ~golden_horse/baf/rqar0900.baf~
+COPY_EXISTING ~ar1100.bcs~ ~override/ar1100.bcs~
+EXTEND_TOP ~ar1100.bcs~ ~golden_horse/baf/rqar1100.baf~
+COPY_EXISTING ~ar1200.bcs~ ~override/ar1200.bcs~
+EXTEND_TOP ~ar1200.bcs~ ~golden_horse/baf/rqar1200.baf~
+COPY_EXISTING ~ar1900.bcs~ ~override/ar1900.bcs~
+EXTEND_TOP ~ar1900.bcs~ ~golden_horse/baf/rqar1900.baf~
+COPY_EXISTING ~ar2000.bcs~ ~override/ar2000.bcs~
+EXTEND_TOP ~ar2000.bcs~ ~golden_horse/baf/rqar2000.baf~
+COPY_EXISTING ~ar3000.bcs~ ~override/ar3000.bcs~
+EXTEND_TOP ~ar3000.bcs~ ~golden_horse/baf/rqar3000.baf~
+COPY_EXISTING ~ar4000.bcs~ ~override/ar4000.bcs~
+EXTEND_TOP ~ar4000.bcs~ ~golden_horse/baf/rqar4000.baf~
+COPY_EXISTING ~ar4500.bcs~ ~override/ar4500.bcs~
+EXTEND_TOP ~ar4500.bcs~ ~golden_horse/baf/rqar4500.baf~
+COPY_EXISTING ~ar5004.are~ ~override/ar5004.are~
+WRITE_ASCII 0x94 ~ar5004~
+EXTEND_TOP ~ar5004.bcs~ ~golden_horse/baf/rqar5004.baf~
+COPY_EXISTING ~ar5200.are~ ~override/ar5200.are~
+EXTEND_TOP ~ar5200.bcs~ ~golden_horse/baf/rqar5200.baf~
+COPY_EXISTING ~ar5500.are~ ~override/ar5500.are~
+EXTEND_TOP ~ar5500.bcs~ ~golden_horse/baf/rqar5500.baf~
+COPY_EXISTING ~ar5501.are~ ~override/ar5501.are~
+WRITE_ASCII 0x94 ~ar5501~
+EXTEND_TOP ~ar5501.bcs~ ~golden_horse/baf/rqar5501.baf~
+COPY_EXISTING ~ar5505.bcs~ ~override/ar5505.bcs~
+EXTEND_TOP ~ar5505.bcs~ ~golden_horse/baf/rqar5505.baf~
+COPY_EXISTING ~ar6000.bcs~ ~override/ar6000.bcs~
+EXTEND_TOP ~ar6000.bcs~ ~golden_horse/baf/rqar6000.baf~
+COPY_EXISTING ~ar6100.bcs~ ~override/ar6100.bcs~
+EXTEND_TOP ~ar6100.bcs~ ~golden_horse/baf/rqar6100.baf~
+COPY_EXISTING ~ar6200.bcs~ ~override/ar6200.bcs~
+EXTEND_TOP ~ar6200.bcs~ ~golden_horse/baf/rqar6200.baf~
+COPY_EXISTING ~ar6300.are~ ~override/ar6300.are~
+WRITE_ASCII 0x94 ~ar6300~
+EXTEND_TOP ~ar6300.bcs~ ~golden_horse/baf/rqar6300.baf~
+
+/* Extend baldur.bcs */
+COPY_EXISTING ~BALDUR.BCS~ ~override/BALDUR.BCS~
+EXTEND_BOTTOM ~BALDUR.BCS~ ~golden_horse/baf/rqbaldur.baf~
+
+// copy scripts and compile scripts to override
+COMPILE ~golden_horse/baf/rqecondu.baf~
+COMPILE ~golden_horse/baf/rqfcondu.baf~
+COMPILE ~golden_horse/baf/rqncondu.baf~
+COMPILE ~golden_horse/baf/rqhost1a.baf~
+COMPILE ~golden_horse/baf/rqhost1e.baf~
+COMPILE ~golden_horse/baf/rqhost2a.baf~
+COMPILE ~golden_horse/baf/rqhost2e.baf~
+COMPILE ~golden_horse/baf/rqhost3a.baf~
+COMPILE ~golden_horse/baf/rqhost3e.baf~
+COMPILE ~golden_horse/baf/rqhost4a.baf~
+COMPILE ~golden_horse/baf/rqhost4e.baf~
+COMPILE ~golden_horse/baf/rqhost5e.baf~
+COMPILE ~golden_horse/baf/rqhost5m.baf~
+COMPILE ~golden_horse/baf/rqhosta.baf~
+COMPILE ~golden_horse/baf/rqmalch.baf~
+COMPILE ~golden_horse/baf/rqrevove.baf~
+COMPILE ~golden_horse/baf/rqrev25.baf~
+COMPILE ~golden_horse/baf/rqgrun5c.baf~
+COMPILE ~golden_horse/baf/rqpaud5c.baf~
+COMPILE ~golden_horse/baf/rqwehr5e.baf~
+COMPILE ~golden_horse/baf/rqwehr5m.baf~
+COMPILE ~golden_horse/baf/rqh1ajah.baf~
+COMPILE ~golden_horse/baf/rqh2ajah.baf~
+COMPILE ~golden_horse/baf/rqh3arev.baf~
+COMPILE ~golden_horse/baf/rqh4ajah.baf~
+COMPILE ~golden_horse/baf/rqfigh6a.baf~
+COMPILE ~golden_horse/baf/rqkrol6a.baf~
+COMPILE ~golden_horse/baf/rqhost6a.baf~
+COMPILE ~golden_horse/baf/rqwehr2j.baf~
+COMPILE ~golden_horse/baf/rqinspla.baf~
+COMPILE ~golden_horse/baf/rqgpuse.baf~
+COMPILE ~golden_horse/baf/rqirgul.baf~
+COMPILE ~golden_horse/baf/rqsixta.baf~
+COMPILE ~golden_horse/baf/rqsixta2.baf~
+COMPILE ~golden_horse/baf/rqsixcul.baf~
+COMPILE ~golden_horse/baf/rqitwan.baf~
+COMPILE ~golden_horse/baf/rqt5deat.baf~
+COMPILE ~golden_horse/baf/rqt6ded1.baf~
+COMPILE ~golden_horse/baf/rqt7ded1.baf~
+COMPILE ~golden_horse/baf/rqt67dea.baf~
+COMPILE ~golden_horse/baf/rqtilla.baf~
+COMPILE ~golden_horse/baf/rqtrugos.baf~
+COMPILE ~golden_horse/baf/rqdeaths.baf~
+COMPILE ~golden_horse/baf/rqbalsix.baf~
+COMPILE ~golden_horse/baf/rqbalsi1.baf~
+COMPILE ~golden_horse/baf/rqraksha.baf~
+COMPILE ~golden_horse/baf/rq1runn1.baf~
+COMPILE ~golden_horse/baf/rq1runn2.baf~
+COMPILE ~golden_horse/baf/rq1runn3.baf~
+COMPILE ~golden_horse/baf/rq1runn4.baf~
+COMPILE ~golden_horse/baf/rq1runn5.baf~
+/*copy and name cre files to override */
+
+// Captain Prangl group
+COPY ~golden_horse/cre_other/rqcappra.cre~ ~override/rqcappra.cre~
+  WRITE_ASCII 0x280 ~rqcappra~ #32 // Script name aka Death Variable
+  WRITE_ASCII 0x2cc ~rq1cappr~ #8 // Dialogue file
+  WRITE_ASCII 0x248 ~SHOUTDLG~ #8 // Override script
+  WRITE_ASCII 0x250 ~rqgpuse~ #8 // Class script
+  ADD_CRE_ITEM ~rqletpra~ #0 #0 #0 ~UNSTEALABLE~ ~INV~
+  SAY NAME1 ~Captain Prangl~
+  SAY NAME2 ~Captain Prangl~
+
+COPY ~golden_horse/cre_other/rqfight9.cre~ ~override/rqfight9.cre~
+  WRITE_ASCII 0x280 ~rqfight9~ #32 // Script name aka Death Variable
+  WRITE_ASCII 0x248 ~rqhosta~ #8 // Override script
+  WRITE_ASCII 0x250 ~rqgpuse~ #8 // Class script
+  SAY NAME1 ~Fighter~
+  SAY NAME2 ~Fighter~
+
+COPY ~golden_horse/cre_other/rqcrobw9.cre~ ~override/rqcrobw9.cre~
+  WRITE_ASCII 0x280 ~rqcrobw9~ #32 // Script name aka Death Variable
+  WRITE_ASCII 0x248 ~rqhosta~ #8 // Override script
+  WRITE_ASCII 0x250 ~rqgpuse~ #8 // Class script
+  SAY NAME1 ~Crossbowman~
+  SAY NAME2 ~Crossbowman~
+
+COPY ~golden_horse/cre_other/rqthie12.cre~ ~override/rqthie12.cre~
+  WRITE_ASCII 0x280 ~rqthie12~ #32 // Script name aka Death Variable
+  WRITE_ASCII 0x248 ~rqhosta~ #8 // Override script
+  WRITE_ASCII 0x250 ~rqgpuse~ #8 // Class script
+  SAY NAME1 ~Thief~
+  SAY NAME2 ~Thief~
+
+COPY ~golden_horse/cre_other/rqcle7.cre~ ~override/rqcle7.cre~
+  WRITE_ASCII 0x280 ~rqcle7~ #32 // Script name aka Death Variable
+  WRITE_ASCII 0x248 ~rqhosta~ #8 // Override script
+  ADD_CRE_ITEM ~rqpotn50~ #0 #0 #0 ~UNSTEALABLE~ ~INV~
+  SAY NAME1 ~Cleric~
+  SAY NAME2 ~Cleric~
+
+// Pentarch bridge ambush
+COPY ~golden_horse/cre_other/rqpenbri.cre~ ~override/rqpenbri.cre~
+  WRITE_ASCII 0x280 ~rqpenbri~ #32 // Script name aka Death Variable
+  WRITE_ASCII 0x2cc ~rq2penbr~ #8 // Dialogue file
+  WRITE_ASCII 0x248 ~SHOUTDLG~ #8 // Override script
+  ADD_CRE_ITEM ~rqletpen~ #0 #0 #0 ~UNSTEALABLE~ ~INV~
+  SAY NAME1 ~Pentarch d'Arquile~
+  SAY NAME2 ~Pentarch d'Arquile~
+
+COPY ~golden_horse/cre_other/rqcle13.cre~ ~override/rqcle13.cre~
+  WRITE_ASCII 0x280 ~rqcle13~ #32 // Script name aka Death Variable
+  WRITE_ASCII 0x248 ~rqhosta~ #8 // Override script
+  SAY NAME1 ~Cleric~
+  SAY NAME2 ~Cleric~
+
+COPY ~golden_horse/cre_other/rqwizsla.cre~ ~override/rqwizsla.cre~
+  WRITE_ASCII 0x280 ~rqwizsla~ #32 // Script name aka Death Variable
+  WRITE_ASCII 0x248 ~rqhosta~ #8 // Override script
+  WRITE_ASCII 0x250 ~rqgpuse~ #8 // Class script
+  SAY NAME1 ~Wizardslayer~
+  SAY NAME2 ~Wizardslayer~
+
+// Temple ambush
+COPY ~golden_horse/cre_other/rq3temp1.cre~ ~override/rq3temp1.cre~
+  WRITE_ASCII 0x280 ~rq3temp1~ #32 // Script name aka Death Variable
+  WRITE_ASCII 0x2cc ~rq3temp1~ #8 // Dialogue file
+  WRITE_ASCII 0x248 ~SHOUTDLG~ #8 // Override script
+  SAY NAME1 ~Peasant~
+  SAY NAME2 ~Peasant~
+
+COPY ~golden_horse/cre_other/rq3temm1.cre~ ~override/rq3temm1.cre~
+  WRITE_ASCII 0x280 ~rq3temm1~ #32 // Script name aka Death Variable
+  WRITE_ASCII 0x2cc ~rq3temm1~ #8 // Dialogue file
+  SAY NAME1 ~Merchant~
+  SAY NAME2 ~Merchant~
+
+COPY ~golden_horse/cre_other/rq3temm2.cre~ ~override/rq3temm2.cre~
+  WRITE_ASCII 0x280 ~rq3temm2~ #32 // Script name aka Death Variable
+  WRITE_ASCII 0x2cc ~rq3temm2~ #8 // Dialogue file
+  SAY NAME1 ~Merchant~
+  SAY NAME2 ~Merchant~
+
+COPY ~golden_horse/cre_other/rq3temo2.cre~ ~override/rq3temo2.cre~
+  WRITE_ASCII 0x280 ~rq3temo2~ #32 // Script name aka Death Variable
+  WRITE_ASCII 0x2cc ~rq3temo2~ #8 // Dialogue file
+  WRITE_ASCII 0x250 ~rqgpuse~ #8 // Class script
+  SAY NAME1 ~Onlooker~
+  SAY NAME2 ~Onlooker~
+
+COPY ~golden_horse/cre_other/rqt12f13.cre~ ~override/rqt12f13.cre~
+  WRITE_ASCII 0x280 ~rqt12f13~ #32 // Script name aka Death Variable
+  WRITE_ASCII 0x248 ~rqhosta~ #8 // Override script
+  SAY NAME1 ~Thief~
+  SAY NAME2 ~Thief~
+
+// Waukeen ambush
+COPY ~golden_horse/cre_other/rqwaukm.cre~ ~override/rqwaukm.cre~
+  WRITE_ASCII 0x280 ~rqwaukm~ #32 // Script name aka Death Variable
+  WRITE_ASCII 0x248 ~SHOUTDLG~ #8 // Override script
+  WRITE_ASCII 0x2cc ~rq4waukm~ #8 // Dialogue file
+  SAY NAME1 ~Messenger~
+  SAY NAME2 ~Messenger~
+
+COPY ~golden_horse/cre_other/rqclthie.cre~ ~override/rqclthie.cre~
+  WRITE_ASCII 0x280 ~rqclthie~ #32 // Script name aka Death Variable
+  WRITE_ASCII 0x2cc ~rq4grosh~ #8 // Dialogue file
+  ADD_CRE_ITEM ~rqring03~ #0 #0 #0 ~UNSTEALABLE~ ~RRING~
+  ADD_CRE_ITEM ~rqminlet~ #0 #0 #0 ~UNSTEALABLE~ ~INV~
+  SAY NAME1 ~Groshnakh~
+  SAY NAME2 ~Groshnakh~
+
+COPY ~golden_horse/cre_other/rqessl.cre~ ~override/rqessl.cre~
+  WRITE_ASCII 0x280 ~rqessl~ #32 // Script name aka Death Variable
+  WRITE_ASCII 0x248 ~INITDLG~ #8 // Override script
+  WRITE_ASCII 0x2cc ~rq4essli~ #8 // Dialogue file
+  SAY NAME1 ~Esslin~
+  SAY NAME2 ~Esslin~
+// Gervin courier
+COPY ~golden_horse/cre_other/rqgerv.cre~ ~override/rqgerv.cre~
+  ADD_CRE_ITEM ~rqdeliv~ #0 #0 #0 ~UNSTEALABLE~ ~INV~
+  ADD_CRE_ITEM ~rqpotn2~ #0 #0 #0 ~UNSTEALABLE~ ~INV~
+  ADD_CRE_ITEM ~rqletsea~ #0 #0 #0 ~UNSTEALABLE~ ~INV~
+  WRITE_ASCII 0x280 ~rqgerv~ #32 // Script name aka Death Variable
+  WRITE_ASCII 0x248 ~rqhost4a~ #8 // Override script
+  SAY NAME1 ~Gervin~
+  SAY NAME2 ~Gervin~
+
+COPY ~golden_horse/cre_other/rq4fi9.cre~ ~override/rq4fi9.cre~
+  WRITE_ASCII 0x280 ~rq4fi9~ #32 // Script name aka Death Variable
+  WRITE_ASCII 0x248 ~rqhost4a~ #8 // Override script
+  WRITE_ASCII 0x250 ~rqgpuse~ #8 // Class script
+  SAY NAME1 ~Fighter~
+  SAY NAME2 ~Fighter~
+
+COPY ~golden_horse/cre_other/rq4cros9.cre~ ~override/rq4cros9.cre~
+  WRITE_ASCII 0x280 ~rq4cros9~ #32 // Script name aka Death Variable
+  WRITE_ASCII 0x248 ~rqhost4a~ #8 // Override script
+  WRITE_ASCII 0x250 ~rqgpuse~ #8 // Class script
+  SAY NAME1 ~Crossbowman~
+  SAY NAME2 ~Crossbowman~
+
+COPY ~golden_horse/cre_other/rq4cle13.cre~ ~override/rq4cle13.cre~
+  WRITE_ASCII 0x280 ~rq4cle13~ #32 // Script name aka Death Variable
+  WRITE_ASCII 0x248 ~rqhost4a~ #8 // Override script
+  SAY NAME1 ~Cleric~
+  SAY NAME2 ~Cleric~
+
+COPY ~golden_horse/cre_other/rq4wizsl.cre~ ~override/rq4wizsl.cre~
+  WRITE_ASCII 0x280 ~rq4wizsl~ #32 // Script name aka Death Variable
+  WRITE_ASCII 0x248 ~rqhost4a~ #8 // Override script
+  WRITE_ASCII 0x250 ~rqgpuse~ #8 // Class script
+  SAY NAME1 ~Wizardslayer~
+  SAY NAME2 ~Wizardslayer~
+
+COPY ~golden_horse/cre_other/rq4t12f1.cre~ ~override/rq4t12f1.cre~
+  WRITE_ASCII 0x280 ~rq4t12f1~ #32 // Script name aka Death Variable
+  WRITE_ASCII 0x248 ~rqhost4a~ #8 // Override script
+  SAY NAME1 ~Thief~
+  SAY NAME2 ~Thief~
+
+// Argent Marcian contract 1c
+COPY ~golden_horse/cre_other/rqmararg.cre~ ~override/rqmararg.cre~
+  ADD_CRE_ITEM ~rqproof1~ #0 #0 #0 ~UNSTEALABLE~ ~INV~
+  WRITE_ASCII 0x2cc ~rq1marca~ #8 // Dialogue file
+  WRITE_ASCII 0x280 ~rq1marca~ #32 // Script name aka Death Variable
+  WRITE_ASCII 0x248 ~rqhost1e~ #8 // Override script
+  WRITE_ASCII 0x250 ~rqgpuse~ #8 // Class script
+  SAY NAME1 ~Marcian Argent~
+  SAY NAME2 ~Marcian Argent~
+
+COPY ~golden_horse/cre_other/rqcle13a.cre~ ~override/rqcle13a.cre~
+  WRITE_ASCII 0x280 ~rqcle13a~ #32 // Script name aka Death Variable
+  WRITE_ASCII 0x248 ~rqhost1e~ #8 // Override script
+  SAY NAME1 ~Argent Acolyte~
+  SAY NAME2 ~Argent Acolyte~
+
+COPY ~golden_horse/cre_other/rqargm13.cre~ ~override/rqargm13.cre~
+  WRITE_ASCII 0x280 ~rqargm13~ #32 // Script name aka Death Variable
+  WRITE_ASCII 0x248 ~rqhost1e~ #8 // Override script
+  SAY NAME1 ~Argent Wizard~
+  SAY NAME2 ~Argent Wizard~
+
+COPY ~golden_horse/cre_other/rqargf13.cre~ ~override/rqargf13.cre~
+  WRITE_ASCII 0x280 ~rqargf13~ #32 // Script name aka Death Variable
+  WRITE_ASCII 0x248 ~rqhost1e~ #8 // Override script
+  WRITE_ASCII 0x250 ~rqgpuse~ #8 // Class script
+  SAY NAME1 ~Argent Warrior~
+  SAY NAME2 ~Argent Warrior~
+
+COPY ~golden_horse/cre_other/rqt12f1c.cre~ ~override/rqt12f1c.cre~
+  WRITE_ASCII 0x280 ~rqt12f1c~ #32 // Script name aka Death Variable
+  WRITE_ASCII 0x248 ~rqhost1e~ #8 // Override script
+  SAY NAME1 ~Argent Rogue~
+  SAY NAME2 ~Argent Rogue~
+
+// Kamraarn wizardslayer 2c
+COPY ~golden_horse/cre_other/rqkamraa.cre~ ~override/rqkamraa.cre~
+  ADD_CRE_ITEM ~rqproof2~ #0 #0 #0 ~UNSTEALABLE~ ~INV~
+  WRITE_ASCII 0x280 ~rqkamraa~ #32 // Script name aka Death Variable
+  WRITE_ASCII 0x2cc ~rq2kamra~ #8 // Dialogue file
+  WRITE_ASCII 0x248 ~rqhost2e~ #8 // Override script
+  WRITE_ASCII 0x250 ~rqgpuse~ #8 // Class script
+  SAY NAME1 ~Kamraarn~
+  SAY NAME2 ~Kamraarn~
+
+COPY ~golden_horse/cre_other/rqw9m11.cre~ ~override/rqw9m11.cre~
+  WRITE_ASCII 0x280 ~rqw9m11~ #32 // Script name aka Death Variable
+  WRITE_ASCII 0x248 ~rqhost2e~ #8 // Override script
+  SAY NAME1 ~Wizardslayer Adept~
+  SAY NAME2 ~Wizardslayer Adept~
+
+COPY ~golden_horse/cre_other/rqwizhlb.cre~ ~override/rqwizhlb.cre~
+  WRITE_ASCII 0x280 ~rqwizhlb~ #32 // Script name aka Death Variable
+  WRITE_ASCII 0x248 ~rqhost2e~ #8 // Override script
+  WRITE_ASCII 0x250 ~rqgpuse~ #8 // Class script
+  SAY NAME1 ~Wizardslayer Halberdier~
+  SAY NAME2 ~Wizardslayer Halberdier~
+
+COPY ~golden_horse/cre_other/rqwarc13.cre~ ~override/rqwarc13.cre~
+  WRITE_ASCII 0x280 ~rqwarc13~ #32 // Script name aka Death Variable
+  WRITE_ASCII 0x248 ~rqhost2e~ #8 // Override script
+  WRITE_ASCII 0x250 ~rqgpuse~ #8 // Class script
+  SAY NAME1 ~Wizardslayer Archer~
+  SAY NAME2 ~Wizardslayer Archer~
+
+// Berkris + Anakarhysse 3e
+COPY ~golden_horse/cre_other/rqanakar.cre~ ~override/rqanakar.cre~
+  ADD_CRE_ITEM ~rqproof3~ #0 #0 #0 ~UNSTEALABLE~ ~INV~
+  WRITE_ASCII 0x280 ~rqanakar~ #32 // Script name aka Death Variable
+  WRITE_ASCII 0x2cc ~rq3anaka~ #8 // Dialogue file
+  WRITE_ASCII 0x248 ~rqhost3e~ #8 // Override script
+  WRITE_ASCII 0x250 ~rqgpuse~ #8 // Class script
+  SAY NAME1 ~Anakarhysse~
+  SAY NAME2 ~Anakarhysse~
+
+COPY ~golden_horse/cre_other/rqberkri.cre~ ~override/rqberkri.cre~
+  WRITE_ASCII 0x280 ~rqberkri~ #32 // Script name aka Death Variable
+  WRITE_ASCII 0x248 ~rqhost3e~ #8 // Override script
+  SAY NAME1 ~Berkris~
+  SAY NAME2 ~Berkris~
+
+// Hevguris group 4e
+COPY ~golden_horse/cre_other/rqinqhev.cre~ ~override/rqinqhev.cre~
+  ADD_CRE_ITEM ~rqproof4~ #0 #0 #0 ~UNSTEALABLE~ ~INV~
+  WRITE_ASCII 0x280 ~rqinqhev~ #32 // Script name aka Death Variable
+  WRITE_ASCII 0x2cc ~rq4hevgu~ #8 // Dialogue file
+  WRITE_ASCII 0x248 ~rqhost4e~ #8 // Override script
+  WRITE_ASCII 0x258 ~rqgpuse~ #8 // Race script
+  SAY NAME1 ~Inquisitor Hevguris~
+  SAY NAME2 ~Inquisitor Hevguris~
+
+COPY ~golden_horse/cre_other/rqordwiz.cre~ ~override/rqordwiz.cre~
+  WRITE_ASCII 0x280 ~rqordwiz~ #32 // Script name aka Death Variable
+  WRITE_ASCII 0x248 ~rqhost4e~ #8 // Override script
+  SAY NAME1 ~Order Wizard~
+  SAY NAME2 ~Order Wizard~
+
+COPY ~golden_horse/cre_other/rqordp14.cre~ ~override/rqordp14.cre~
+  WRITE_ASCII 0x280 ~rqordp14~ #32 // Script name aka Death Variable
+  WRITE_ASCII 0x248 ~rqhost4e~ #8 // Override script
+  WRITE_ASCII 0x258 ~rqgpuse~ #8 // Race script
+  SAY NAME1 ~Knight of the Order~
+  SAY NAME2 ~Knight of the Order~
+
+COPY ~golden_horse/cre_other/rqordc14.cre~ ~override/rqordc14.cre~
+  WRITE_ASCII 0x280 ~rqordc14~ #32 // Script name aka Death Variable
+  WRITE_ASCII 0x248 ~rqhost4e~ #8 // Override script
+  SAY NAME1 ~Priest of Torm~
+  SAY NAME2 ~Priest of Torm~
+
+COPY ~golden_horse/cre_other/rqordp1h.cre~ ~override/rqordp1h.cre~
+  WRITE_ASCII 0x280 ~rqordp1h~ #32 // Script name aka Death Variable
+  WRITE_ASCII 0x258 ~rqgpuse~ #8 // Race script
+  SAY NAME1 ~Order Knight~
+  SAY NAME2 ~Order Knight~
+
+COPY ~golden_horse/cre_other/rqarvtru.cre~ ~override/rqarvtru.cre~
+  WRITE_ASCII 0x280 ~rqarvtru~ #32 // Script name aka Death Variable
+  WRITE_ASCII 0x250 ~rqgpuse~ #8 // Class script
+  SAY NAME1 ~Arvoreen Avenger~
+  SAY NAME2 ~Arvoreen Avenger~
+
+// Druid contract in Druid Grove
+COPY ~golden_horse/cre_other/rqarcdrd.cre~ ~override/rqarcdrd.cre~
+  WRITE_ASCII 0x280 ~rqarcdrd~ #32 // Script name aka Death Variable
+  WRITE_ASCII 0x2cc ~rq5arcdr~ #8 // Dialogue file
+  WRITE_ASCII 0x248 ~rqhost5e~ #8 // Override script
+  SAY NAME1 ~Archdruid Dubovy~
+  SAY NAME2 ~Archdruid Dubovy~
+
+COPY ~golden_horse/cre_other/rqpaud.cre~ ~override/rqpaud.cre~
+  WRITE_ASCII 0x280 ~rqpaud~ #32 // Script name aka Death Variable
+  WRITE_ASCII 0x2cc ~rq5paude~ #8 // Dialogue file
+  WRITE_ASCII 0x248 ~rqpaud5c~ #8 // Override script
+  ADD_CRE_ITEM ~rqhorn~ #0 #0 #0 ~UNSTEALABLE~ ~INV~
+  SAY NAME1 ~Pauden~
+  SAY NAME2 ~Pauden~
+
+COPY ~golden_horse/cre_other/rqgrune.cre~ ~override/rqgrune.cre~
+  WRITE_ASCII 0x280 ~rqgrune~ #32 // Script name aka Death Variable
+  WRITE_ASCII 0x2cc ~rq5grune~ #8 // Dialogue file
+  WRITE_ASCII 0x248 ~rqgrun5c~ #8 // Override script
+  SAY NAME1 ~Grunesky~
+  SAY NAME2 ~Grunesky~
+
+COPY ~golden_horse/cre_other/rqearthc.cre~ ~override/rqearthc.cre~
+  WRITE_ASCII 0x280 ~rqearthc~ #32 // Script name aka Death Variable
+  WRITE_ASCII 0x248 ~rqecondu~ #8 // Override script
+  SAY NAME1 ~Earth Conduit~
+  SAY NAME2 ~Earth Conduit~
+
+COPY ~golden_horse/cre_other/rqfirec.cre~ ~override/rqfirec.cre~
+  WRITE_ASCII 0x280 ~rqfirec~ #32 // Script name aka Death Variable
+  WRITE_ASCII 0x248 ~rqfcondu~ #8 // Override script
+  SAY NAME1 ~Fire Conduit~
+  SAY NAME2 ~Fire Conduit~
+
+COPY ~golden_horse/cre_other/rqnaturc.cre~ ~override/rqnaturc.cre~
+  WRITE_ASCII 0x280 ~rqnaturc~ #32 // Script name aka Death Variable
+  WRITE_ASCII 0x248 ~rqncondu~ #8 // Override script
+  SAY NAME1 ~Nature Conduit~
+  SAY NAME2 ~Nature Conduit~
+
+COPY ~golden_horse/cre_other/rqships1.cre~ ~override/rqships1.cre~
+  WRITE_ASCII 0x280 ~rqships1~ #32 // Script name aka Death Variable
+  WRITE_ASCII 0x248 ~rqwehr5e~ #8 // Override script
+  WRITE_ASCII 0x250 ~rqgpuse~ #8 // Class script
+  SAY NAME1 ~Shapeshifter~
+  SAY NAME2 ~Shapeshifter~
+
+COPY ~golden_horse/cre_other/rqships2.cre~ ~override/rqships2.cre~
+  WRITE_ASCII 0x280 ~rqships2~ #32 // Script name aka Death Variable
+  WRITE_ASCII 0x248 ~rqwehr5e~ #8 // Override script
+  WRITE_ASCII 0x250 ~rqgpuse~ #8 // Class script
+  SAY NAME1 ~Shapeshifter~
+  SAY NAME2 ~Shapeshifter~
+
+COPY ~golden_horse/cre_other/rqd10.cre~ ~override/rqd10.cre~
+  WRITE_ASCII 0x280 ~rqd10~ #32 // Script name aka Death Variable
+  WRITE_ASCII 0x248 ~rqhost5e~ #8 // Override script
+  SAY NAME1 ~Druid~
+  SAY NAME2 ~Druid~
+
+// Mintiper in Umar Hills
+COPY ~golden_horse/cre_other/rqmintip.cre~ ~override/rqmintip.cre~
+  ADD_CRE_ITEM ~rqminjo~ #0 #0 #0 ~UNSTEALABLE~ ~INV~
+  WRITE_ASCII 0x2cc ~rq5minti~ #8 // Dialogue file
+  WRITE_ASCII 0x280 ~rqmintip~ #32 // Script name aka Death Variable
+  WRITE_ASCII 0x248 ~SHOUTDLG~ #8 // Override script
+  SAY NAME1 ~Mintiper Moonsilver~
+  SAY NAME2 ~Mintiper Moonsilver~
+
+COPY ~golden_horse/cre_other/rqarklor.cre~ ~override/rqarklor.cre~
+  ADD_CRE_ITEM ~rqmibard~ #0 #0 #0 ~UNSTEALABLE~ ~INV~
+  WRITE_ASCII 0x280 ~rqarklor~ #32 // Script name aka Death Variable
+  WRITE_ASCII 0x248 ~rqhost5m~ #8 // Override script
+  WRITE_ASCII 0x250 ~rqgpuse~ #8 // Class script
+  SAY NAME1 ~Arklor Silvereye~
+  SAY NAME2 ~Arklor Silvereye~
+
+COPY ~golden_horse/cre_other/rqfb19.cre~ ~override/rqfb19.cre~
+  WRITE_ASCII 0x280 ~rqfb19~ #32 // Script name aka Death Variable
+  WRITE_ASCII 0x248 ~rqhost5m~ #8 // Override script
+  SAY NAME1 ~Harper Berserker~
+  SAY NAME2 ~Harper Berserker~
+
+COPY ~golden_horse/cre_other/rqshapes.cre~ ~override/rqshapes.cre~
+  WRITE_ASCII 0x280 ~rqshapes~ #32 // Script name aka Death Variable
+  WRITE_ASCII 0x248 ~rqwehr5m~ #8 // Override script
+  WRITE_ASCII 0x250 ~rqgpuse~ #8 // Class script
+  SAY NAME1 ~Shapeshifter~
+  SAY NAME2 ~Shapeshifter~
+
+COPY ~golden_horse/cre_other/rqargf1a.cre~ ~override/rqargf1a.cre~
+  WRITE_ASCII 0x280 ~rqargf1a~ #32 // Script name aka Death Variable
+  WRITE_ASCII 0x248 ~rqhost5m~ #8 // Override script
+  WRITE_ASCII 0x250 ~rqgpuse~ #8 // Class script
+  SAY NAME1 ~Argent Warrior~
+  SAY NAME2 ~Argent Warrior~
+
+COPY ~golden_horse/cre_other/rqt12f1a.cre~ ~override/rqt12f1a.cre~
+  WRITE_ASCII 0x280 ~rqt12f1a~ #32 // Script name aka Death Variable
+  WRITE_ASCII 0x248 ~rqhost5m~ #8 // Override script
+  SAY NAME1 ~Argent Rogue~
+  SAY NAME2 ~Argent Rogue~
+
+COPY ~golden_horse/cre_other/rqt12f1b.cre~ ~override/rqt12f1b.cre~
+  WRITE_ASCII 0x280 ~rqt12f1b~ #32 // Script name aka Death Variable
+  WRITE_ASCII 0x248 ~rqhost5m~ #8 // Override script
+  SAY NAME1 ~Argent Rogue~
+  SAY NAME2 ~Argent Rogue~
+
+COPY ~golden_horse/cre_other/rqwarc1a.cre~ ~override/rqwarc1a.cre~
+  WRITE_ASCII 0x280 ~rqwarc1a~ #32 // Script name aka Death Variable
+  WRITE_ASCII 0x248 ~rqhost5m~ #8 // Override script
+  WRITE_ASCII 0x250 ~rqgpuse~ #8 // Class script
+  SAY NAME1 ~Wizardslayer Archer~
+  SAY NAME2 ~Wizardslayer Archer~
+
+COPY ~golden_horse/cre_other/rqcle131.cre~ ~override/rqcle131.cre~
+  WRITE_ASCII 0x280 ~rqcle131~ #32 // Script name aka Death Variable
+  WRITE_ASCII 0x248 ~rqhost5m~ #8 // Override script
+  SAY NAME1 ~Argent Acolyte~
+  SAY NAME2 ~Argent Acolyte~
+
+// Krolyn in Graveyard AR0800 --------------------------------------
+COPY ~golden_horse/cre_other/rq6kroly.cre~ ~override/rq6kroly.cre~
+  ADD_CRE_ITEM ~rqkrolet~ #0 #0 #0 ~UNSTEALABLE~ ~INV~
+  WRITE_ASCII 0x280 ~rq6kroly~ #32 // Script name aka Death Variable
+  WRITE_ASCII 0x2cc ~rq6kroly~ #8 // Dialogue file
+  WRITE_ASCII 0x248 ~rqkrol6a~ #8 // Override script
+  WRITE_ASCII 0x250 ~rqgpuse~ #8 // Class script
+  SAY NAME1 ~Krolyn~
+  SAY NAME2 ~Krolyn~
+
+COPY ~golden_horse/cre_other/rq6f18a.cre~ ~override/rq6f18a.cre~
+  WRITE_ASCII 0x280 ~rq6f18a~ #32 // Script name aka Death Variable
+  WRITE_ASCII 0x248 ~rqhost6a~ #8 // Override script
+  WRITE_ASCII 0x250 ~rqgpuse~ #8 // Class script
+  SAY NAME1 ~Archer~
+  SAY NAME2 ~Archer~
+
+COPY ~golden_horse/cre_other/rq6f18b.cre~ ~override/rq6f18b.cre~
+  WRITE_ASCII 0x280 ~rq6f18b~ #32 // Script name aka Death Variable
+  WRITE_ASCII 0x2cc ~rq6merc~ #8 // Dialogue file
+  WRITE_ASCII 0x248 ~rqhost6a~ #8 // Override script
+  WRITE_ASCII 0x250 ~rqgpuse~ #8 // Class script
+  SAY NAME1 ~Archer~
+  SAY NAME2 ~Archer~
+
+COPY ~golden_horse/cre_other/rqt12f1d.cre~ ~override/rqt12f1d.cre~
+  WRITE_ASCII 0x280 ~rqt12f1d~ #32 // Script name aka Death Variable
+  WRITE_ASCII 0x248 ~rqhost6a~ #8 // Override script
+  SAY NAME1 ~Thief~
+  SAY NAME2 ~Thief~
+
+COPY ~golden_horse/cre_other/rqwarc1b.cre~ ~override/rqwarc1b.cre~
+  WRITE_ASCII 0x280 ~rqwarc1b~ #32 // Script name aka Death Variable
+  WRITE_ASCII 0x248 ~rqhost6a~ #8 // Override script
+  WRITE_ASCII 0x250 ~rqgpuse~ #8 // Class script
+  SAY NAME1 ~Archer~
+  SAY NAME2 ~Archer~
+
+COPY ~golden_horse/cre_other/rqargf1b.cre~ ~override/rqargf1b.cre~
+  WRITE_ASCII 0x280 ~rqargf1b~ #32 // Script name aka Death Variable
+  WRITE_ASCII 0x248 ~rqfigh6a~ #8 // Override script
+  WRITE_ASCII 0x250 ~rqgpuse~ #8 // Class script
+  SAY NAME1 ~Fighter~
+  SAY NAME2 ~Fighter~
+// 7Thief
+COPY ~golden_horse/cre_other/rq7thief.cre~ ~override/rq7thief.cre~
+  WRITE_ASCII 0x280 ~rq7thief~ #32 // Script name aka Death Variable
+  WRITE_ASCII 0x2cc ~rq7thief~ #8 // Dialogue file
+  WRITE_ASCII 0x248 ~INITDLG~ #8 // Override script
+  SAY NAME1 ~Thief~
+  SAY NAME2 ~Thief~
+
+// Jaheira Ambush + Galvarey
+COPY ~golden_horse/cre_other/rqjah121.cre~ ~override/rqjah121.cre~
+  WRITE_ASCII 0x280 ~rqjah121~ #32 // Script name aka Death Variable
+  WRITE_ASCII 0x248 ~rqh1ajah~ #8 // Override script
+  WRITE_ASCII 0x250 ~rqgpuse~ #8 // Class script
+  WRITE_ASCII 0x2cc ~rqjah1~ #8 // Dialogue file
+  SAY NAME1 ~Jaheira~
+  SAY NAME2 ~Jaheira~
+
+COPY ~golden_horse/cre_other/rqgalva.cre~ ~override/rqgalva.cre~
+  WRITE_ASCII 0x280 ~rqgalva~ #32 // Script name aka Death Variable
+  WRITE_ASCII 0x2cc ~rqgalvar~ #8 // Dialogue file
+  WRITE_ASCII 0x248 ~rqhost1a~ #8 // Override script
+  WRITE_ASCII 0x250 ~rqgpuse~ #8 // Class script
+  SAY NAME1 ~Galvarey~
+  SAY NAME2 ~Galvarey~
+
+COPY ~golden_horse/cre_other/rqjaga4.cre~ ~override/rqjaga4.cre~
+  WRITE_ASCII 0x280 ~rqjaga4~ #32 // Script name aka Death Variable
+  WRITE_ASCII 0x248 ~rqhost1a~ #8 // Override script
+  WRITE_ASCII 0x250 ~rqgpuse~ #8 // Class script
+  SAY NAME1 ~Iko~
+  SAY NAME2 ~Iko~
+
+COPY ~golden_horse/cre_other/rqjaga1.cre~ ~override/rqjaga1.cre~
+  WRITE_ASCII 0x280 ~rqjaga1~ #32 // Script name aka Death Variable
+  WRITE_ASCII 0x248 ~rqhost1a~ #8 // Override script
+  WRITE_ASCII 0x250 ~rqgpuse~ #8 // Class script
+  SAY NAME1 ~Bessen~
+  SAY NAME2 ~Bessen~
+
+COPY ~golden_horse/cre_other/rqjaga2.cre~ ~override/rqjaga2.cre~
+  WRITE_ASCII 0x280 ~rqjaga2~ #32 // Script name aka Death Variable
+  WRITE_ASCII 0x248 ~rqhost1a~ #8 // Override script
+  WRITE_ASCII 0x250 ~rqgpuse~ #8 // Class script
+  SAY NAME1 ~Kail~
+  SAY NAME2 ~Kail~
+
+COPY ~golden_horse/cre_other/rqjaga3.cre~ ~override/rqjaga3.cre~
+  WRITE_ASCII 0x280 ~rqjaga3~ #32 // Script name aka Death Variable
+  WRITE_ASCII 0x248 ~rqhost1a~ #8 // Override script
+  WRITE_ASCII 0x250 ~rqgpuse~ #8 // Class script
+  SAY NAME1 ~Nadinal~
+  SAY NAME2 ~Nadinal~
+
+// Lucette + Jaheira
+COPY ~golden_horse/cre_other/rqjah122.cre~ ~override/rqjah122.cre~
+  WRITE_ASCII 0x280 ~rqjah122~ #32 // Script name aka Death Variable
+  WRITE_ASCII 0x248 ~rqh2ajah~ #8 // Override script
+  WRITE_ASCII 0x2cc ~rqjah2~ #8 // Dialogue file
+  WRITE_ASCII 0x250 ~rqgpuse~ #8 // Class script
+  SAY NAME1 ~Jaheira~
+  SAY NAME2 ~Jaheira~
+
+COPY ~golden_horse/cre_other/rqhass1.cre~ ~override/rqhass1.cre~
+  WRITE_ASCII 0x280 ~rqhass1~ #32 // Script name aka Death Variable
+  //WRITE_ASCII 0x2cc ~rqhass1~ #8 // Dialogue file
+  WRITE_ASCII 0x248 ~rqhost2a~ #8 // Override script
+  WRITE_ASCII 0x250 ~rqgpuse~ #8 // Class script
+  SAY NAME1 ~Lucette~
+  SAY NAME2 ~Lucette~
+
+COPY ~golden_horse/cre_other/rqberin.cre~ ~override/rqberin.cre~
+  WRITE_ASCII 0x280 ~rqberin~ #32 // Script name aka Death Variable
+  WRITE_ASCII 0x248 ~rqhost2a~ #8 // Override script
+  WRITE_ASCII 0x2cc ~rqberin~ #8 // Dialogue file
+  WRITE_ASCII 0x250 ~rqgpuse~ #8 // Class script
+  SAY NAME1 ~Berinvar~
+  SAY NAME2 ~Berinvar~
+
+COPY ~golden_horse/cre_other/rqpace.cre~ ~override/rqpace.cre~
+  WRITE_ASCII 0x280 ~rqpace~ #32 // Script name aka Death Variable
+  WRITE_ASCII 0x248 ~rqhost2a~ #8 // Override script
+  WRITE_ASCII 0x258 ~rqgpuse~ #8 // Race script // Ring of invisibility backstab
+  SAY NAME1 ~Pace~
+  SAY NAME2 ~Pace~
+
+COPY ~golden_horse/cre_other/rqmero.cre~ ~override/rqmero.cre~
+  WRITE_ASCII 0x280 ~rqmero~ #32 // Script name aka Death Variable
+  WRITE_ASCII 0x248 ~rqhost2a~ #8 // Override script
+  SAY NAME1 ~Meronia~
+  SAY NAME2 ~Meronia~
+
+COPY ~golden_horse/cre_other/rqrenf.cre~ ~override/rqrenf.cre~
+  WRITE_ASCII 0x280 ~rqrenf~ #32 // Script name aka Death Variable
+  WRITE_ASCII 0x248 ~rqhost2a~ #8 // Override script
+  WRITE_ASCII 0x250 ~rqgpuse~ #8 // Class script
+  SAY NAME1 ~Renfeld~
+  SAY NAME2 ~Renfeld~
+
+COPY ~golden_horse/cre_other/rqrylo.cre~ ~override/rqrylo.cre~
+  WRITE_ASCII 0x280 ~rqrylo~ #32 // Script name aka Death Variable
+  WRITE_ASCII 0x248 ~rqhost2a~ #8 // Override script
+  SAY NAME1 ~Rylock~
+  SAY NAME2 ~Rylock~
+
+// Revianne Ambush group
+COPY ~golden_horse/cre_other/rqjare.cre~ ~override/rqjare.cre~
+  WRITE_ASCII 0x280 ~rqjare~ #32 // Script name aka Death Variable
+  WRITE_ASCII 0x248 ~rqh3arev~ #8 // Override script
+  WRITE_ASCII 0x2cc ~rqrevia~ #8 // Dialogue file
+  WRITE_ASCII 0x250 ~rqgpuse~ #8 // Class script
+  SAY NAME1 ~Reviane~
+  SAY NAME2 ~Reviane~
+
+COPY ~golden_horse/cre_other/rqjare1.cre~ ~override/rqjare1.cre~
+  WRITE_ASCII 0x280 ~rqjare1~ #32 // Script name aka Death Variable
+  WRITE_ASCII 0x248 ~rqhost3a~ #8 // Override script
+  WRITE_ASCII 0x250 ~rqgpuse~ #8 // Class script
+  SAY NAME1 ~Harper~
+  SAY NAME2 ~Harper~
+
+COPY ~golden_horse/cre_other/rqjare2.cre~ ~override/rqjare2.cre~
+  WRITE_ASCII 0x280 ~rqjare2~ #32 // Script name aka Death Variable
+  WRITE_ASCII 0x248 ~rqhost3a~ #8 // Override script
+  WRITE_ASCII 0x250 ~rqgpuse~ #8 // Class script
+  SAY NAME1 ~Harper~
+  SAY NAME2 ~Harper~
+
+COPY ~golden_horse/cre_other/rqjare3.cre~ ~override/rqjare3.cre~
+  WRITE_ASCII 0x280 ~rqjare3~ #32 // Script name aka Death Variable
+  WRITE_ASCII 0x248 ~rqhost3a~ #8 // Override script
+  SAY NAME1 ~Harper~
+  SAY NAME2 ~Harper~
+
+COPY ~golden_horse/cre_other/rqjare4.cre~ ~override/rqjare4.cre~
+  WRITE_ASCII 0x280 ~rqjare4~ #32 // Script name aka Death Variable
+  WRITE_ASCII 0x248 ~rqhost3a~ #8 // Override script
+  WRITE_ASCII 0x250 ~rqgpuse~ #8 // Class script
+  SAY NAME1 ~Harper~
+  SAY NAME2 ~Harper~
+
+// Dermin + Jaheira ambush
+COPY ~golden_horse/cre_other/rqjah131.cre~ ~override/rqjah131.cre~
+  WRITE_ASCII 0x280 ~rqjah131~ #32 // Script name aka Death Variable
+  WRITE_ASCII 0x248 ~rqh4ajah~ #8 // Override script
+  WRITE_ASCII 0x2cc ~rqjah4~ #8 // Dialogue file
+  WRITE_ASCII 0x250 ~rqgpuse~ #8 // Class script
+  SAY NAME1 ~Jaheira~
+  SAY NAME2 ~Jaheira~
+
+COPY ~golden_horse/cre_other/rqdermin.cre~ ~override/rqdermin.cre~
+  WRITE_ASCII 0x280 ~rqdermin~ #32 // Script name aka Death Variable
+  WRITE_ASCII 0x2cc ~rqdermin~ #8 // Dialogue file
+  WRITE_ASCII 0x248 ~rqhost4a~ #8 // Override script
+  ADD_CRE_ITEM ~rqbrac01~ #0 #0 #0 ~UNSTEALABLE~ ~INV~
+  ADD_CRE_ITEM ~rqletder~ #0 #0 #0 ~UNSTEALABLE~ ~INV~
+  SAY NAME1 ~Dermin Courtierdale~
+  SAY NAME2 ~Dermin Courtierdale~
+
+COPY ~golden_horse/cre_other/rqjade1.cre~ ~override/rqjade1.cre~
+  WRITE_ASCII 0x280 ~rqjade1~ #32 // Script name aka Death Variable
+  WRITE_ASCII 0x248 ~rqhost4a~ #8 // Override script
+  SAY NAME1 ~Lennah~
+  SAY NAME2 ~Lennah~
+
+COPY ~golden_horse/cre_other/rqjade2.cre~ ~override/rqjade2.cre~
+  WRITE_ASCII 0x280 ~rqjade2~ #32 // Script name aka Death Variable
+  WRITE_ASCII 0x248 ~rqhost4a~ #8 // Override script
+  WRITE_ASCII 0x250 ~rqgpuse~ #8 // Class script
+  SAY NAME1 ~Thenry~
+  SAY NAME2 ~Thenry~
+
+COPY ~golden_horse/cre_other/rqjade3.cre~ ~override/rqjade3.cre~
+  WRITE_ASCII 0x280 ~rqjade3~ #32 // Script name aka Death Variable
+  WRITE_ASCII 0x248 ~rqhost4a~ #8 // Override script
+  SAY NAME1 ~Jeremon~
+  SAY NAME2 ~Jeremon~
+
+COPY ~golden_horse/cre_other/rqjade4.cre~ ~override/rqjade4.cre~
+  WRITE_ASCII 0x280 ~rqjade4~ #32 // Script name aka Death Variable
+  WRITE_ASCII 0x248 ~rqhost4a~ #8 // Override script
+  SAY NAME1 ~Chrost~
+  SAY NAME2 ~Chrost~
+
+// Malchor + Jaheira ambush
+COPY ~golden_horse/cre_other/rqmalch.cre~ ~override/rqmalch.cre~
+  WRITE_ASCII 0x280 ~rqmalch~ #32 // Script name aka Death Variable
+  WRITE_ASCII 0x248 ~rqmalch~ #8 // Override script
+  WRITE_ASCII 0x2cc ~rqmalch~ #8 // Dialogue file
+  SAY NAME1 ~Malchor Harpell~
+  SAY NAME2 ~Malchor Harpell~
+
+COPY ~golden_horse/cre_other/rqjah132.cre~ ~override/rqjah132.cre~
+  WRITE_ASCII 0x280 ~rqjah132~ #32 // Script name aka Death Variable
+  WRITE_ASCII 0x2cc ~rqjah5~ #8 // Dialogue file
+  SAY NAME1 ~Jaheira~
+  SAY NAME2 ~Jaheira~
+
+// Jaheira Harper Elite  Shadow Thieves Cowled Wizards etc Throne of Bhaal ambush group 0
+COPY ~golden_horse/cre_other/rqjah134.cre~ ~override/rqjah134.cre~
+  WRITE_ASCII 0x280 ~rqjah134~ #32 // Script name aka Death Variable
+  ADD_CRE_ITEM ~rqlettj3~ #0 #0 #0 ~UNSTEALABLE~ ~INV~
+  ADD_CRE_ITEM ~rqlettj2~ #0 #0 #0 ~UNSTEALABLE~ ~INV~
+  ADD_CRE_ITEM ~rqlettj~ #0 #0 #0 ~UNSTEALABLE~ ~INV~
+  WRITE_ASCII 0x248 ~SHOUTDLG~ #8 // Override script
+  WRITE_ASCII 0x2cc ~rqjah134~ #8 // Dialogue file
+  WRITE_ASCII 0x250 ~rqgpuse~ #8 // Class script
+  SAY NAME1 ~Jaheira~
+  SAY NAME2 ~Jaheira~
+
+COPY ~golden_horse/cre_other/rqbar30a.cre~ ~override/rqbar30a.cre~
+  WRITE_ASCII 0x280 ~rqbar30a~ #32 // Script name aka Death Variable
+  WRITE_ASCII 0x2cc ~rqbar30a~ #8 // Dialogue file
+  ADD_CRE_ITEM ~rqpotn3~ #0 #0 #0 ~UNSTEALABLE~ ~INV~
+  ADD_CRE_ITEM ~rqdeliv2~ #0 #0 #0 ~UNSTEALABLE~ ~INV~
+  ADD_CRE_ITEM ~rqpotc03~ #0 #0 #0 ~UNSTEALABLE~ ~INV~
+  ADD_CRE_ITEM ~REGHP2~ #0 #0 #0 ~unstealable&undroppable~ ~RRING~
+  ADD_CRE_ITEM ~RINGDEMN~ #0 #0 #0 ~unstealable&undroppable~ ~LRING~
+  //WRITE_ASCII 0x248 ~SHOUTDLG~ #8 // Override script
+  WRITE_ASCII 0x250 ~CFIGH30B~ #8 // Class script CFIGH20B
+  SAY NAME1 ~Blutdurst~
+  SAY NAME2 ~Blutdurst~
+
+COPY ~golden_horse/cre_other/rqs20.cre~ ~override/rqs20.cre~
+  WRITE_ASCII 0x280 ~rqs20~ #32 // Script name aka Death Variable
+  ADD_CRE_ITEM ~REGHP2~ #0 #0 #0 ~unstealable&undroppable~ ~RRING~
+  ADD_CRE_ITEM ~RINGDEMN~ #0 #0 #0 ~unstealable&undroppable~ ~LRING~
+  SAY NAME1 ~Corruptor~
+  SAY NAME2 ~Corruptor~
+
+COPY ~golden_horse/cre_other/rqc26.cre~ ~override/rqc26.cre~
+  WRITE_ASCII 0x280 ~rqc26~ #32 // Script name aka Death Variable
+  ADD_CRE_ITEM ~REGHP2~ #0 #0 #0 ~unstealable&undroppable~ ~RRING~
+  ADD_CRE_ITEM ~RINGDEMN~ #0 #0 #0 ~unstealable&undroppable~ ~LRING~
+  SAY NAME1 ~Secretwhisperer~
+  SAY NAME2 ~Secretwhisperer~
+
+COPY ~golden_horse/cre_other/rqd18.cre~ ~override/rqd18.cre~
+  WRITE_ASCII 0x280 ~rqd18~ #32 // Script name aka Death Variable
+  ADD_CRE_ITEM ~REGHP2~ #0 #0 #0 ~unstealable&undroppable~ ~RRING~
+  ADD_CRE_ITEM ~RINGDEMN~ #0 #0 #0 ~unstealable&undroppable~ ~LRING~
+  SAY NAME1 ~Sucio the Great~
+  SAY NAME2 ~Sucio the Great~
+
+// Ribald 1
+COPY ~golden_horse/cre_other/rqriba.cre~ ~override/rqriba.cre~
+  WRITE_ASCII 0x280 ~rqriba~ #32 // Script name aka Death Variable
+  WRITE_ASCII 0x2cc ~rqriba~ #8 // Dialogue file
+  SAY NAME1 ~Ribald~
+  SAY NAME2 ~Ribald~
+
+// Shadow Thieves 2
+COPY ~golden_horse/cre_other/rqmonliq.cre~ ~override/rqmonliq.cre~
+  WRITE_ASCII 0x280 ~rqmonliq~ #32 // Script name aka Death Variable
+  WRITE_ASCII 0x2cc ~rqmonliq~ #8 // Dialogue file
+  SAY NAME1 ~Montin Liq'var~
+  SAY NAME2 ~Montin Liq'var~
+
+COPY ~golden_horse/cre_other/rqstde.cre~ ~override/rqstde.cre~
+  WRITE_ASCII 0x280 ~rqstde~ #32 // Script name aka Death Variable
+  WRITE_ASCII 0x250 ~CFIGH20B~ #8 // Class script
+  SAY NAME1 ~Arkanis Gath~
+  SAY NAME2 ~Arkanis Gath~
+
+COPY ~golden_horse/cre_other/rqvvsa.cre~ ~override/rqvvsa.cre~
+  WRITE_ASCII 0x280 ~rqvvsa~ #32 // Script name aka Death Variable
+  WRITE_ASCII 0x250 ~CFIGH20B~ #8 // Class script
+  SAY NAME1 ~Sansuki~
+  SAY NAME2 ~Sansuki~
+
+// Cowled wizards reinforcements 3
+COPY ~golden_horse/cre_other/rqcowl1.cre~ ~override/rqcowl1.cre~
+  WRITE_ASCII 0x280 ~rqcowl1~ #32 // Script name aka Death Variable
+  WRITE_ASCII 0x2cc ~rqcowl~ #8 // Dialogue file
+  SAY NAME1 ~Cowled Wizard~
+  SAY NAME2 ~Cowled Wizard~
+
+COPY ~golden_horse/cre_other/rqcowl2.cre~ ~override/rqcowl2.cre~
+  WRITE_ASCII 0x280 ~rqcowl2~ #32 // Script name aka Death Variable
+  SAY NAME1 ~Cowled Wizard~
+  SAY NAME2 ~Cowled Wizard~
+
+COPY ~golden_horse/cre_other/rqcenf1.cre~ ~override/rqcenf1.cre~
+  WRITE_ASCII 0x280 ~rqcenf1~ #32 // Script name aka Death Variable
+  SAY NAME1 ~Cowled Enforcer~
+  SAY NAME2 ~Cowled Enforcer~
+
+COPY ~golden_horse/cre_other/rqcenf2.cre~ ~override/rqcenf2.cre~
+  WRITE_ASCII 0x280 ~rqcenf2~ #32 // Script name aka Death Variable
+  SAY NAME1 ~Cowled Enforcer~
+  SAY NAME2 ~Cowled Enforcer~
+
+COPY ~golden_horse/cre_other/rqcenf3.cre~ ~override/rqcenf3.cre~
+  WRITE_ASCII 0x280 ~rqcenf3~ #32 // Script name aka Death Variable
+  SAY NAME1 ~Cowled Enforcer~
+  SAY NAME2 ~Cowled Enforcer~
+
+COPY ~golden_horse/cre_other/rqcenf4.cre~ ~override/rqcenf4.cre~
+  WRITE_ASCII 0x280 ~rqcenf4~ #32 // Script name aka Death Variable
+  SAY NAME1 ~Cowled Enforcer~
+  SAY NAME2 ~Cowled Enforcer~
+
+// Elven reinforcements 4
+COPY ~golden_horse/cre_other/rqbael.cre~ ~override/rqbael.cre~
+  WRITE_ASCII 0x280 ~rqbael~ #32 // Script name aka Death Variable
+  WRITE_ASCII 0x2cc ~rqbael~ #8 // Dialogue file
+  SAY NAME1 ~Baelnorn~
+  SAY NAME2 ~Baelnorn~
+
+COPY ~golden_horse/cre_other/rqc6gen.cre~ ~override/rqc6gen.cre~
+  WRITE_ASCII 0x280 ~rqc6gen~ #32 // Script name aka Death Variable
+  WRITE_ASCII 0x250 ~CFIGH20B~ #8 // Class script
+  SAY NAME1 ~Sovalidass~
+  SAY NAME2 ~Sovalidass~
+
+COPY ~golden_horse/cre_other/rqf27.cre~ ~override/rqf27.cre~
+  WRITE_ASCII 0x280 ~rqf27~ #32 // Script name aka Death Variable
+  WRITE_ASCII 0x250 ~CFIGH30B~ #8 // Class script
+  SAY NAME1 ~Bladesinger~
+  SAY NAME2 ~Bladesinger~
+
+COPY ~golden_horse/cre_other/rqc6elf1.cre~ ~override/rqc6elf1.cre~
+  WRITE_ASCII 0x280 ~rqc6elf1~ #32 // Script name aka Death Variable
+  WRITE_ASCII 0x250 ~CFIGH20B~ #8 // Class script
+  SAY NAME1 ~Elven Warrior~
+  SAY NAME2 ~Elven Warrior~
+
+COPY ~golden_horse/cre_other/rqc6elf2.cre~ ~override/rqc6elf2.cre~
+  WRITE_ASCII 0x280 ~rqc6elf2~ #32 // Script name aka Death Variable
+  WRITE_ASCII 0x250 ~CFIGH20B~ #8 // Class script
+  SAY NAME1 ~Elven Warrior~
+  SAY NAME2 ~Elven Warrior~
+
+COPY ~golden_horse/cre_other/rqc6elf3.cre~ ~override/rqc6elf3.cre~
+  WRITE_ASCII 0x280 ~rqc6elf3~ #32 // Script name aka Death Variable
+  WRITE_ASCII 0x250 ~CFIGH20B~ #8 // Class script
+  SAY NAME1 ~Elven Slinger~
+  SAY NAME2 ~Elven Slinger~
+
+COPY ~golden_horse/cre_other/rqc6elf4.cre~ ~override/rqc6elf4.cre~
+  WRITE_ASCII 0x280 ~rqc6elf4~ #32 // Script name aka Death Variable
+  WRITE_ASCII 0x250 ~CFIGH20B~ #8 // Class script
+  SAY NAME1 ~Elven Slinger~
+  SAY NAME2 ~Elven Slinger~
+
+// Paladin reinforcements 5
+COPY ~golden_horse/cre_other/rqwill.cre~ ~override/rqwill.cre~
+  WRITE_ASCII 0x280 ~rqwill~ #32 // Script name aka Death Variable
+  WRITE_ASCII 0x2cc ~rqwill~ #8 // Dialogue file
+  WRITE_ASCII 0x250 ~CFIGH20B~ #8 // Class script
+  SAY NAME1 ~Sir_Branet_al-Thon~
+  SAY NAME2 ~Sir_Branet_al-Thon~
+
+COPY ~golden_horse/cre_other/rqalhe.cre~ ~override/rqalhe.cre~
+  WRITE_ASCII 0x280 ~rqalhe~ #32 // Script name aka Death Variable
+  SAY NAME1 ~Alhelor~
+  SAY NAME2 ~Alhelor~
+
+COPY ~golden_horse/cre_other/rqalex.cre~ ~override/rqalex.cre~
+  WRITE_ASCII 0x280 ~rqalex~ #32 // Script name aka Death Variable
+  WRITE_ASCII 0x250 ~CFIGH20B~ #8 // Class script
+  SAY NAME1 ~Sir Beverus~
+  SAY NAME2 ~Sir Beverus~
+
+COPY ~golden_horse/cre_other/rqjolu.cre~ ~override/rqjolu.cre~
+  WRITE_ASCII 0x280 ~rqjolu~ #32 // Script name aka Death Variable
+  SAY NAME1 ~Sir Jolus~
+  SAY NAME2 ~Sir Jolus~
+
+COPY ~golden_horse/cre_other/rqkenda.cre~ ~override/rqkenda.cre~
+  WRITE_ASCII 0x280 ~rqkenda~ #32 // Script name aka Death Variable
+  WRITE_ASCII 0x250 ~CFIGH20B~ #8 // Class script
+  SAY NAME1 ~Sir Laren~
+  SAY NAME2 ~Sir Laren~
+
+COPY ~golden_horse/cre_other/rqryan.cre~ ~override/rqryan.cre~
+  WRITE_ASCII 0x280 ~rqryan~ #32 // Script name aka Death Variable
+  WRITE_ASCII 0x250 ~CFIGH20B~ #8 // Class script
+  SAY NAME1 ~Sir Paritin~
+  SAY NAME2 ~Sir Paritin~
+
+//Alternative Paladins
+COPY ~golden_horse/cre_other/rqwoodw.cre~ ~override/rqwoodw.cre~
+  WRITE_ASCII 0x280 ~rqwoodw~ #32 // Script name aka Death Variable
+  WRITE_ASCII 0x2cc ~rqwoodw~ #8 // Dialogue file
+  WRITE_ASCII 0x250 ~CFIGH20B~ #8 // Class script
+  SAY NAME1 ~Sir Woodwille~
+  SAY NAME2 ~Sir Woodwille~
+
+COPY ~golden_horse/cre_other/rqnevill.cre~ ~override/rqnevill.cre~
+  WRITE_ASCII 0x280 ~rqnevill~ #32 // Script name aka Death Variable
+  WRITE_ASCII 0x250 ~CFIGH20B~ #8 // Class script
+  SAY NAME1 ~Sir Neville~
+  SAY NAME2 ~Sir Neville~
+
+COPY ~golden_horse/cre_other/rqstaf.cre~ ~override/rqstaf.cre~
+  WRITE_ASCII 0x280 ~rqstaf~ #32 // Script name aka Death Variable
+  WRITE_ASCII 0x250 ~CFIGH20B~ #8 // Class script
+  SAY NAME1 ~Sir Stafford~
+  SAY NAME2 ~Sir Stafford~
+
+COPY ~golden_horse/cre_other/rqhoward.cre~ ~override/rqhoward.cre~
+  WRITE_ASCII 0x280 ~rqhoward~ #32 // Script name aka Death Variable
+  WRITE_ASCII 0x250 ~CFIGH20B~ #8 // Class script
+  SAY NAME1 ~Sir Howard~
+  SAY NAME2 ~Sir Howard~
+
+COPY ~golden_horse/cre_other/rqbeauf.cre~ ~override/rqbeauf.cre~
+  WRITE_ASCII 0x280 ~rqbeauf~ #32 // Script name aka Death Variable
+  WRITE_ASCII 0x250 ~CFIGH20B~ #8 // Class script
+  SAY NAME1 ~Sir Beaufort~
+  SAY NAME2 ~Sir Beaufort~
+
+COPY ~golden_horse/cre_other/rqtalbot.cre~ ~override/rqtalbot.cre~
+  WRITE_ASCII 0x280 ~rqtalbot~ #32 // Script name aka Death Variable
+  SAY NAME1 ~Talbot~
+  SAY NAME2 ~Talbot~
+
+// Ambush in Saradush Waukeen Temple
+COPY ~golden_horse/cre_other/rqjah135.cre~ ~override/rqjah135.cre~
+  WRITE_ASCII 0x280 ~rqjah135~ #32 // Script name aka Death Variable
+  WRITE_ASCII 0x248 ~SHOUTDLG~ #8 // Override script
+  WRITE_ASCII 0x2cc ~rqjtob2~ #8 // Dialogue file
+  SAY NAME1 ~Jaheira~
+  SAY NAME2 ~Jaheira~
+
+COPY ~golden_horse/cre_other/rqberkrt.cre~ ~override/rqberkrt.cre~
+  WRITE_ASCII 0x280 ~rqberkrt~ #32 // Script name aka Death Variable
+  SAY NAME1 ~Leventhern Lawgiver~
+  SAY NAME2 ~Leventhern Lawgiver~
+
+COPY ~golden_horse/cre_other/rqc26t.cre~ ~override/rqc26t.cre~
+  WRITE_ASCII 0x280 ~rqc26t~ #32 // Script name aka Death Variable
+  SAY NAME1 ~Prinski Prideculler~
+  SAY NAME2 ~Prinski Prideculler~
+
+COPY ~golden_horse/cre_other/rqfb19t.cre~ ~override/rqfb19t.cre~
+  WRITE_ASCII 0x280 ~rqfb19t~ #32 // Script name aka Death Variable
+  SAY NAME1 ~Aumar Freespirited~
+  SAY NAME2 ~Aumar Freespirited~
+
+COPY ~golden_horse/cre_other/rqgrunt.cre~ ~override/rqgrunt.cre~
+  WRITE_ASCII 0x280 ~rqgrunt~ #32 // Script name aka Death Variable
+  SAY NAME1 ~Huor Selfless~
+  SAY NAME2 ~Huor Selfless~
+
+COPY ~golden_horse/cre_other/rqanakat.cre~ ~override/rqanakat.cre~
+  WRITE_ASCII 0x280 ~rqanakat~ #32 // Script name aka Death Variable
+  SAY NAME1 ~Hegri Balanced~
+  SAY NAME2 ~Hegri Balanced~
+
+COPY ~golden_horse/cre_other/rqs20t.cre~ ~override/rqs20t.cre~
+  WRITE_ASCII 0x280 ~rqs20t~ #32 // Script name aka Death Variable
+  SAY NAME1 ~Perog the Courageous~
+  SAY NAME2 ~Perog the Courageous~
+
+COPY ~golden_horse/cre_other/rqharpar.cre~ ~override/rqharpar.cre~
+  WRITE_ASCII 0x280 ~rqharpar~ #32 // Script name aka Death Variable
+  SAY NAME1 ~Agram the Comrade~
+  SAY NAME2 ~Agram the Comrade~
+
+COPY ~golden_horse/cre_other/rqmo22t.cre~ ~override/rqmo22t.cre~
+  WRITE_ASCII 0x280 ~rqmo22t~ #32 // Script name aka Death Variable
+  SAY NAME1 ~Yissy the Adjudicator~
+  SAY NAME2 ~Yissy the Adjudicator~
+
+COPY ~golden_horse/cre_other/rqpi20.cre~ ~override/rqpi20.cre~
+  WRITE_ASCII 0x280 ~rqpi20~ #32 // Script name aka Death Variable
+  SAY NAME1 ~Losbellon Sanctifier~
+  SAY NAME2 ~Losbellon Sanctifier~
+
+COPY ~golden_horse/cre_other/rqds19.cre~ ~override/rqds19.cre~
+  WRITE_ASCII 0x280 ~rqds19~ #32 // Script name aka Death Variable
+  WRITE_ASCII 0x248 ~rqwehr2j~ #8 // Override script Shapeshifting and attack
+  SAY NAME1 ~Grath Fearless~
+  SAY NAME2 ~Grath Fearless~
+
+COPY ~golden_horse/cre_other/rqf4a18.cre~ ~override/rqf4a18.cre~
+  WRITE_ASCII 0x280 ~rqf4a18~ #32 // Script name aka Death Variable
+  SAY NAME1 ~Punisher Ussgagh~
+  SAY NAME2 ~Punisher Ussgagh~
+
+COPY ~golden_horse/cre_other/rqbs21.cre~ ~override/rqbs21.cre~
+  WRITE_ASCII 0x280 ~rqbs21~ #32 // Script name aka Death Variable
+  ADD_CRE_ITEM ~rqlett1~ #0 #0 #0 ~UNSTEALABLE~ ~INV~
+  SAY NAME1 ~Junthor Talesinger~
+  SAY NAME2 ~Junthor Talesinger~
+
+// Mithrest Revan people
+COPY ~golden_horse/cre_other/rqrugos.cre~ ~override/rqrugos.cre~
+  WRITE_ASCII 0x280 ~rqrugos~ #32 // Script name aka Death Variable
+  WRITE_ASCII 0x2cc ~rqrugos~ #8 // Dialogue file
+  SAY NAME1 ~Rugos~
+  SAY NAME2 ~Rugos~
+
+COPY ~golden_horse/cre_other/rqfougi.cre~ ~override/rqfougi.cre~
+  WRITE_ASCII 0x280 ~rqfougi~ #32 // Script name aka Death Variable
+  WRITE_ASCII 0x2cc ~rqfougi~ #8 // Dialogue file
+  SAY NAME1 ~Fougier~
+  SAY NAME2 ~Fougier~
+
+COPY ~golden_horse/cre_other/rqrahm.cre~ ~override/rqrahm.cre~
+  WRITE_ASCII 0x280 ~rqrahm~ #32 // Script name aka Death Variable
+  WRITE_ASCII 0x2cc ~rqrahm~ #8 // Dialogue file
+  ADD_CRE_ITEM ~rqrooste~ #0 #0 #0 ~UNSTEALABLE~ ~INV~
+  SAY NAME1 ~Rahm~
+  SAY NAME2 ~Rahm~
+
+// Mercenaries
+COPY ~golden_horse/cre_allies/rqfbe.cre~ ~override/rqfbe.cre~
+  WRITE_ASCII 0x280 ~rqfbe~ #32 // Script name aka Death Variable
+  WRITE_ASCII 0x2cc ~rqfbe~ #8 // Dialogue file
+  SAY BIO ~I be workin' as mercenary for Golden Horse and thats all yer be needin' to know bout' me.~
+  SAY NAME1 ~Jorgur~
+  SAY NAME2 ~Jorgur~
+
+COPY ~golden_horse/cre_allies/rqfbet.cre~ ~override/rqfbet.cre~
+  WRITE_ASCII 0x280 ~rqfbet~ #32 // Script name aka Death Variable
+  WRITE_ASCII 0x2cc ~rqfbet~ #8 // Dialogue file
+  SAY BIO ~I be brother to Jorgur not ye' so ye wastin' yer breath talkin' to me.~
+  SAY NAME1 ~Breneke~
+  SAY NAME2 ~Breneke~
+
+COPY ~golden_horse/cre_allies/rqmil.cre~ ~override/rqmil.cre~
+  WRITE_ASCII 0x280 ~rqmil~ #32 // Script name aka Death Variable
+  WRITE_ASCII 0x2cc ~rqmil~ #8 // Dialogue file
+  SAY BIO ~I was alchemist assistant but some of my experiments... Lets just not go into any details. Say what were we talking about?~
+  SAY NAME1 ~Kelrp Munor~
+  SAY NAME2 ~Kelrp Munor~
+
+COPY ~golden_horse/cre_allies/rqfmn.cre~ ~override/rqfmn.cre~
+  WRITE_ASCII 0x280 ~rqfmn~ #32 // Script name aka Death Variable
+  WRITE_ASCII 0x2cc ~rqfmn~ #8 // Dialogue file
+  SAY BIO ~My past you say. I was in militia they trained me as soldier though I am good warior now I would like to cross-train to become mage.~
+  SAY NAME1 ~Kylos~
+  SAY NAME2 ~Kylos~
+
+COPY ~golden_horse/cre_allies/rqsrc.cre~ ~override/rqsrc.cre~
+  WRITE_ASCII 0x280 ~rqsrc~ #32 // Script name aka Death Variable
+  WRITE_ASCII 0x2cc ~rqsrc~ #8 // Dialogue file
+  SAY BIO ~I am originally from Evereska lets just say I have left after some disagreements with Elders. Now I wish to rebuilt myself here in Amn.~
+  SAY NAME1 ~Ilsmavilinn~
+  SAY NAME2 ~Ilsmavilinn~
+
+COPY ~golden_horse/cre_allies/rqmin.cre~ ~override/rqmin.cre~
+  WRITE_ASCII 0x280 ~rqmin~ #32 // Script name aka Death Variable
+  WRITE_ASCII 0x2cc ~rqmin~ #8 // Dialogue file
+  SAY BIO ~Elr Navla is traveling invoker, gold bound to fulfill mercenary contract. I am very very confident that you do not need to know more about Elr Navla.~
+  SAY NAME1 ~Elr Navla~
+  SAY NAME2 ~Elr Navla~
+
+COPY ~golden_horse/cre_allies/rqmtr.cre~ ~override/rqmtr.cre~
+  WRITE_ASCII 0x280 ~rqmtr~ #32 // Script name aka Death Variable
+  WRITE_ASCII 0x2cc ~rqmtr~ #8 // Dialogue file
+  SAY BIO ~Normain Neduzachor is my full name. I was apprentice of Perdan of Waterdeep though that was twenty years ago. Time flies does it not?~
+  SAY NAME1 ~Normain~
+  SAY NAME2 ~Normain~
+
+COPY ~golden_horse/cre_allies/rqmab.cre~ ~override/rqmab.cre~
+  WRITE_ASCII 0x280 ~rqmab~ #32 // Script name aka Death Variable
+  WRITE_ASCII 0x2cc ~rqmab~ #8 // Dialogue file
+  SAY BIO ~Bekurel is my name and I am very very certain you would you do not want to know anything about my past.~
+  SAY NAME1 ~Bekurel~
+  SAY NAME2 ~Bekurel~
+
+COPY ~golden_horse/cre_allies/rqmdi.cre~ ~override/rqmdi.cre~
+  WRITE_ASCII 0x280 ~rqmdi~ #32 // Script name aka Death Variable
+  WRITE_ASCII 0x2cc ~rqmdi~ #8 // Dialogue file
+  SAY BIO ~My name is Betheroc. I am a brother of Normain if that is of any interest to you. I was mostly working with him and we did very well for Futher information why don't you ask him I'm not much of a Bard.~
+  SAY NAME1 ~Betheroc~
+  SAY NAME2 ~Betheroc~
+
+COPY ~golden_horse/cre_allies/rqbsk.cre~ ~override/rqbsk.cre~
+  WRITE_ASCII 0x280 ~rqbsk~ #32 // Script name aka Death Variable
+  WRITE_ASCII 0x2cc ~rqbsk~ #8 // Dialogue file
+  SAY BIO ~I am Afkar. I came faraway land from North to introduce myself I could sing you a song though I am learned enough to know that people of your appearence might not have patience for such things so I would rather not risk it.~
+  SAY NAME1 ~Afkar~
+  SAY NAME2 ~Afkar~
+
+COPY ~golden_horse/cre_allies/rqmen.cre~ ~override/rqmen.cre~
+  WRITE_ASCII 0x280 ~rqmen~ #32 // Script name aka Death Variable
+  WRITE_ASCII 0x2cc ~rqmen~ #8 // Dialogue file
+  SAY BIO ~I was born in Esmeraltan. I knew not my parents. Life as orphan is hard but Gods gave fortune to compensate my disadvantage, my magic. Learned my specialization from wandering scholar Emre Vilduthviel. I lived in Evereska for a time but found very boorish place. Life is much more interesting when traveling so why not join mercenary company?~
+  SAY NAME1 ~Veleten~
+  SAY NAME2 ~Veleten~
+
+// Neutral Merchant in Watchers Keep
+COPY ~golden_horse/cre_other/rqlyngre.cre~ ~override/rqlyngre.cre~
+  WRITE_ASCII 0x280 ~rqlyngre~ #32 // Script name aka Death Variable
+  WRITE_ASCII 0x2cc ~rqlyngre~ #8 // Dialogue file
+  SAY NAME1 ~Lyvinius Gremachus~
+  SAY NAME2 ~Lyvinius Gremachus~
+
+// Reman in Waukeens Promenade
+COPY ~golden_horse/cre_other/rqreman.cre~ ~override/rqreman.cre~
+  WRITE_ASCII 0x280 ~rqreman~ #32 // Script name aka Death Variable
+  WRITE_ASCII 0x2cc ~rqreman~ #8 // Dialogue file
+  WRITE_ASCII 0x248 ~rqreman~ #8 // Override script
+  SAY NAME1 ~Remanfurgus~
+  SAY NAME2 ~Remanfurgus Dobruch~
+
+// Last Jaheira Encounter in Tob
+COPY ~golden_horse/cre_other/rqjah136.cre~ ~override/rqjah136.cre~
+  WRITE_ASCII 0x280 ~rqjah136~ #32 // Script name aka Death Variable
+  ADD_CRE_ITEM ~rqlettj4~ #0 #0 #0 ~UNSTEALABLE~ ~INV~
+  WRITE_ASCII 0x248 ~SHOUTDLG~ #8 // Override script
+  WRITE_ASCII 0x2cc ~rqjtob3~ #8 // Dialogue file
+  WRITE_ASCII 0x250 ~rqgpuse~ #8 // Class script
+  SAY NAME1 ~Jaheira~
+  SAY NAME2 ~Jaheira~
+
+COPY ~golden_horse/cre_other/rqbeart3.cre~ ~override/rqbeart3.cre~
+  WRITE_ASCII 0x280 ~rqbeart3~ #32 // Script name aka Death Variable
+  SAY NAME1 ~Tainted Bear~
+  SAY NAME2 ~Tainted Bear~
+
+COPY ~golden_horse/cre_other/rqwolft3.cre~ ~override/rqwolft3.cre~
+  WRITE_ASCII 0x280 ~rqwolft3~ #32 // Script name aka Death Variable
+  SAY NAME1 ~Putrid Wolf~
+  SAY NAME2 ~Putrid Wolf~
+
+COPY ~golden_horse/cre_other/rqinset3.cre~ ~override/rqinset3.cre~
+  WRITE_ASCII 0x280 ~rqinset3~ #32 // Script name aka Death Variable
+  WRITE_ASCII 0x248 ~rqinspla~ #8 // Override script
+  ADD_CRE_ITEM ~rqinsect~ #0 #0 #0 ~unstealable&undroppable~ ~RRING~
+  SAY NAME1 ~Insect Plague~
+  SAY NAME2 ~Insect Plague~
+
+COPY ~golden_horse/cre_other/rqnaelt3.cre~ ~override/rqnaelt3.cre~
+  WRITE_ASCII 0x280 ~rqnaelt3~ #32 // Script name aka Death Variable
+  ADD_CRE_ITEM ~rqnatur~ #0 #0 #0 ~unstealable&undroppable~ ~WEAPON1~ EQUIP
+  SAY NAME1 ~Corrupted Nature Elemental~
+  SAY NAME2 ~Corrupted Nature El.~
+
+COPY ~golden_horse/cre_other/rqshamt3.cre~ ~override/rqshamt3.cre~
+  WRITE_ASCII 0x280 ~rqshamt3~ #32 // Script name aka Death Variable
+  SAY NAME1 ~Twisted Mound~
+  SAY NAME2 ~Twisted Mound~
+
+// Bhaal 1 quest line Illasera Oasis Encounter
+COPY ~golden_horse/cre_other/rq1illa.cre~ ~override/rq1illa.cre~
+  WRITE_ASCII 0x280 ~rq1illa~ #32 // Script name aka Death Variable
+  WRITE_ASCII 0x248 ~rqraksha~ #8 // Override script
+  WRITE_ASCII 0x2cc ~rq1illa~ #8 // Dialogue file
+  //WRITE_ASCII 0x250 ~rqgpuse~ #8 // Class script
+  SAY NAME1 ~Illasera~
+  SAY NAME2 ~Illasera~
+
+COPY ~golden_horse/cre_other/rq1f18.cre~ ~override/rq1f18.cre~
+  WRITE_ASCII 0x280 ~rq1f18~ #32 // Script name aka Death Variable
+  WRITE_ASCII 0x248 ~rq1runn1~ #8 // Override script
+  SAY NAME1 ~Black Reaver~
+  SAY NAME2 ~Black Reaver~
+
+COPY ~golden_horse/cre_other/rq1fb19.cre~ ~override/rq1fb19.cre~
+  WRITE_ASCII 0x280 ~rq1fb19~ #32 // Script name aka Death Variable
+  WRITE_ASCII 0x248 ~rq1runn2~ #8 // Override script
+  SAY NAME1 ~Black Reaver~
+  SAY NAME2 ~Black Reaver~
+
+COPY ~golden_horse/cre_other/rq1kamra.cre~ ~override/rq1kamra.cre~
+  WRITE_ASCII 0x280 ~rq1kamra~ #32 // Script name aka Death Variable
+  WRITE_ASCII 0x248 ~rq1runn3~ #8 // Override script
+  SAY NAME1 ~Black Reaver~
+  SAY NAME2 ~Black Reaver~
+
+COPY ~golden_horse/cre_other/rq1mage.cre~ ~override/rq1mage.cre~
+  WRITE_ASCII 0x280 ~rq1mage~ #32 // Script name aka Death Variable
+  WRITE_ASCII 0x248 ~rq1runn4~ #8 // Override script
+  SAY NAME1 ~Black Reaver~
+  SAY NAME2 ~Black Reaver~
+
+COPY ~golden_horse/cre_other/rq1t12f1.cre~ ~override/rq1t12f1.cre~
+  WRITE_ASCII 0x280 ~rq1t12f1~ #32 // Script name aka Death Variable
+  WRITE_ASCII 0x248 ~rq1runn5~ #8 // Override script
+  SAY NAME1 ~Black Reaver~
+  SAY NAME2 ~Black Reaver~
+
+COPY ~golden_horse/cre_other/rqmahraj.cre~ ~override/rqmahraj.cre~
+  WRITE_ASCII 0x280 ~rqmahraj~ #32 // Script name aka Death Variable
+  WRITE_ASCII 0x248 ~rqraksha~ #8 // Override script
+  SAY NAME1 ~Maharajah~
+  SAY NAME2 ~Maharajah~
+
+COPY ~golden_horse/cre_other/rqt1merc.cre~ ~override/rqt1merc.cre~
+  WRITE_ASCII 0x280 ~rqt1merc~ #32 // Script name aka Death Variable
+  WRITE_ASCII 0x2cc ~rqt1oasi~ #8 // Dialogue file
+  ADD_CRE_ITEM ~rqjoutha~ #0 #0 #0 ~UNSTEALABLE~ ~INV~
+  SAY NAME1 ~Thacher~
+  SAY NAME2 ~Thacher~
+
+// Deathstalker t5-1 quest Fire Giant Temple
+COPY ~golden_horse/cre_other/rqtrugos.cre~ ~override/rqtrugos.cre~
+  WRITE_ASCII 0x280 ~rqtrugos~ #32 // Script name aka Death Variable
+  WRITE_ASCII 0x248 ~rqtrugos~ #8 // Override script
+  WRITE_ASCII 0x2cc ~rqtrugos~ #8 // Dialogue file
+  SAY NAME1 ~Rugos~
+  SAY NAME2 ~Rugos~
+
+COPY ~golden_horse/cre_other/rqt5clf1.cre~ ~override/rqt5clf1.cre~
+  WRITE_ASCII 0x280 ~rqt5clf1~ #32 // Script name aka Death Variable
+  WRITE_ASCII 0x2cc ~rqt5dea1~ #8 // Dialogue file
+  WRITE_ASCII 0x248 ~rqirgul~ #8 // Override script
+  ADD_CRE_ITEM ~rqhymfur~ #0 #0 #0 ~UNSTEALABLE~ ~INV~
+  ADD_CRE_ITEM ~rqbook1~ #0 #0 #0 ~UNSTEALABLE~ ~INV~
+  SAY NAME1 ~Deathstalker Irgulis~
+  SAY NAME2 ~Deathstalker Irgulis~
+
+COPY ~golden_horse/cre_other/rqt5tf1.cre~ ~override/rqt5tf1.cre~
+  WRITE_ASCII 0x280 ~rqt5tf1~ #32 // Script name aka Death Variable
+  WRITE_ASCII 0x2cc ~rqt5elvy~ #8 // Dialogue file
+  SAY NAME1 ~Elvych Firetouched~
+  SAY NAME2 ~Elvych Firetouched~
+
+COPY ~golden_horse/cre_other/rq2illa.cre~ ~override/rq2illa.cre~
+  WRITE_ASCII 0x280 ~rq2illa~ #32 // Script name aka Death Variable
+  WRITE_ASCII 0x2cc ~rq2illa~ #8 // Dialogue file
+  WRITE_ASCII 0x248 ~rqtilla~ #8 // Override scripts
+  SAY NAME1 ~Illasera~
+  SAY NAME2 ~Illasera~
+
+COPY ~golden_horse/cre_other/rqt5clt1.cre~ ~override/rqt5clt1.cre~
+  WRITE_ASCII 0x280 ~rqt5clt1~ #32 // Script name aka Death Variable
+  WRITE_ASCII 0x248 ~rqt5deat~ #8 // Override script
+  SAY NAME1 ~Deathstalker Ammar~
+  SAY NAME2 ~Deathstalker Ammar~
+
+COPY ~golden_horse/cre_other/rqt5clt2.cre~ ~override/rqt5clt2.cre~
+  WRITE_ASCII 0x280 ~rqt5clt2~ #32 // Script name aka Death Variable
+  WRITE_ASCII 0x248 ~rqt5deat~ #8 // Override script
+  SAY NAME1 ~Deathstalker Tylgarth~
+  SAY NAME2 ~Deathstalker Tylgarth~
+
+COPY ~golden_horse/cre_other/rqt5pba1.cre~ ~override/rqt5pba1.cre~
+  WRITE_ASCII 0x280 ~rqt5pba1~ #32 // Script name aka Death Variable
+  SAY NAME1 ~Putrid Bear~
+  SAY NAME2 ~Putrid Bear~
+
+COPY ~golden_horse/cre_other/rqt5fw01.cre~ ~override/rqt5fw01.cre~
+  WRITE_ASCII 0x280 ~rqt5fw01~ #32 // Script name aka Death Variable
+  SAY NAME1 ~Fetid Wolf~
+  SAY NAME2 ~Fetid Wolf~
+
+COPY ~golden_horse/cre_other/rqt5bga1.cre~ ~override/rqt5bga1.cre~
+  WRITE_ASCII 0x280 ~rqt5bga1~ #32 // Script name aka Death Variable
+  SAY NAME1 ~Bone Golem~
+  SAY NAME2 ~Bone Golem~
+
+// Deathstalker t6-2 quest Sendai Enclave
+COPY ~golden_horse/cre_other/rqt6clf1.cre~ ~override/rqt6clf1.cre~
+  WRITE_ASCII 0x280 ~rqt6clf1~ #32 // Script name aka Death Variable
+  WRITE_ASCII 0x2cc ~rqt6dea2~ #8 // Dialogue file
+  WRITE_ASCII 0x248 ~rqitwan~ #8 // Override script
+  ADD_CRE_ITEM ~rqbook1~ #0 #0 #0 ~UNSTEALABLE~ ~INV~
+  ADD_CRE_ITEM ~rqhymfur~ #0 #0 #0 ~UNSTEALABLE~ ~INV~
+  SAY NAME1 ~Deathstalker Itwantos~
+  SAY NAME2 ~Deathstalker Itwantos~
+
+COPY ~golden_horse/cre_other/rq3illa.cre~ ~override/rq3illa.cre~
+  WRITE_ASCII 0x280 ~rq3illa~ #32 // Script name aka Death Variable
+  //WRITE_ASCII 0x2cc ~rq3illa~ #8 // Dialogue file
+  WRITE_ASCII 0x248 ~rqtilla~ #8 // Override script
+  SAY NAME1 ~Illasera~
+  SAY NAME2 ~Illasera~
+
+COPY ~golden_horse/cre_other/rqt6clt1.cre~ ~override/rqt6clt1.cre~
+  WRITE_ASCII 0x280 ~rqt6clt1~ #32 // Script name aka Death Variable
+  WRITE_ASCII 0x248 ~rqt6ded1~ #8 // Override script
+  WRITE_ASCII 0x2cc ~rqt6ded1~ #8 // Dialogue file
+  SAY NAME1 ~Deathstalker Rengarn~
+  SAY NAME2 ~Deathstalker Rengarn~
+
+COPY ~golden_horse/cre_other/rqt6clt2.cre~ ~override/rqt6clt2.cre~
+  WRITE_ASCII 0x280 ~rqt6clt2~ #32 // Script name aka Death Variable
+  WRITE_ASCII 0x248 ~rqt67dea~ #8 // Override script
+  SAY NAME1 ~Deathstalker Jatwalg~
+  SAY NAME2 ~Deathstalker Jatwalg~
+
+// Deathstalker t7-3 quest Abazigal Lair
+COPY ~golden_horse/cre_other/rqt7clf1.cre~ ~override/rqt7clf1.cre~
+  ADD_CRE_ITEM ~rqhymfur~ #0 #0 #0 ~UNSTEALABLE~ ~INV~
+  WRITE_ASCII 0x280 ~rqt7clf1~ #32 // Script name aka Death Variable
+  WRITE_ASCII 0x2cc ~rqt7dea2~ #8 // Dialogue file
+  ADD_CRE_ITEM ~rqbook1~ #0 #0 #0 ~UNSTEALABLE~ ~INV~
+  WRITE_ASCII 0x248 ~rqsixta~ #8 // Override script
+  SAY NAME1 ~Deathstalker Sixtarch~
+  SAY NAME2 ~Deathstalker Sixtarch~
+
+COPY ~golden_horse/cre_other/rq4illa.cre~ ~override/rq4illa.cre~
+  WRITE_ASCII 0x280 ~rq4illa~ #32 // Script name aka Death Variable
+  WRITE_ASCII 0x248 ~rqtilla~ #8 // Override script
+  SAY NAME1 ~Illasera~
+  SAY NAME2 ~Illasera~
+
+COPY ~golden_horse/cre_other/rqt7clt1.cre~ ~override/rqt7clt1.cre~
+  WRITE_ASCII 0x280 ~rqt7clt1~ #32 // Script name aka Death Variable
+  WRITE_ASCII 0x248 ~rqt7ded1~ #8 // Override script
+  WRITE_ASCII 0x2cc ~rqt7ded1~ #8 // Dialogue file
+  SAY NAME1 ~Deathstalker Llergwyn~
+  SAY NAME2 ~Deathstalker Llergwyn~
+
+COPY ~golden_horse/cre_other/rqt7clt2.cre~ ~override/rqt7clt2.cre~
+  WRITE_ASCII 0x280 ~rqt7clt2~ #32 // Script name aka Death Variable
+  WRITE_ASCII 0x248 ~rqt67dea~ #8 // Override script
+  SAY NAME1 ~Deathstalker Nalgarath~
+  SAY NAME2 ~Deathstalker Nalgarath~
+
+// Itwantos Imp T8
+COPY ~golden_horse/cre_other/rqt8imp.cre~ ~override/rqt8imp.cre~
+  WRITE_ASCII 0x280 ~rqt8imp~ #32 // Script name aka Death Variable
+  WRITE_ASCII 0x248 ~SHOUTDLG~ #8 // Override script
+  WRITE_ASCII 0x2cc ~rqt8imp~ #8 // Dialogue file
+  SAY NAME1 ~Imp~
+  SAY NAME1 ~Imp~
+
+// Sixtarchs Imp T8 temple assault
+COPY ~golden_horse/cre_other/rqt8imp1.cre~ ~override/rqt8imp1.cre~
+  WRITE_ASCII 0x280 ~rqt8imp1~ #32 // Script name aka Death Variable
+  WRITE_ASCII 0x248 ~SHOUTDLG~ #8 // Override script
+  WRITE_ASCII 0x2cc ~rqt8imp1~ #8 // Dialogue file
+  SAY NAME1 ~Imp~
+  SAY NAME1 ~Imp~
+
+// Sixtarchs Imp T8 balthazar assault
+COPY ~golden_horse/cre_other/rqt8imp2.cre~ ~override/rqt8imp2.cre~
+  WRITE_ASCII 0x280 ~rqt8imp2~ #32 // Script name aka Death Variable
+  WRITE_ASCII 0x248 ~SHOUTDLG~ #8 // Override script
+  WRITE_ASCII 0x2cc ~rqt8imp2~ #8 // Dialogue file
+  SAY NAME1 ~Imp~
+  SAY NAME1 ~Imp~
+
+// Sixtarch T9
+COPY ~golden_horse/cre_other/rqt9clf1.cre~ ~override/rqt9clf1.cre~
+  WRITE_ASCII 0x280 ~rqt9clf1~ #32 // Script name aka Death Variable
+  WRITE_ASCII 0x248 ~rqbalsix~ #8 // Override script
+  SAY NAME1 ~Sixtarch~
+  SAY NAME1 ~Sixtarch~
+
+COPY ~golden_horse/cre_other/rqt9clt1.cre~ ~override/rqt9clt1.cre~
+  WRITE_ASCII 0x280 ~rqt9clt1~ #32 // Script name aka Death Variable
+  WRITE_ASCII 0x248 ~rqbalsi1~ #8 // Override script
+  SAY NAME1 ~Llergwyn~
+  SAY NAME1 ~Llergwyn~
+
+COPY ~golden_horse/cre_other/rqt9clt2.cre~ ~override/rqt9clt2.cre~
+  WRITE_ASCII 0x280 ~rqt9clt2~ #32 // Script name aka Death Variable
+  WRITE_ASCII 0x248 ~rqbalsi1~ #8 // Override script
+  SAY NAME1 ~Nalgarath~
+  SAY NAME1 ~Nalgarath~
+
+COPY ~golden_horse/cre_other/rqt9clf2.cre~ ~override/rqt9clf2.cre~
+  WRITE_ASCII 0x280 ~rqt9clf2~ #32 // Script name aka Death Variable
+  WRITE_ASCII 0x248 ~rqbalsi1~ #8 // Override script
+  SAY NAME1 ~Itwantos~
+  SAY NAME1 ~Itwantos~
+
+COPY ~golden_horse/cre_other/rqt9clt3.cre~ ~override/rqt9clt3.cre~
+  WRITE_ASCII 0x280 ~rqt9clt3~ #32 // Script name aka Death Variable
+  WRITE_ASCII 0x248 ~rqbalsi1~ #8 // Override script
+  SAY NAME1 ~Rengarn~
+  SAY NAME1 ~Rengarn~
+
+COPY ~golden_horse/cre_other/rqt9clt4.cre~ ~override/rqt9clt4.cre~
+  WRITE_ASCII 0x280 ~rqt9clt4~ #32 // Script name aka Death Variable
+  WRITE_ASCII 0x248 ~rqbalsi1~ #8 // Override script
+  SAY NAME1 ~Jatwalg~
+  SAY NAME1 ~Jatwalg~
+
+// Sixtarch T0 teleport and non teleport version
+COPY ~golden_horse/cre_other/rqt0clf1.cre~ ~override/rqt0clf1.cre~
+  WRITE_ASCII 0x280 ~rqt0clf1~ #32 // Script name aka Death Variable
+  WRITE_ASCII 0x2cc ~rqt0clf1~ #8 // Dialogue file
+  WRITE_ASCII 0x248 ~rqsixta2~ #8 // Override script
+  SAY NAME1 ~Sixtarch~
+  SAY NAME1 ~Sixtarch~
+
+COPY ~golden_horse/cre_other/rqt0clt1.cre~ ~override/rqt0clt1.cre~
+  WRITE_ASCII 0x280 ~rqt0clt1~ #32 // Script name aka Death Variable
+  WRITE_ASCII 0x2cc ~rqt0clf2~ #8 // Dialogue file
+  WRITE_ASCII 0x248 ~rqsixcul~ #8 // Override script
+  SAY NAME1 ~Llergwyn~
+  SAY NAME1 ~Llergwyn~
+
+COPY ~golden_horse/cre_other/rqt0clt2.cre~ ~override/rqt0clt2.cre~
+  WRITE_ASCII 0x280 ~rqt0clt2~ #32 // Script name aka Death Variable
+  WRITE_ASCII 0x2cc ~rqt0clt2~ #8 // Dialogue file
+  WRITE_ASCII 0x248 ~rqsixcul~ #8 // Override script
+  SAY NAME1 ~Nalgarath~
+  SAY NAME1 ~Nalgarath~
+
+COPY ~golden_horse/cre_other/rqt0clf2.cre~ ~override/rqt0clf2.cre~
+  WRITE_ASCII 0x280 ~rqt0clf2~ #32 // Script name aka Death Variable
+  WRITE_ASCII 0x248 ~rqsixcul~ #8 // Override script
+  WRITE_ASCII 0x2cc ~rqt0clf2~ #8 // Dialogue file
+  SAY NAME1 ~Itwantos~
+  SAY NAME1 ~Itwantos~
+
+COPY ~golden_horse/cre_other/rqt0clt3.cre~ ~override/rqt0clt3.cre~
+  WRITE_ASCII 0x280 ~rqt0clt3~ #32 // Script name aka Death Variable
+  WRITE_ASCII 0x2cc ~rqt0clt3~ #8 // Dialogue file
+  WRITE_ASCII 0x248 ~rqsixcul~ #8 // Override script
+  SAY NAME1 ~Rengarn~
+  SAY NAME1 ~Rengarn~
+
+COPY ~golden_horse/cre_other/rqt0clt4.cre~ ~override/rqt0clt4.cre~
+  WRITE_ASCII 0x280 ~rqt0clt4~ #32 // Script name aka Death Variable
+  WRITE_ASCII 0x2cc ~rqt0clt4~ #8 // Dialogue file
+  WRITE_ASCII 0x248 ~rqsixcul~ #8 // Override script
+  SAY NAME1 ~Jatwalg~
+  SAY NAME1 ~Jatwalg~
+
+// Bhaal 6-3 quest Sendai Enclave
+// Bhaal 7-4 quest Abazigal Lair
+
+// Make mercenaries to never leave -------------------------------------------
+
+COPY_EXISTING ~DPLAYER2.bcs~ ~override~
+    DECOMPILE_AND_PATCH BEGIN
+      REPLACE_TEXTUALLY ~BreakingPoint()~
+      ~BreakingPoint()
+      !CharName("rqfbe",Myself)
+      !CharName("rqfbet",Myself)
+      !CharName("rqfth",Myself)
+      !CharName("rqfmn",Myself)
+      !CharName("rqmil",Myself)
+      !CharName("rqsrc",Myself)
+      !CharName("rqrev",Myself)
+      !CharName("rqmtr",Myself)
+      !CharName("rqmen",Myself)
+      !CharName("rqmin",Myself)
+      !CharName("rqmdi",Myself)
+      !CharName("rqmab",Myself)
+      !CharName("rqmin",Myself)
+      !CharName("rqbsk",Myself)~
+    END
+    BUT_ONLY
+
+BEGIN ~Change Revan's class from Mage/Thief >>> TO >>> Mage/Assassin multi-class~
+SUBCOMPONENT ~Revan's class~
+
+COPY ~golden_horse/cre/rqreva9.cre~ ~override/rqrev9.cre~
+  SAY NAME1 ~Revan Artecratos~
+  SAY NAME2 ~Revan Artecratos~
+  SAY BIO ~When asked about his past says he was born in Moonsea he did not knew who his parents were but his adoptive father was human as he grew he joined mercenary company and moving through ranks he would ascent to the rank of captain which means in case of company means leader. He further elaborates that he expanded from leading men into battle to more subtle jobs requiring highly trained small teams. But trouble have forced him to leave Moonsea and since then he has tried to establish his new Mercenary company in Amn.~ // @34
+SAY TIRED ~Resting would be appropriate from now on.~
+SAY HURT ~ Heal me, my cohorts!~
+SAY TARGET_IMMUNE ~Useless! Perhaps a spell would serve better here.~
+SAY INVENTORY_FULL ~Get a mule for this stuff.~
+SAY SPELL_DISRUPTED ~My spell has failed!~
+SAY SET_A_TRAP ~Trap set and ready. He he he.~
+
+COPY ~golden_horse/cre/rqreva25.cre~ ~override/rqrev25.cre~
+  SAY NAME1 ~Revan Artecratos~
+  SAY NAME2 ~Revan Artecratos~
+  SAY BIO ~When asked about his past says he was born in Moonsea he did not knew who his parents were but his adoptive father was human as he grew he joined mercenary company and moving through ranks he would ascent to the rank of captain which means in case of company means leader. He further elaborates that he expanded from leading men into battle to more subtle jobs requiring highly trained small teams. But trouble have forced him to leave Moonsea and since then he has tried to establish his new Mercenary company in Amn.~ // @34
+SAY TIRED ~Resting would be appropriate from now on.~
+SAY HURT ~ Heal me, my cohorts!~
+SAY TARGET_IMMUNE ~Useless! Perhaps a spell would serve better here.~
+SAY INVENTORY_FULL ~Get a mule for this stuff.~
+SAY SPELL_DISRUPTED ~My spell has failed!~
+SAY SET_A_TRAP ~Trap set and ready. He he he.~
+
+//REQUIRE_PREDICATE MOD_IS_INSTALLED "golden_horse.tp2" "0" "You must have main component of Revan NPC installed"
+//BEGIN 200 DESIGNATED 200 LABEL "Revan alternative class Fighter Mage Thief multi-class"
+
+BEGIN ~Change Revan's class from Mage/Thief >>> TO >>> Fighter/Mage/Thief multi-class~
+SUBCOMPONENT ~Revan's class~
+
+COPY ~golden_horse/cre/rqrevf9.cre~ ~override/rqrev9.cre~
+  SAY NAME1 ~Revan Artecratos~
+  SAY NAME2 ~Revan Artecratos~
+  SAY BIO ~When asked about his past says he was born in Moonsea he did not knew who his parents were but his adoptive father was human as he grew he joined mercenary company and moving through ranks he would ascent to the rank of captain which means in case of company means leader. He further elaborates that he expanded from leading men into battle to more subtle jobs requiring highly trained small teams. But trouble have forced him to leave Moonsea and since then he has tried to establish his new Mercenary company in Amn.~ // @34
+SAY TIRED ~Resting would be appropriate from now on.~
+SAY HURT ~ Heal me, my cohorts!~
+SAY TARGET_IMMUNE ~Useless! Perhaps a spell would serve better here.~
+SAY INVENTORY_FULL ~Get a mule for this stuff.~
+SAY SPELL_DISRUPTED ~My spell has failed!~
+SAY SET_A_TRAP ~Trap set and ready. He he he.~
+
+COPY ~golden_horse/cre/rqrevf25.cre~ ~override/rqrev25.cre~
+  SAY NAME1 ~Revan Artecratos~
+  SAY NAME2 ~Revan Artecratos~
+  SAY BIO ~When asked about his past says he was born in Moonsea he did not knew who his parents were but his adoptive father was human as he grew he joined mercenary company and moving through ranks he would ascent to the rank of captain which means in case of company means leader. He further elaborates that he expanded from leading men into battle to more subtle jobs requiring highly trained small teams. But trouble have forced him to leave Moonsea and since then he has tried to establish his new Mercenary company in Amn.~ // @34
+SAY TIRED ~Resting would be appropriate from now on.~
+SAY HURT ~ Heal me, my cohorts!~
+SAY TARGET_IMMUNE ~Useless! Perhaps a spell would serve better here.~
+SAY INVENTORY_FULL ~Get a mule for this stuff.~
+SAY SPELL_DISRUPTED ~My spell has failed!~
+SAY SET_A_TRAP ~Trap set and ready. He he he.~
+
+BEGIN ~rqpton tests~
+
+COMPILE ~golden_horse/teststuff/rqtest.d~ ~override/~
+
+COPY ~golden_horse/teststuff/rqminhp1.itm~ ~override/rqminhp1.itm~
+COPY ~golden_horse/teststuff/rqtest.cre~ ~override/rqtest.cre~
+  WRITE_ASCII 0x280 ~rqtest~ #32 // Script name aka Death Variable
+  SAY NAME1 ~Attack Construct~
+  SAY NAME2 ~Attack Construct~
+COPY ~golden_horse/teststuff/rqpotnte.cre~ ~override/rqpotnte.cre~
+  WRITE_ASCII 0x2cc ~rqtest~ #8 // Dialogue file
+  SAY NAME1 ~Potion Construct~
+  SAY NAME2 ~Potion Construct~
+COPY ~golden_horse/teststuff/rqdummy.cre~ ~override/rqdummy.cre~
+COPY ~golden_horse/teststuff/rqtest14.spl~ ~override/rqtest14.spl~
+COPY ~golden_horse/teststuff/rqtest15.spl~ ~override/rqtest15.spl~
+COPY ~golden_horse/teststuff/rqtest16.spl~ ~override/rqtest16.spl~
+COPY ~golden_horse/teststuff/rqtest17.spl~ ~override/rqtest17.spl~
+COPY ~golden_horse/teststuff/rqtest18.spl~ ~override/rqtest18.spl~
+//COPY ~golden_horse/teststuff/rqtest19.spl~ ~override/rqtest19.spl~
+COPY ~golden_horse/teststuff/rqabju.spl~ ~override/rqabju.spl~
+COPY ~golden_horse/teststuff/rqalte.spl~ ~override/rqalte.spl~
+COPY ~golden_horse/teststuff/rqconj.spl~ ~override/rqconj.spl~
+COPY ~golden_horse/teststuff/rqdivi.spl~ ~override/rqdivi.spl~
+COPY ~golden_horse/teststuff/rqench.spl~ ~override/rqench.spl~
+COPY ~golden_horse/teststuff/rqillu.spl~ ~override/rqillu.spl~
+COPY ~golden_horse/teststuff/rqinvo.spl~ ~override/rqinvo.spl~
+
+COPY ~golden_horse/teststuff/rqnecr.spl~ ~override/rqnecr.spl~
+COPY ~golden_horse/teststuff/rqnone.spl~ ~override/rqnone.spl~
+COPY ~golden_horse/teststuff/rqwild.spl~ ~override/rqwild.spl~
+
+
+/*
+BEGIN ~Change Revan's class from Mage/Thief >>> TO >>> Fighter/Mage/Thief multi-class~
+SUBCOMPONENT ~Revan's class~
+
+COPY ~golden_horse/cre/rqrevf9.cre~ ~override/rqrev9.cre~
+  SAY NAME1 ~Revan Artecratos~ // @2
+  SAY NAME2 ~Revan Artecratos~ // @2
+  SAY BIO ~When asked about his past says he was born in Moonsea he did not knew who his parents were but his adoptive father was human as he grew he joined mercenary company and moving through ranks he would ascent to the rank of captain which means in case of company means leader. He further elaborates that he expanded from leading men into battle to more subtle jobs requiring highly trained small teams. But trouble have forced him to leave Moonsea and since then he has tried to establish his new Mercenary company in Amn.~ // @34
+SAY BATTLE_CRY1		 ~Huaaa!!!~ [MALE001A] // @3
+SAY LEADER 		     ~No one is more worthy!~ [MALE001B] // @4
+SAY TIRED		     ~I need rest if i am to fight.~ [MALE001C] // @5
+SAY BORED		     ~We should not waste time like this.~ [MALE001D] // @6
+SAY HURT		     ~My wounds must be tended to!~ [MALE001E] // @7
+SAY SELECT_COMMON1	 ~Yes.~ [MALE001F] // @8
+SAY SELECT_COMMON2   ~What.~ [MALE001G // @9
+SAY SELECT_COMMON3	 ~Huh?~ [MALE001H] // @10
+SAY SELECT_ACTION1	 ~If you wish.~ [MALE001I] // @11
+SAY SELECT_ACTION2	 ~Nhhh.~ [MALE001J] // @12
+SAY SELECT_ACTION3   ~Yeah Yeah.~ [MALE001K] // @13
+SAY DAMAGE		     ~~ [MALE001L] // @14
+SAY DYING		     ~~ [MALE001M] // @15
+SAY SELECT_ACTION4   ~Hnnn.~ [MALE001S] // @16
+SAY SELECT_ACTION5   ~It is done.~ [MALE001T] // @17
+SAY SELECT_ACTION6   ~As i thought.~ [MALE001U] // @18
+SAY SELECT_ACTION7   ~Simple.~ [MALE001V] // @19
+SAY SELECT_RARE1     ~What do you want~ [MALE001X] // @20
+SAY SELECT_RARE2     ~Out with it!~ [MALE001Y] // @21
+SAY CRITICAL_HIT	 ~~ [MALE001Z] // @22
+SAY SELECT_COMMON4	 ~Uh-huh.~ [MALE0010] // @23
+SAY CRITICAL_MISS	 ~Missed.~ [MALE0011] // @24
+SAY TARGET_IMMUNE	 ~My weapon does nothing!~ [MALE0012] // @25
+SAY INVENTORY_FULL	 ~I can carry no more your item is on the ground.~ [MALE0013] // @26
+SAY PICKED_POCKET    ~I have taken something.~ [MALE0014] // @27
+SAY HIDDEN_IN_SHADOWS~I have hidden myself.~ [MALE0015] // @28
+SAY SPELL_DISRUPTED	 ~My spell is lost~ [MALE0016] // @29
+SAY SET_A_TRAP       ~I have set my trap well~ [MALE0017] // @30
+SAY BATTLE_CRY2      ~Fight well for now you will die!~ [MALE0018] // @31
+SAY BATTLE_CRY3      ~Mine is the fist of death!~ [MALE0019] // @32
+
+COPY ~golden_horse/cre/rqrevf25.cre~ ~override/rqrev25.cre~
+  SAY NAME1 ~Revan Artecratos~ // @2
+  SAY NAME2 ~Revan Artecratos~ // @2
+  SAY BIO ~When asked about his past says he was born in Moonsea he did not knew who his parents were but his adoptive father was human as he grew he joined mercenary company and moving through ranks he would ascent to the rank of captain which means in case of company means leader. He further elaborates that he expanded from leading men into battle to more subtle jobs requiring highly trained small teams. But trouble have forced him to leave Moonsea and since then he has tried to establish his new Mercenary company in Amn.~ // @34
+SAY BATTLE_CRY1		 ~Huaaa!!!~ [MALE001A] // @3
+SAY LEADER 		     ~No one is more worthy!~ [MALE001B] // @4
+SAY TIRED		     ~I need rest if i am to fight.~ [MALE001C] // @5
+SAY BORED		     ~We should not waste time like this.~ [MALE001D] // @6
+SAY HURT		     ~My wounds must be tended to!~ [MALE001E] // @7
+SAY SELECT_COMMON1	 ~Yes.~ [MALE001F] // @8
+SAY SELECT_COMMON2   ~What.~ [MALE001G // @9
+SAY SELECT_COMMON3	 ~Huh?~ [MALE001H] // @10
+SAY SELECT_ACTION1	 ~If you wish.~ [MALE001I] // @11
+SAY SELECT_ACTION2	 ~Nhhh.~ [MALE001J] // @12
+SAY SELECT_ACTION3   ~Yeah Yeah.~ [MALE001K] // @13
+SAY DAMAGE		     ~~ [MALE001L] // @14
+SAY DYING		     ~~ [MALE001M] // @15
+SAY SELECT_ACTION4   ~Hnnn.~ [MALE001S] // @16
+SAY SELECT_ACTION5   ~It is don.e~ [MALE001T] // @17
+SAY SELECT_ACTION6   ~As i thought.~ [MALE001U] // @18
+SAY SELECT_ACTION7   ~Simple.~ [MALE001V] // @19
+SAY SELECT_RARE1     ~What do you want~ [MALE001X] // @20
+SAY SELECT_RARE2     ~Out with it!~ [MALE001Y] // @21
+SAY CRITICAL_HIT	 ~~ [MALE001Z] // @22
+SAY SELECT_COMMON4	 ~Uh-huh.~ [MALE0010] // @23
+SAY CRITICAL_MISS	 ~Missed.~ [MALE0011] // @24
+SAY TARGET_IMMUNE	 ~My weapon does nothing!~ [MALE0012] // @25
+SAY INVENTORY_FULL	 ~I can carry no more your item is on the ground.~ [MALE0013] // @26
+SAY PICKED_POCKET    ~I have taken something.~ [MALE0014] // @27
+SAY HIDDEN_IN_SHADOWS~I have hidden myself.~ [MALE0015] // @28
+SAY SPELL_DISRUPTED	 ~My spell is lost~ [MALE0016] // @29
+SAY SET_A_TRAP       ~I have set my trap well~ [MALE0017] // @30
+SAY BATTLE_CRY2      ~Fight well for now you will die!~ [MALE0018] // @31
+SAY BATTLE_CRY3      ~Mine is the fist of death!~ [MALE0019] // @32
+*/

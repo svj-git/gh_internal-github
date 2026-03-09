@@ -1,0 +1,14 @@
+// Windspear
+
+IF
+    Global("VaelasaHostile","GLOBAL",2)
+    Global("VaelasaHostileReinforce","AR1200",0)
+THEN
+    RESPONSE #100
+        SetGlobal("VaelasaHostileReinforce","AR1200",1)
+        CreateVisualEffect("SPWOOD",[3770.3015])
+        CreateVisualEffect("SPWOOD",[3699.3168])
+        Wait(3)
+        CreateCreature("SIRINE01",[3770.3015],SE)
+        CreateCreature("SIRINE01",[3699.3168],N)
+END

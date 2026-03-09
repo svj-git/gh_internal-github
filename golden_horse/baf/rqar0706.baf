@@ -1,0 +1,9 @@
+// Blacksmisth
+IF
+    Global("rqGDBG2SpawnReman","AR0706",0)
+THEN
+    RESPONSE #100
+        SetGlobal("rqGDBG2SpawnReman","AR0706",1)
+        CreateCreature("rqreman",[444.444],SE) // Remanfurgus Dobruch.
+        Continue()
+END
