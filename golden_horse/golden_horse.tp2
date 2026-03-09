@@ -3,7 +3,7 @@ AUTHOR ~oaq@gmx.com~
 
 VERSION ~v1.10i~
 
-README ~golden_horse/golden_horse-readme.txt~
+README ~golden_horse/golden_horse_readme.txt~
 
 BEGIN ~Golden Horse mercenary company Mod (Requires Throne of Bhaal)~
 REQUIRE_PREDICATE (GAME_IS ~bgt tob~) ~This mod requires Throne of Bhaal to be installed.~
@@ -3915,7 +3915,7 @@ SAY TARGET_IMMUNE ~Useless! Perhaps a spell would serve better here.~
 SAY INVENTORY_FULL ~Get a mule for this stuff.~
 SAY SPELL_DISRUPTED ~My spell has failed!~
 SAY SET_A_TRAP ~Trap set and ready. He he he.~
-
+/*
 BEGIN ~rqpton tests~
 
 COMPILE ~golden_horse/teststuff/rqtest.d~ ~override/~
@@ -3947,7 +3947,7 @@ COPY ~golden_horse/teststuff/rqinvo.spl~ ~override/rqinvo.spl~
 COPY ~golden_horse/teststuff/rqnecr.spl~ ~override/rqnecr.spl~
 COPY ~golden_horse/teststuff/rqnone.spl~ ~override/rqnone.spl~
 COPY ~golden_horse/teststuff/rqwild.spl~ ~override/rqwild.spl~
-
+*/
 
 /*
 BEGIN ~Change Revan's class from Mage/Thief >>> TO >>> Fighter/Mage/Thief multi-class~
