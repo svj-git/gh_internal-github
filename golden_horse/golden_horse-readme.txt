@@ -9,22 +9,20 @@ Version: 1.10
 
 ====================================================================================================================
 MOD CONTENT:
---------------------------
-This mod adds 1 Revan Artecratos selectable Assassin/Mage, Thief/Mage, Fighter/Mage/Thief
+------------
+This mod adds 1 Revan Artecratos selectable class: Assassin/Mage, Thief/Mage, Fighter/Mage/Thief
 7 NPCs without any dialogue see MERCENARIES: New items and new encounters.
 
 MAIN NPC:
 ---------
-Revan Artecratos a fugitive from Moonsea is trying to establish his new life in Athkatla. But recent events has
-shown to Revan that there is someone with influence who can cast shadow long enough to reach
-from Moonsea to Athkatla.
+Revan Artecratos is a fugitive from Moonsea trying to establish his new life in Athkatla. However, recent events
+have revealed to him that there is someone with influence who can cast shadow long enough
+to reach from Moonsea to Athkatla.
 
-Revan Artecratos does not have a lot of interactions though he does have at least one banter with Bioware NPCs
-in SOA less in Throne of Bhaal.
-Main NPC Revan does not have lot of interjections so if you are looking for fully fleshed NPC telling his life
-story throughout BG2 you will be disappointed.
-This mod is more like protect NPC which assassins are after and there is
-story to tying it together.
+Revan does not have a lot of interactions, though he does have at least one banter with each
+Bioware NPC in SoA (less in ToB). If you are looking for a fully fleshed out NPC telling his life story
+throughout BG2, you may be disappointed.
+This mod is more about protecting an NPC from assassins with a story tying it all together.
 
 Revan Artecratos
 ----------------
@@ -42,7 +40,7 @@ NEW ITEMS:
 7 new encounters in Throne of Bhaal
 
 MERCENARIES:
------------
+------------
 Dwarven Battlerager
 Elven Sorcerer
 Gnomish Illusionist
@@ -54,14 +52,13 @@ Human Skald
 ====================================================================================================================
 MOD COMPATIBILITY:
 ------------------
-Tested only with BG2 ToB. Could work with SoA if you want to do so just delete the ToB check in TP2 file
-To do so open the setup_revan.tp2 with text editor. Line which you have to delete is commented so.
+Tested only with BG2 ToB & BGT only. Compatibility with later games is unknown.
 
 ====================================================================================================================
 SPECIAL INSTRUCTIONS:
 ---------------------
 
-CLUA console instructions how to make Revan appear in game
+CLUA console instructions how to make Revan appear in game.
 Shadows of Amn CLUAConsole:CreateCreature("rqrev9")
 Throne of Bhaal CLUAConsole:CreateCreature("rqrev25")
 
@@ -71,19 +68,31 @@ HOW TO INSTALL:
 Windows
 - Extract mod to game folder with chitin.key
 - Double click on setup_revan.exe and follow instructions on screen
-- On Windows Vista/7 or modern you might have to disable antivirus and or UAC
+- On Windows Vista/7 or newer you might have to disable antivirus and or UAC
+- If you do not have setup_golden_horse.exe just download newest weidu archive
+- Extract weidu.exe from downloaded archive to bg2 directory
+- Rename weidu.exe to setup_golden_horse.exe
 
 Linux
 - You should have weinstall binary in your $PATH You can confirm this by typing whereis weinstall
+- If not download Weidu for linux and copy tolower, weinstall, weidu to /usr/bin
 - Extract mod to game folder with chitin.key
-- Copy the extracted files from compressed files to game file.
-- cd to directory of game
-- weinstall golden_horse/setup_golden_horse.tp2 or wine setup_golden_horse.exe
+- Change to directory of game
+- Run tolower to lowercase everything and create linux.ini if you do not have it
+- weinstall golden_horse/golden_horse.tp2
+If you wish to use windows version of Weidu then:
+- Extract mod to game folder with chitin.key
+- If you do not have setup_golden_horse.exe just download newest weidu archive
+- Extract weidu.exe from downloaded archive to bg2 directory
+- Rename weidu.exe to setup_golden_horse.exe
+- run tolower from Weidu archive to lowercase everything and create linux.ini if you do not have it
+- wine setup_golden_horse.exe
 
 Possible failures on Linux:
 No 32-bit/i686 wine
 No wine in PATH
 In their infinite wisdom Weidu maintainers have decided to compile against 2.29 glibc. RHEL8 ships with 2.28 glibc
+You failed to tolower you bg2 directory
 
 
 ====================================================================================================================
@@ -92,13 +101,15 @@ THANKS AND ACKNOWLEDGMENTS:
 WeiDU by Wes Weimer
 Near Infinity by Jon Olav Hauglid
 IESDP maintained by igi
+Traify Tool by Valerio Biggiani
 Shadowkeeper by Mudmaster
-Kwrite https://kate-editor.org
+Kwrite + Kate https://kate-editor.org
 Gimp by Spencer Kimball and Peter Mattis
 Inkscape https://inkscape.org
 Gnewview https://apps.kde.org/gwenview/
 
 CONTRIBUTORS: all below have provided me with useful advice
+-------------
 CamDawg
 Jarno Mikkola
 jmerry
@@ -106,6 +117,7 @@ jastey
 argent77
 subtledoctor
 Avenger
+skellytz
 
 ====================================================================================================================
 CREDITS AND COPYRIGHT INFORMATION:
@@ -122,7 +134,7 @@ Interplay Entertainment Corp. All Rights Reserved. Exclusively licensed and dist
 Interplay Entertainment Corp. All other trademarks and copyrights are property of their respective owners.
 
 Golden Horse mercenary company mod for Baldur's Gate II
-© 2018-26 Juraj Svitnic. The Golden Horse mercenary company
+© 2018-26 Juraj Svitnič. The Golden Horse mercenary company mod
 is not developed, supported, or endorsed by BioWare, Black Isle Studios, Interplay Entertainment Corp
 or the Wizards of the Coast. All other trademarks and copyrights are property of their respective owners.
 
@@ -135,33 +147,33 @@ VERSION HISTORY:
 
 Version 0.90:
    First internal release.
-Version 1.0e
+Version 1.0
    First release submitted to skellytz.
-Version 1.1e
+Version 1.1
    Traifyied with Bigg traify tool & replaced some old functions with newer ones.
-Version 1.2e
+Version 1.2
    Updated readme.
-Version 1.3e
+Version 1.3
    Allowing readme to be translated.
-Version 1.4e
+Version 1.4
    Proofreading.
-Version 1.5e
+Version 1.5
    Fixed typo in class choosing component. Updated readme.
-Version 1.6e
+Version 1.6
    Updated readme.
    Project Infinity labels.
    Added one new letter to explain certain future developments.
    From this version Golden Horse development in terms of adding new features has ended.
    Added missing file. Do not know how it was it got deleted.
-Version 1.7e
+Version 1.7
    Removed VERSION number tra reference
-Version 1.8e
+Version 1.8
    Version bump and updated readme
-Version 1.9e
+Version 1.9
    Rod of Charisma had faulty use permissions
    Fixed bug related to Itwantos DV
    Robe of Cures Ilhunien had faulty description
-Version 1.10e
+Version 1.10
    Returned to hardcoded dialog in .D files due to insufficiency of traify.sh tool
    Added Reman, a new enchanter of artifacts
    Major proofreading effort, though there are still some areas which could be improved

@@ -3,7 +3,7 @@ AUTHOR ~oaq@gmx.com~
 
 VERSION ~v1.10i~
 
-README ~golden_horse/golden_horse_readme.txt~
+README ~golden_horse/golden_horse-readme.txt~
 
 BEGIN ~Golden Horse mercenary company Mod (Requires Throne of Bhaal)~
 REQUIRE_PREDICATE (GAME_IS ~bgt tob~) ~This mod requires Throne of Bhaal to be installed.~
@@ -3870,23 +3870,23 @@ COPY ~golden_horse/cre/rqreva9.cre~ ~override/rqrev9.cre~
   SAY NAME1 ~Revan Artecratos~
   SAY NAME2 ~Revan Artecratos~
   SAY BIO ~When asked about his past says he was born in Moonsea he did not knew who his parents were but his adoptive father was human as he grew he joined mercenary company and moving through ranks he would ascent to the rank of captain which means in case of company means leader. He further elaborates that he expanded from leading men into battle to more subtle jobs requiring highly trained small teams. But trouble have forced him to leave Moonsea and since then he has tried to establish his new Mercenary company in Amn.~ // @34
-SAY TIRED ~Resting would be appropriate from now on.~
-SAY HURT ~ Heal me, my cohorts!~
-SAY TARGET_IMMUNE ~Useless! Perhaps a spell would serve better here.~
-SAY INVENTORY_FULL ~Get a mule for this stuff.~
-SAY SPELL_DISRUPTED ~My spell has failed!~
-SAY SET_A_TRAP ~Trap set and ready. He he he.~
+  SAY TIRED ~Resting would be appropriate from now on.~
+  SAY HURT ~ Heal me, my cohorts!~
+  SAY TARGET_IMMUNE ~Useless! Perhaps a spell would serve better here.~
+  SAY INVENTORY_FULL ~Get a mule for this stuff.~
+  SAY SPELL_DISRUPTED ~My spell has failed!~
+  SAY SET_A_TRAP ~Trap set and ready. He he he.~
 
 COPY ~golden_horse/cre/rqreva25.cre~ ~override/rqrev25.cre~
   SAY NAME1 ~Revan Artecratos~
   SAY NAME2 ~Revan Artecratos~
   SAY BIO ~When asked about his past says he was born in Moonsea he did not knew who his parents were but his adoptive father was human as he grew he joined mercenary company and moving through ranks he would ascent to the rank of captain which means in case of company means leader. He further elaborates that he expanded from leading men into battle to more subtle jobs requiring highly trained small teams. But trouble have forced him to leave Moonsea and since then he has tried to establish his new Mercenary company in Amn.~ // @34
-SAY TIRED ~Resting would be appropriate from now on.~
-SAY HURT ~ Heal me, my cohorts!~
-SAY TARGET_IMMUNE ~Useless! Perhaps a spell would serve better here.~
-SAY INVENTORY_FULL ~Get a mule for this stuff.~
-SAY SPELL_DISRUPTED ~My spell has failed!~
-SAY SET_A_TRAP ~Trap set and ready. He he he.~
+  SAY TIRED ~Resting would be appropriate from now on.~
+  SAY HURT ~ Heal me, my cohorts!~
+  SAY TARGET_IMMUNE ~Useless! Perhaps a spell would serve better here.~
+  SAY INVENTORY_FULL ~Get a mule for this stuff.~
+  SAY SPELL_DISRUPTED ~My spell has failed!~
+  SAY SET_A_TRAP ~Trap set and ready. He he he.~
 
 //REQUIRE_PREDICATE MOD_IS_INSTALLED "golden_horse.tp2" "0" "You must have main component of Revan NPC installed"
 //BEGIN 200 DESIGNATED 200 LABEL "Revan alternative class Fighter Mage Thief multi-class"
@@ -3898,23 +3898,23 @@ COPY ~golden_horse/cre/rqrevf9.cre~ ~override/rqrev9.cre~
   SAY NAME1 ~Revan Artecratos~
   SAY NAME2 ~Revan Artecratos~
   SAY BIO ~When asked about his past says he was born in Moonsea he did not knew who his parents were but his adoptive father was human as he grew he joined mercenary company and moving through ranks he would ascent to the rank of captain which means in case of company means leader. He further elaborates that he expanded from leading men into battle to more subtle jobs requiring highly trained small teams. But trouble have forced him to leave Moonsea and since then he has tried to establish his new Mercenary company in Amn.~ // @34
-SAY TIRED ~Resting would be appropriate from now on.~
-SAY HURT ~ Heal me, my cohorts!~
-SAY TARGET_IMMUNE ~Useless! Perhaps a spell would serve better here.~
-SAY INVENTORY_FULL ~Get a mule for this stuff.~
-SAY SPELL_DISRUPTED ~My spell has failed!~
-SAY SET_A_TRAP ~Trap set and ready. He he he.~
+  SAY TIRED ~Resting would be appropriate from now on.~
+  SAY HURT ~ Heal me, my cohorts!~
+  SAY TARGET_IMMUNE ~Useless! Perhaps a spell would serve better here.~
+  SAY INVENTORY_FULL ~Get a mule for this stuff.~
+  SAY SPELL_DISRUPTED ~My spell has failed!~
+  SAY SET_A_TRAP ~Trap set and ready. He he he.~
 
 COPY ~golden_horse/cre/rqrevf25.cre~ ~override/rqrev25.cre~
   SAY NAME1 ~Revan Artecratos~
   SAY NAME2 ~Revan Artecratos~
   SAY BIO ~When asked about his past says he was born in Moonsea he did not knew who his parents were but his adoptive father was human as he grew he joined mercenary company and moving through ranks he would ascent to the rank of captain which means in case of company means leader. He further elaborates that he expanded from leading men into battle to more subtle jobs requiring highly trained small teams. But trouble have forced him to leave Moonsea and since then he has tried to establish his new Mercenary company in Amn.~ // @34
-SAY TIRED ~Resting would be appropriate from now on.~
-SAY HURT ~ Heal me, my cohorts!~
-SAY TARGET_IMMUNE ~Useless! Perhaps a spell would serve better here.~
-SAY INVENTORY_FULL ~Get a mule for this stuff.~
-SAY SPELL_DISRUPTED ~My spell has failed!~
-SAY SET_A_TRAP ~Trap set and ready. He he he.~
+  SAY TIRED ~Resting would be appropriate from now on.~
+  SAY HURT ~ Heal me, my cohorts!~
+  SAY TARGET_IMMUNE ~Useless! Perhaps a spell would serve better here.~
+  SAY INVENTORY_FULL ~Get a mule for this stuff.~
+  SAY SPELL_DISRUPTED ~My spell has failed!~
+  SAY SET_A_TRAP ~Trap set and ready. He he he.~
 /*
 BEGIN ~rqpton tests~
 
